@@ -1,0 +1,965 @@
+"final_hostname","final_ip","_time","final_ip_type","final_ip_subnet_network_type","final_ip_zone","final_ip_zone_location",metisCreatedDate,shortDescription,primarySupportGroup,primaryUsedBy
+na,"10.1.210.164","2025-11-17T10:00:00.000+0100","Bosch Intranet",WLAN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Jochen Boehringer (BD/BA-MS)"
+ti1fe145132,"10.10.145.132","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-645_KRUPP_PRODUCTION_LINE","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M604 PKS-JBA Menger","ITM-ED-Ti CSG","Ludwig Vandermaesen (RBBE/MOE-RB)"
+ti1fe145134,"10.10.145.134","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-645_KRUPP_PRODUCTION_LINE","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M604 PKS-JBA KKV","ITM-ED-Ti CSG","Ludwig Vandermaesen (RBBE/MOE-RB)"
+ti1fe145135,"10.10.145.135","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-645_KRUPP_PRODUCTION_LINE","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M604 PKS-JBA Batch Label","ITM-ED-Ti CSG","Ludwig Vandermaesen (RBBE/MOE-RB)"
+ti1fe145136,"10.10.145.136","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-645_KRUPP_PRODUCTION_LINE","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M604 PKS-JBA Polymer","ITM-ED-Ti CSG","Ludwig Vandermaesen (RBBE/MOE-RB)"
+na,"10.10.151.39","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-0419_BURGER2","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M691 Buigautomaat 2 bendingline Fes in tray","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"ti-x000h","10.10.175.10","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 15 Fes im Adapter plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x000i","10.10.175.15","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 20 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x000l","10.10.175.22","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 21 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x000o","10.10.175.29","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 22 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x000r","10.10.175.36","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 30 Gummi plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x000u","10.10.175.43","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 40 HF-Cover plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x0013","10.10.175.56","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 50 Spoiler OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x0017","10.10.175.64","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 55 Endkappe OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x001e","10.10.175.75","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 60 Spoiler IC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x001h","10.10.175.83","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-175_BAND_45","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M372 B45 station 65 Endkappe IC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+md1zp010,"10.100.141.209","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-MD-205_PRODUCTION_USS4L10","ES_Md_Madrid","2025-09-09T14:13:24.000+00:00","PC calibracionSoldadura TKS","ITM-AE-RBEM CSG","Miguel Angel Ramos Serrano (RBEM/TEF3)"
+md0vm139,"10.100.147.18","2025-11-18T10:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Local ITM","ESX Server Service",
+"af-vm001","10.104.160.164","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-AF-30_SERVER-UNSECURE-VMS","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Soflex-Server (Produktionsplanung Gehäusefertigung)","ESX Server Service",
+"af-vm002","10.104.160.165","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-AF-30_SERVER-UNSECURE-VMS","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Soflex-Server (Produktionsplanung Gehäusefertigung)","ESX Server Service",
+"af-vm003","10.104.160.166","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-AF-30_SERVER-UNSECURE-VMS","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Soflex-Server (Produktionsplanung Gehäusefertigung)","ESX Server Service",
+"af-vm004","10.104.160.167","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-AF-30_SERVER-UNSECURE-VMS","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Soflex-Server (Produktionsplanung Kolbenfertigung)","ESX Server Service",
+"af-00010","10.104.161.202","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-1 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00011","10.104.161.203","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-1 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00012","10.104.161.204","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-2 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00013","10.104.161.205","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-2 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00014","10.104.161.206","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-3 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00015","10.104.161.207","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-3 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00016","10.104.161.208","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-4 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00017","10.104.161.209","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-4 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00019","10.104.161.210","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-5 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00018","10.104.161.211","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-5 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00020","10.104.161.212","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Endreinigung Markert 1.2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00022","10.104.161.214","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Rüstplatz Linie 1.2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00023","10.104.161.215","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","PalTec TRG1-1 Leitrechner","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00025","10.104.161.217","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","PalTec TRG2-1 Leitrechner","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00028","10.104.161.220","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Vorreinigen Markert 2.1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00033","10.104.161.225","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2-3 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00034","10.104.161.226","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2-3 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00035","10.104.161.227","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2-4 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00036","10.104.161.228","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2-4 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00037","10.104.161.229","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2-5 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00038","10.104.161.230","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2-5 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00041","10.104.161.233","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Endreinigung Markert 2.2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00042","10.104.161.234","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Honmaschine ELHA 2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00043","10.104.161.235","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Honmaschine Messplatz 2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00045","10.104.161.237","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Vorreinigen Markert 1.1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00046","10.104.161.238","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Rüstplatz Linie 2.3","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00047","10.104.161.239","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Rüstplatz Linie 2.4","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00048","10.104.161.240","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Rüstplatz Linie 1.3","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00050","10.104.161.242","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Honmaschine ELHA 1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00051","10.104.161.243","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Honmaschine Messplatz 1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00053","10.104.161.248","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1.6 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00054","10.104.161.249","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1.6 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00055","10.104.161.250","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2.6 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00056","10.104.161.251","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2.6 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-y1181","10.104.168.33","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-300_FERTIGUNG-MOE1","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Prüfstand RM535 Rechner 1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-y1182","10.104.168.37","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-300_FERTIGUNG-MOE1","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Prüfstand RM535 Rechner 2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-y1120","10.104.168.42","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-300_FERTIGUNG-MOE1","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Kelch Voreinstellgerät","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-x1019","10.104.168.44","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-300_FERTIGUNG-MOE1","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Parametrierstation M4","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-y1258","10.104.170.28","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-301_FERTIGUNG-MOE2","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Traub TNX65 Nr. 1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-x1196","10.104.170.47","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-301_FERTIGUNG-MOE2","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","ATMO SPS Leitrechner L1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-x1206","10.104.170.48","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-301_FERTIGUNG-MOE2","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","ATMO SPS Leitrechner L2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00007","10.104.170.57","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-301_FERTIGUNG-MOE2","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Prüfstand RM674","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"af-00005","10.104.170.58","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-301_FERTIGUNG-MOE2","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Prüfstand B005","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+ec0vm00050,"10.105.0.48","2025-11-06T16:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Testserver Sequence Generator","ESX Server Service",
+cervault11,"10.106.205.60","2025-11-18T23:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Vault server version autodesk 2023","ESX Server Service",
+po0vm00011,"10.107.148.221","2025-11-16T12:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","ITM_Backup","ESX Server Service",
+po0vm00015,"10.107.148.227","2025-11-17T15:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Armazem Vertical Wamas","ESX Server Service",
+udi4vm08,"10.109.23.106","2025-10-23T13:00:00.000+0200","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Server for Smi Printer - Spool Robot","ESX Server Service",
+udi4vm11,"10.109.23.112","2025-11-19T01:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Server for Workflow and Qlik","ESX Server Service",
+udi4as01,"10.109.23.117","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+udi4vm0027,"10.109.23.119","2025-11-18T16:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Server for JSPIDER for Production Orders","ESX Server Service",
+udi4vm0024,"10.109.23.96","2025-11-18T21:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Server for JSPIDER for Office","ESX Server Service",
+nuef0119,"10.11.180.86","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-NU-319_NUP1_FERTIGUNGSNETZ_DVE5_BAU142","DE_Nu_Nuernberg","2025-09-09T14:13:24.000+00:00","DV-E5 - Deckellinie / Prozessauswertung, Umwandlung Rechner (NU0C3989) als NonPeacy -noRSA","ITM-PS-NuP1-AM CSG","Florian Buehling (NuP1/MOE31)"
+nuef0120,"10.11.181.98","2025-10-20T12:00:00.000+0200","Bosch Security Layer",Manufacturing,"MFZ-SL4-NU-314_NUP1_FERTIGUNGSNETZ_COS_MUSTERBAU_BAU147","DE_Nu_Nuernberg","2025-09-09T14:13:24.000+00:00","COS W7170 Studer Prog.Rechner147/0 -noRSA","ITM-PS-NuP1-TEF CSG","Patrick Weimann (NuP1/MSS)"
+htvnp078,"10.11.26.209","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","MMx GR Housing 4 Functiontest","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+htvnp053,"10.11.26.210","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan",,,,
+htvnp066,"10.11.26.211","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan",,,,
+htvnp054,"10.11.26.213","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","MMx Labeling 4 Finetrimming","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+na,"10.11.26.95","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","MMx C12 Testchamber","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+na,"10.11.26.96","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","MMx C11 Testchamber","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+na,"10.11.26.96","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan","2025-09-13T03:03:34.000+00:00",,,
+na,"10.11.26.97","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","MMx C10 Testchamber","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+na,"10.11.26.98","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","MMx C09 Testchamber","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+na,"10.11.26.99","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-26_MMXSENSORS","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","MMx C04 Testchamber","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+nntapachet03,"10.111.192.54","2025-11-18T12:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","ERP test app server","ESX Server Service",
+nntapache08,"10.111.192.57","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","ERP APACHE App","ESX Server Service",
+nntm91p25,"10.111.194.49","2025-10-22T11:00:00.000+0200","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","Italy, Greece, Adria3",
+"ti-x0031","10.119.56.1","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-302_BAND_46","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M386 B46 station 10 Adapter & Fes montage plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"ti-x0035","10.119.56.10","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-302_BAND_46","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M386 B46 station 20 USS VDB 40 plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"ti-x0038","10.119.56.18","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-302_BAND_46","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M386 B46 station 21 USS VDB 40 plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"ti-x003b","10.119.56.26","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-302_BAND_46","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M386 B46 station 30 Gummi plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"ti-x003f","10.119.56.35","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-302_BAND_46","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M386 B46 station 50 Spoiler OC plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"ti-x003k","10.119.56.45","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-302_BAND_46","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M386 B46 station 60 Endkappe OC plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"ti-x003z","10.119.56.63","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-302_BAND_46","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M386 B46 station 70 HF-Cover plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"ti-x004t","10.119.58.12","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-306_BAND_47","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M390 B47 station 20 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x0072","10.119.58.135","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-307_BAND_48","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M394 B48 station 20 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x0075","10.119.58.138","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-307_BAND_48","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M394 B48 station 21 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x0078","10.119.58.141","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-307_BAND_48","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M394 B48 station 30 Gummi plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x007c","10.119.58.145","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-307_BAND_48","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M394 B48 station 50 Spoiler OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x007i","10.119.58.150","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-307_BAND_48","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M394 B48 station 60 Endkappe OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x007y","10.119.58.165","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-307_BAND_48","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M394 B48 station 70 HF-Cover plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x004w","10.119.58.19","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-306_BAND_47","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M390 B47 station 21 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x004z","10.119.58.26","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-306_BAND_47","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M390 B47 station 30 Gummi plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x0053","10.119.58.34","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-306_BAND_47","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M390 B47 station 50 Spoiler OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x004p","10.119.58.4","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-306_BAND_47","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M390 B47 station 10 Adapter & Fes montage plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x0058","10.119.58.42","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-306_BAND_47","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M390 B47 station 60 Endkappe OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"ti-x005n","10.119.58.61","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-TI-306_BAND_47","BE_Ti_Tienen","2025-09-09T14:13:24.000+00:00","M390 B47 station 70 HF-Cover plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"element-2-b6","10.119.83.173","2025-11-17T13:00:00.000+0100","Bosch Intranet",Engineering,NONE,NONE,,,,
+"element-99-abx","10.119.83.184","2025-11-17T13:00:00.000+0100","Bosch Intranet",Engineering,NONE,NONE,,,,
+brgvm00324,"10.121.101.63","2025-10-20T21:00:00.000+0200","Bosch Intranet",Server,NONE,NONE,"2025-10-14T03:05:01.000+00:00","Nexeed Line Controller - SMT","ESX Server Service",
+brgvm00325,"10.121.101.64","2025-11-03T16:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-10-14T03:05:01.000+00:00","Nexeed Line Controller - SMT","ESX Server Service",
+"brg-c-001ne","10.121.113.11","2025-11-14T09:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Claudio Rodrigues (ME/QMM-M1-BrgP)"
+"brg-c-001ne","10.121.113.11","2025-11-14T09:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Claudio Rodrigues (ME/QMM-M1-BrgP)"
+"brg-c-001ne","10.121.113.11","2025-11-14T09:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Claudio Rodrigues (ME/QMM-M1-BrgP)"
+"brg-c-001ne","10.121.113.11","2025-11-14T09:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Claudio Rodrigues (ME/QMM-M1-BrgP)"
+"brg-c-001ne","10.121.113.11","2025-11-14T09:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Claudio Rodrigues (ME/QMM-M1-BrgP)"
+"brg-c-001ne","10.121.113.11","2025-11-14T09:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Claudio Rodrigues (ME/QMM-M1-BrgP)"
+"brg-c-001ne","10.121.113.11","2025-11-14T09:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Claudio Rodrigues (ME/QMM-M1-BrgP)"
+"brg-c-001ne","10.121.113.11","2025-11-14T09:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Claudio Rodrigues (ME/QMM-M1-BrgP)"
+na,"10.121.113.3","2025-10-27T20:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Jose Paulo Vilaca (ME/QMM-M1-BrgP)"
+na,"10.121.113.3","2025-10-27T20:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Diogo Machado (ME/QMM-L21-BrgP)"
+na,"10.121.113.3","2025-10-27T20:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Connection Type: BCN ; Profile: office",Portugal1,"Marcelo Menezes (ME/QMM-N1-BrgP)"
+na,"10.121.113.3","2025-10-27T20:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Jose Paulo Vilaca (ME/QMM-M1-BrgP)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Ricardo Gomes (BrgP/MFE38)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Gustavo Goncalves (BrgP/MFE28)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Carlos Filipe Silva (ME/QMM-L21-BrgP)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Belmiro Silva (BrgP/MOE2.3)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Jose Miguel Costa (ME/QMM-L21-BrgP)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"MariaConceicao Goncalves (ME/QMM-L2-BrgP)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Jose Pinto (BrgP/MFE38)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"JorgeSoares Silva (BrgP/COS12)"
+na,"10.121.113.61","2025-11-14T21:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Goncalo Matos (ME/QMM-L21-BrgP)"
+"brg-c-001mu","10.121.113.79","2025-11-17T19:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+"brg-c-001mu","10.121.113.79","2025-11-17T19:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+"brg-c-001mu","10.121.113.79","2025-11-17T19:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+"brg-c-001mu","10.121.113.79","2025-11-17T19:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+"brg-c-001mu","10.121.113.79","2025-11-17T19:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+"brg-c-001mu","10.121.113.79","2025-11-17T19:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+"brg-c-001mu","10.121.113.79","2025-11-17T19:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+"brg-c-001mu","10.121.113.79","2025-11-17T19:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+na,"10.121.113.83","2025-11-06T22:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Joaquim Mota (ME/QMM-L21-BrgP)"
+na,"10.121.113.83","2025-11-06T22:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Jose Paulo Vilaca (ME/QMM-M1-BrgP)"
+na,"10.121.113.83","2025-11-06T22:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Rodrigo Salsa (ME/QMM-M1-BrgP)"
+na,"10.121.113.83","2025-11-06T22:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Joaquim Mota (ME/QMM-L21-BrgP)"
+na,"10.121.113.83","2025-11-06T22:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Miguel Goncalves (ME/QMM-M1-BrgP)"
+na,"10.121.113.83","2025-11-06T22:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Julio Alves (BrgP/MFE38)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Anabela Pereira (BrgP/MFE15)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luis Silva (BrgP/COS14)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Joao Dias (GS/HRS2-PO)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Manuela Leite (BrgP/LOM4)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Rui Machado (BrgP/MFE28.4)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Diogo Machado (ME/QMM-L21-BrgP)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Daniel Barbosa (BrgP/MOE14.1)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a - PC em reparação",Portugal1,"Ricardo Andre Lima (BrgP/MFE21)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Domingos Teixeira (BrgP/LOM4)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Alberto Bumba (BrgP/MFE21)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Vanessa Quintaos (XC-AC/EOS-Brg)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Joana Ferreira (ME-SN/ENG-PT)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Eduardo Sousa (BrgP/MFE31.2)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Catarina Esteves (BrgP/MOE2.1)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Vitor Serrano (BrgP/MFE38)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Valeria Rocha (XC-HWP/ECM2)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Jaime Teixeira (XC-AC/EOS-Brg)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Luisa Goncalves (ME/QMM-M3-BrgP)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Christine Schimpf (M/PUR4.8-Brg)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Paulo Barreto (BrgP/MOE10.2)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Pedro Souto (ME/QMM-M3-BrgP)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Sergio Serrao (BrgP/MFE25)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Nuno Martins (ME/QMM-C-BrgP)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Antonio Ferreira Reis (BrgP/MOE2.7)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Marcelo Pinto (BrgP/LOP1)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Hugo Araujo (BrgP/MFE28.1)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Silke Scharmann (VM/ESE-CB-Brg)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Daniel Pereira (M/PUR3-Brg)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Susana Piairo (BrgP/MOE2.8)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Patricia Cunha (BrgP/COS)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Estevao Silva (BrgP/MFE3)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Tiago Soares (BrgP/MFE28.1)"
+na,"10.121.136.118","2025-10-30T16:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Antonio Barros (XC-HWP/ESP5)"
+na,"10.121.138.150","2025-10-28T20:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Bernardete Maio (ME/QMM-C-BrgP)"
+na,"10.121.138.150","2025-10-28T20:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Pedro Cunha (BrgP/MOE2.8)"
+na,"10.121.138.150","2025-10-28T20:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Bruno Abreu (BrgP/LOM4)"
+na,"10.121.138.150","2025-10-28T20:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Carlos Santos (ME/QMM-L22-BrgP)"
+na,"10.121.138.150","2025-10-28T20:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Daniel Alves (ME/LOG-Brg)"
+na,"10.121.138.150","2025-10-28T20:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00",POOL,Portugal1,"Antonio Rodrigues (BrgP/MFE28.2)"
+na,"10.121.138.150","2025-10-28T20:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Joao Cardoso (XC-AC/ENG31-Brg)"
+na,"10.121.138.150","2025-10-28T20:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Fabio Rodrigues (BrgP/MOE2-P)"
+na,"10.121.138.150","2025-10-28T20:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Matheus Sousa (BrgP/MFE28.7)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+"brg-c-0043r","10.121.138.178","2025-11-15T00:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"David Pinto (BrgP/MOE2.5)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Pedro Gomes (BrgP/MFE16)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Tiago Pereira (ME/QMM-L3-BrgP)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Rita Monteiro (BrgP/CTG1)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Jose Bernardo Gomes (BrgP/MOE2.4)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Catia Fernandes (XC-HWP/ENG-PDM-BRG)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Raul Azeredo (BrgP/MFE28.1)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Rodrigo Salsa (ME/QMM-M1-BrgP)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Pedro Sampaio (BrgP/MFE28)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00",POOL,Portugal1,"Management Brg Fleet (CI/CWR13-IB)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Juliana dos Santos (BrgP/MFE33.4)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Ana Isabel Soares (BrgP/MOE2-P)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Daniel Pimenta (BrgP/MFE38)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Daniel Correia (BrgP/MFE38.1)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Miguel Fernandes (BrgP/MFE22)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Toni Gomes (BrgP/MFE24)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Ana Campos (ME/QMM-BrgP)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Emanuel Goncalves (ME/ETA2-SMT)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Tiago Valente (BrgP/MFE28)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Ricardo Silva (BrgP/MFE31.1)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00",POOL,Portugal1,
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Rui Cachetas (BrgP/MOE2.1)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Alexandra Duarte (BrgP/MOE2.2)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Miguel Pires (M/BDO2-PU)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Joao Ferreira (BrgP/MFE38.7)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Tiago Afonso (XC-AC/ENG4-Brg)"
+na,"10.121.138.52","2025-10-23T16:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-10-23T03:00:55.000+00:00","n/a",Portugal1,"Pedro Alves (XC-AC/ENG31-Brg)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Marta Barbosa (BrgP/BPS)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Eduardo Lopes Guimaraes (BrgP/MFE28.5)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Ana Filipa Pinto (BrgP/MOE2.8)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Bruno Pinto (BrgP/COS14)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Pedro Cunha (BrgP/MOE2.8)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Mario Barroso (BrgP/MFE28.2)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Diogo Cunha (ME/ELS-PT)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00",POOL,Portugal1,"Carlos Manuel Ribeiro (ME/QMM-M1-BrgP)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Marco Pinheiro (BrgP/MFE28.2)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Eliana Oliveira (BrgP/MOE12)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Hugo Fonseca (XC-AS/ENG12-Brg)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Vitor Esteves (BrgP/MOE18.4)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria3","Nicolai Raidt (BhP/TEF-EAT23)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Joao Gomes (BrgP/MFE28.1)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Vanessa Queta (BrgP/MFE1)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Henrique Mora (BrgP/MFE23)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Jose Nogueira (BrgP/MFE21)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Filipe Rodrigues (BrgP/MFE38.1)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Daniel Ferreira (VM-VDS/ENG3-Brg)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Hernani Correia (XC-AC/ENG2-Brg)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Marco Fernandes (BrgP/MFE38.5)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Catia Duarte (BrgP/MOE2.4)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Fatima Carvalho (M/PUR6-DI2.1)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Ana Amorim (BrgP/CTG3)"
+na,"10.121.140.219","2025-11-13T21:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Fabricio Botelho (XC-AC/ENG4-Brg)"
+"brg-c-003rd","10.121.141.105","2025-11-17T13:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Fernando Araujo (BrgP/MOE2.4)"
+"brg-c-003rd","10.121.141.105","2025-11-17T13:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Fernando Araujo (BrgP/MOE2.4)"
+"brg-c-003rd","10.121.141.105","2025-11-17T13:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Fernando Araujo (BrgP/MOE2.4)"
+"brg-c-003rd","10.121.141.105","2025-11-17T13:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Fernando Araujo (BrgP/MOE2.4)"
+"brg-c-0045k","10.121.141.240","2025-11-05T19:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Maria Fatima Veiga (BrgP/MOE2.6)"
+"brg-c-003qh","10.121.142.203","2025-11-05T14:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Bruno Carvalho (BrgP/MOE2.8)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"brg-c-0045g","10.121.143.46","2025-11-17T10:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal1,"Davide Fernandes (BrgP/MOE2.2)"
+"av-seprod","10.121.194.155","2025-11-18T22:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Local Application Server (P)","ESX Server Service",
+av0sge01,"10.121.194.57","2025-11-17T23:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Energy Management System for FCM","ESX Server Service",
+"rt-x8682","10.13.236.110","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_68","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"rt-z01qh","10.13.236.132","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_24","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"rt-z02mj","10.13.236.146","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_29","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"rt-z038p","10.13.236.156","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_31","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"minint-q37gidi","10.13.236.56","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen",,,,
+"minint-389u19g","10.13.236.62","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen",,,,
+"rt-x7932","10.13.236.92","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_61","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"rt-x7933","10.13.236.98","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_62","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"rt-x5510","10.13.90.198","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engineering,"ENZ-SL4-RT-0090_ANLAGENNETZ_UG","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South1","Reiner Krause (ME/QEC-PA1)"
+"rt-z02dd","10.13.90.49","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engineering,"ENZ-SL4-RT-0090_ANLAGENNETZ_UG","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","n\a","Germany Middle South1","Andreas Sczesny (ME/QEC-PA3)"
+si0vm11143,"10.139.92.81","2025-11-15T20:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","IBM ALM RTCOverview and RTCMon","ESX Server Service",
+na,"10.140.216.155","2025-10-27T11:00:00.000+0100","Bosch Security Layer",Server,"ISZ-SL5-BPC-IPZ-WORKLOAD",Stuttgart,,,,
+na,"10.140.216.164","2025-11-03T18:00:00.000+0100","Bosch Security Layer",Server,"ISZ-SL5-BPC-IPZ-WORKLOAD",Stuttgart,,,,
+na,"10.140.220.39","2025-11-03T17:00:00.000+0100","Bosch Security Layer",Server,"ISZ-SL5-BPC-IPZ-WORKLOAD",Stuttgart,,,,
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","LL BSH Create - extmittermeier","Regional Service -Mu-","Frank Schuechter (GDS-EPFB)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Northern Europe UK","Aditya N Gujjelwar (BEG/ECH2-UK)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe2","Petr Novak (RBCB/MFO22)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific IN -Cob-","V Varun (MS/EEG12-PS)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Martina Bobotilova (INST)","Italy, Greece, Adria7","Martina Bobotilova (BD/SWD-QTE1)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Varol Celebi (FeP/MFI11)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Italy, Greece, Adria6","Vladan Jovicic (BD/SWD-QTE8)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific IN -Kor-","Balija Veeresh (BD/TOA-ETS4)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Regional Service - GB - EXT","Michael Harper (GB/SM-CSCLG)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","November 2024 AllUpdate","Regional Service - TR","Bilal Yazgi (GPL-LO74WMO)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Hungary4,"Nelli Kiss-Szecsi (MrP/TEF10)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Hungary2,"Janos Dora (XC-AS/EDS1-Bp)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe4","Paulina Pachocka (BD/ERA-SCE1)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",France3,"Christine Yvon (MA/SER)"
+na,"10.141.156.181","2025-10-28T21:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific IN -Kor-","Nirav Nikhil (BD/DAD-DAN8)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria1","Claudia Dolmer (BT-IE/CSF2.5)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Hungary1,"Jozsef Szabo (PT-OG/EST1)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",France3,"Olivier Bessiere (GS/OSD1-EMEA14)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Italy, Greece, Adria6","Vasilije Luzajic (PciP/LOP2)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific IN -Kor-",
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BSH: Migrated from HP SM-CMDB","Regional Service -Lod-","Anna Urbanek (GBS-HR1)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Portugal3,"Joao Marcelino (MA/SPO)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle West5","Steven Watterott (XC-HWP/EPC2)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany North East4","Rena Weiss (C/CGA-RPC1)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe2","Marketa Divisova (RBCB/LOP12)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany North East3","Christian Kuebbeler (BT-IE/TER1.4-RS)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","WW ITFM ASSETS CSG","Karsten Raiser (M/PUR75)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Dilara Deger (DCEE/SLR-TR)","Turkey, Middle East1","Dilara Deger (DCEE/SPM-TR)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria4","Mirza Husetic (TS/SOE-EU1)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South West, Switzerland1","Thomas Lux (EM/MFT72)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BSH: Migrated from HP SM-CMDB","Regional Service - CH","Melanie Golub (CH/SM-CSV)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",France3,"Veronique Fevre (PT/BOP-FR1)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","LL BSH Change - jau1be","Regional Service -Tt-","Edmund Huber (GDS-PS1C)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific IN -Cob-","Gopal Preethi Krishnan (BD/ERA-SPO5)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific IN -Kor-","Amritha Poojary (SX/ETE12-MM)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Eastern Europe2","Mariia Vertsiukh (HC/SEA-O2F)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South West, Switzerland2","Tim Fehrenz (HoP1/TEF34)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South West, Switzerland2","Benjamin Rabung (BMG-9DE/PAO1)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South5","Katja Reiner (C/TXV-GRM)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Marcel Kraus (FeP/LOP3)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria1","Florian Monka (BT-IE/TER4.5-RS)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Ivan Manolov (INST)","Italy, Greece, Adria7","Ivan Manolov (BD/CTG-BG)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Hungary2,"Csongor Miklos (XC-AS/EDR2-Bp)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Hungary2,"Gabor Tari (ME-EC/ENG52-HU)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle West5","Raphael Diziol (XC-AS/EAM1-ADA)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle North1","Daniel Baudisch (LoP2/LOG11)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Max Koepple (EM-MA/ESA2)"
+na,"10.142.101.185","2025-10-28T12:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria1","Mohamad Kheir Aldada (SO/OPM2.7-Mb)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BSH: Migrated from HP SM-CMDB","Regional Service - US","Mary Ann Robitaille (GPL-LO11TK)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle West4","Katrin Gauch (CR/AME1)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific IN -Kor-",". Ranjodh Singh (SDS/PJ-ESS23)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific IN -Kor-","Sudheer Garudadri Lakshmi Narasimha (MS/ECV15-PS)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South5","Sebastian Rey (C/CGA-TSR)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","Germany Middle Feuerbach","Angela Butz (ME-EC/GP)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe4","Unal Jafarli (BD/SWD-BEB12)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle West5","Katja Rehbach (BEG/ECP1)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","WW ITFM ASSETS CSG","Neha Kunal Mutha (SX/ETE13-MM)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South5","Lisa Wolf (GS/OBC131-EMEA1)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South West, Switzerland3","Jan Kristof Meyer-Brons (MA/LOW-Ka)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South4","Detlef Petrick (DC-MH/PRM11)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","HP Elitebook G660 G11","Regional Service - IT - EXT","Vito Giuseppe Santacesaria (IT/SM-CST)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Italy, Greece, Adria6","Danijel Jerkovic (BT-FS/SAL5-EU)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","WW ITFM ASSETS CSG","Benjamin Scheibitz (XC-HWP/EHM)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Manuel Wiedenhoefer (BD/ISA-NSC4)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South5","Mert Topkara (GS/HRZ3)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South West, Switzerland1","Stefan Krug (EM/ENS2)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle West5","Sabine Gareis (XC-AS/EPE)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria1","Stefan Stadler (BD/SLA-DSE1)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Raimund Knorr (PS/ORG-WP)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe2","Jan Berny (PS/ETC4-Bj)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Roman Ritter (DC-MH/EME4)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",France3,"Adrien Lhoste (PT/SFR-KU1)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Niklas Otterstedt (DC/BDC32)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe3","Eva Barankova (KrnP/CLP)"
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-18T03:04:47.000+00:00",,"Business Link Spain_CSG",
+na,"10.142.198.45","2025-10-22T15:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-10-17T03:03:21.000+00:00","n/a","Business Link Spain_CSG","Esther Salcedo San Juan (SO/OPM1.2-Md)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle West5","Timo Graf (XC/BDO-BS)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Regional Service -Lod- - EXT","Aleksandra Witkowska (GPU-BE33)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South1","Stefan Hein (RtP1/PJ-NEW)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00",RITM005354449,"Asia/Pacific CN -Sgh-","Jingtian ZHANG (M/PUR83.1)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Benelux,"Dolf de Rouw (BT-IE/COR2-NL)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Hadi Olyaei Zahir (XC-AC/EIT3)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Business Link Germany_CSG","Aparna Kanthala (SO/ISD22)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","Business Link Romania_CSG","Csilla Laura Pap (GS/OBR212-EMEA6)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe4","Unal Jafarli (BD/SWD-BEB12)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle West5","Tejendra Raj Bandham (VM/ESB4-CB)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Italy, Greece, Adria7","Denisa-Carmen Onetiu (DCEE/SSM-RO)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Latin America - Region 3","Carlos Cervantes Chavez (BGSW/EGB5-MS)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Benelux,"Marie-France Leboeuf (HC/SBE-O2F)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Juergen Kossack (BIU/PAE3)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South West, Switzerland2","Florian Schmidt (GS/PEO1)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle North2","Denis Bockin (VM/EMH61-CP)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Northern Europe UK","Nigel Haynes (HC/SGB-O2F1)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe4","Maciej Jaskolski (BD/SWD-WDE8)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Martin Reif (PS/EVC4)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle North3","Thomas Boennemann (GR/FCM-Wa)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",France3,"Tina Reimann (MA/SWS2-FR)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Hungary2,"Barna Daniel Terjek (XC-AS/EDP2-Bp)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific IN -Kor-","Santhosh Basavaraj Aralaguppi (SX/ECT3-MM)"
+na,"10.142.79.19","2025-10-24T08:00:00.000+0200","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle North3","Markus Krieg (VM-OSS/EPD2-EU)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a",Hungary2,"Mark Hornyak (ME-EC/ENG41-HU)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","November 2024 AllUpdate","Regional Service - TR","Mehmet Egi (FCLI1-PD)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle North3","Michael Oder (VM/EXA1)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific CN -Szh-","Beck YIN (VM/QMC-CN2)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle West5","Harding Djakou Chati (VM/EQM-MB1)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle West5","Ulrike Krafft (VM/HRG)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria4","Daniel Ritt (PS-SC/EHD2)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BSH: Migrated from HP SM-CMDB","Regional Service - Western Europe","Sylvain Caudron (FR/SM-CSFP)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BSH: Migrated from AssetsManagemet GB","Regional Service - GB - EXT","Amanda De Donato (GB/BA-OR2)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Slawa Slabospizki (ETAS-ECM/XPC-Fe4)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle North2","Juergen Scholz (VM/EYV3-LA)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Business Link Romania_CSG","Georgiana Pup (GS/PUI4-PP)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South West, Switzerland5","Thomas Philipps (DCEM/SLL1)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany North East2","Antje Taeuber (PS-SB/EXE1)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South1","Isabelle Raible (ME-SE/EST-E3)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BSH: Inventur SCCM","Regional Service -Btn-","Andreas Voelker (GPD-CGTF)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","WW ITFM ASSETS CSG","Thomas Frase (XC-CE/ECS1)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","North America - Asset Administration - Client HW","Colton Browder (PTNF/SAL4.6)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Regional Service - NE","Sarah Alfthan (PCP-SMNK)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany North East2","Florian Noeth (HC/SDC2-WUE2)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","LL BSH Create - mim6mu","Regional Service -Mu-","Stephan Traa (PCS-ABB)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","November 2024 AllUpdate","Regional Service - TR - EXT","Mert Ozturk (PCP-SMTM)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","November 2024 AllUpdate","Regional Service - TR - EXT","Hazal Cam (REM/MK-CGB)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","LA Dispatch","Jose Antonio Perez Flores (BMG-7AM/PAS42)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe4","Anna Krasucka (MA/SMS1-EO)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Turkey, Middle East1","Fares Fares (CR/RAR1-IL)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Regional Service - Western Europe","Anouk op den Kamp (GUG-SAWM)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Italy, Greece, Adria2","Michele Bavaro (BarP/CTG1)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","Business Link Philippines_CSG","May Anne Gabas (SO/OPM5.1-ML)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany North East5","Alexander Riffel (XC-CP/EPO-Hi)"
+na,"10.143.169.178","2025-10-29T06:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Northern Europe UK","Nimesh Chauhan (BEG/EPJ3-UK)"
+an0z1749,"10.15.159.94","2025-11-03T13:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-204_FERTIGUNGSNETZ_ABS8_ENDMONTAGE_L3_8","DE_An_Ansbach",,,,
+an0z1782,"10.15.161.113","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-206_FERTIGUNGSNETZ_ABS8_ENDMONTAGE_L3_6","DE_An_Ansbach","2025-09-09T14:13:24.000+00:00","n/a","ITM-AE-AnP CSG","Clemens Eiserloh (AnP/MOE2.2)"
+an0z1464,"10.15.161.114","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-206_FERTIGUNGSNETZ_ABS8_ENDMONTAGE_L3_6","DE_An_Ansbach",,,,
+an0x5367,"10.15.161.85","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-206_FERTIGUNGSNETZ_ABS8_ENDMONTAGE_L3_6","DE_An_Ansbach",,,,
+an0ns24b,"10.15.171.15","2025-10-27T13:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-216_FERTIGUNGSNETZ_EHB3_VORMONTAGE","DE_An_Ansbach",,,,
+na,"10.15.180.234","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-221_FERTIGUNGSNETZ_NOX_ENDMONTAGE_L3_30","DE_An_Ansbach",,,,
+an0n0068,"10.15.184.20","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+an0n0070,"10.15.184.27","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+an0x1383,"10.15.184.4","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+"an0n0067-ip3","10.15.184.48","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+168802329an0n0094,"10.15.184.82","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+bw168159,"10.15.184.83","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+nu0x2899,"10.15.212.27","2025-10-27T11:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-NU-330_NUP1_FERTIGUNGSNETZ_MESSMASCHINEN_BAU142","DE_Nu_Nuernberg","2025-09-09T14:13:24.000+00:00","Mikroskop Axioplan 2 PC1 -noRSA","ITM-PS-NuP1-QMM CSG","Peter Ernst (PS/QMM-NuP1)"
+nu0x2949,"10.15.212.29","2025-11-18T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-NU-330_NUP1_FERTIGUNGSNETZ_MESSMASCHINEN_BAU142","DE_Nu_Nuernberg","2025-09-09T14:13:24.000+00:00","Mikroskop Axioplan 2 PC2 -noRSA","ITM-PS-NuP1-QMM CSG","Peter Ernst (PS/QMM-NuP1)"
+nu0x2950,"10.15.212.30","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-NU-330_NUP1_FERTIGUNGSNETZ_MESSMASCHINEN_BAU142","DE_Nu_Nuernberg","2025-09-09T14:13:24.000+00:00","Mikroskop Axio Imager PC3 -noRSA","ITM-PS-NuP1-QMM CSG","Peter Ernst (PS/QMM-NuP1)"
+nu0x2951,"10.15.212.31","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-NU-330_NUP1_FERTIGUNGSNETZ_MESSMASCHINEN_BAU142","DE_Nu_Nuernberg","2025-09-09T14:13:24.000+00:00","REM -noRSA","ITM-PS-NuP1-QMM CSG","Peter Ernst (PS/QMM-NuP1)"
+batef34qlrzdvb3,"10.15.225.18","2025-11-19T06:00:00.000+0100","Bosch Intranet",Service,NONE,NONE,"2025-09-09T14:13:24.000+00:00","WEB TEF34 Web B QLR Alt","Germany North East2","Rainer Schoberth (BaP/TEF2.3)"
+na,"10.16.121.11","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-983_VLAN-983-FERTIGUNG_BAU401_FMR","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00",TV3,"Germany North East2","Melanie Oltenburger (PS/QMM-BaP-W745-B)"
+na,"10.16.121.9","2025-10-27T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-983_VLAN-983-FERTIGUNG_BAU401_FMR","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","TV4 TV4   Dauerlaufraumgeraet","Germany North East2","Manfred Fink (BaP/MFI2.3)"
+ba0y1018,"10.16.155.10","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0pc20024,"10.16.155.11","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","Hr. Kloos Stefan TTB-Lader1 MAE PC 09-01-0-0-0","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0y1027,"10.16.155.12","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0pc20025,"10.16.155.13","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","Hr. Kloos Stefan TTB-Lader2 MAE PC 09-01-0-0-0","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0y1026,"10.16.155.14","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0pc20463,"10.16.155.15","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","Hr. Kloos Stefan OKM Messgeraet 09-01-0-0-0","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0y1021,"10.16.155.19","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","Messraum gr. Schreibtisch","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0z2228,"10.16.155.32","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","IPM-Blickle","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0pc20613,"10.16.155.33","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","IPM Messgeraet 09-03-0-1-2","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0y1023,"10.16.155.5","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0pc6945,"10.16.155.6","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","Hr. Kloos Stefan 09-01-0-1-2","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0y1024,"10.16.155.7","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0y1020,"10.16.155.8","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+ba0y1028,"10.16.155.9","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-981_VLAN-981-FERTIGUNG_BAU411_SCHLEIFEREI","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","GS-395016 TTB7","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+na,"10.166.240.145","2025-11-11T10:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BID-0200_MSE7_VLAN","IN_Bid_Bidadi",,,,
+an0z1440,"10.17.117.31","2025-11-19T06:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,,,,
+an0x5796,"10.17.128.3","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-258_FERTIGUNGSNETZ_ABS9_L107","DE_An_Ansbach",,,,
+an0x4306,"10.17.20.176","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-238_FERTIGUNGSNETZ_ABS_GEN9_KTL1_LAENGSTAKTSYSTEME","DE_An_Ansbach",,,,
+an0nv054,"10.17.21.19","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-239_FERTIGUNGSNETZ_ABS8_VORMONTAGE_L2_3","DE_An_Ansbach",,,,
+na,"10.17.22.236","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-240_FERTIGUNGSNETZ_FORD_CD_4_L1","DE_An_Ansbach","2025-09-09T14:13:24.000+00:00","n/a","Germany North East1","Luca Ortner (AnP/W5910-1)"
+an0z1090,"10.17.24.14","2025-11-08T11:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-242_FERTIGUNGSNETZ_HAL_103","DE_An_Ansbach",,,,
+an0x5250,"10.17.37.176","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-247_FERTIGUNGSNETZ_ABS9_L204_KTL2","DE_An_Ansbach",,,,
+an0z1088,"10.17.39.1","2025-11-17T08:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-0249_FERTIGUNGSNETZ_TEF_LABOR","DE_An_Ansbach",,,,
+an0z2108,"10.17.42.41","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-252_FERTIGUNGSNETZ_L106","DE_An_Ansbach",,,,
+wx0qmm02,"10.177.104.34","2025-11-01T00:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00",WX0QMM02,"ESX Server Service",
+na,"10.182.132.57","2025-10-29T15:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,,,,
+"pg-ut3095c","10.182.135.101","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-300_B108L1REDZ01","MY_Pg_Penang","2025-09-09T14:13:24.000+00:00","FCT20_N012","ITM-AE-PgP1 CSG","MOE7PG1 Production PrRBMA (PgP1/TEF7)"
+"pg-ut2791c","10.182.135.130","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-300_B108L1REDZ01","MY_Pg_Penang",,,,
+"pg-ut3512c","10.182.135.148","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-300_B108L1REDZ01","MY_Pg_Penang",,,,
+"pg-ut2804c","10.182.135.161","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-300_B108L1REDZ01","MY_Pg_Penang",,,,
+"pg-ut2991c","10.182.135.165","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-300_B108L1REDZ01","MY_Pg_Penang",,,,
+"pg-ut4220c","10.182.135.225","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-300_B108L1REDZ01","MY_Pg_Penang",,,,
+na,"10.182.135.230","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-300_B108L1REDZ01","MY_Pg_Penang",,,,
+"moe3-7002","10.182.136.133","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-310_B108L1REDZ02","MY_Pg_Penang","2025-09-09T14:13:24.000+00:00","FCT30_H011","ITM-AE-PgP1 CSG","MOE7PG1 Production PrRBMA (PgP1/TEF7)"
+na,"10.182.136.136","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-310_B108L1REDZ02","MY_Pg_Penang",,,,
+na,"10.182.136.223","2025-11-12T16:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-310_B108L1REDZ02","MY_Pg_Penang",,,,
+na,"10.182.136.225","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-310_B108L1REDZ02","MY_Pg_Penang",,,,
+na,"10.182.136.250","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-PG-310_B108L1REDZ02","MY_Pg_Penang",,,,
+"hc-c-0034d","10.185.64.96","2025-11-11T05:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific SEA Vietnam -Vn-","Duc Nguyen Tuan (SX/EIT-MM-TM-OS)"
+"hc-c-0034d","10.185.64.96","2025-11-11T05:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Asia/Pacific SEA Vietnam -Vn-","Duc Nguyen Tuan (SX/EIT-MM-TM-OS)"
+sgpvm00795,"10.187.170.138","2025-11-18T17:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-485_VMGT_SGP",Singapore,"2025-09-09T14:13:24.000+00:00","New Infra - Scan Engine 4 -4","ESX Server Service",
+sgpvm00796,"10.187.170.139","2025-11-18T17:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-485_VMGT_SGP",Singapore,"2025-09-09T14:13:24.000+00:00","New infra - scanner 12 - 3","ESX Server Service",
+sgpvm00797,"10.187.170.140","2025-11-18T17:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-485_VMGT_SGP",Singapore,"2025-09-09T14:13:24.000+00:00","New infra - scanner 11 - 3","ESX Server Service",
+promikst2,"10.225.103.60","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-JU2-11_GLOBALA-BCM","MX_Ju2_Juarez_CH","2025-09-09T14:13:24.000+00:00","Flash / PC","ITM-AE-JU-JUP1 CSG","Juan Angel Rascon Valdez (JuP1/MFP71)"
+ad0vm00024,"10.225.43.203","2025-11-17T05:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Monitoring for RBNA-HSE2","ESX Server Service",
+na,"10.225.49.77","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AD-251_TCMQMM","US_Ad_Anderson_SC",,,,
+na,"10.225.49.78","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AD-251_TCMQMM","US_Ad_Anderson_SC",,,,
+"ju-3c7c6a","10.225.98.22","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-JU2-4_PK3","MX_Ju2_Juarez_CH","2025-09-09T14:13:24.000+00:00","FINAL / PC / TS5400","ITM-AE-JU-JUP1 CSG","Juan Angel Rascon Valdez (JuP1/MFP71)"
+na,"10.225.99.86","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-JU2-18_ROTAX","MX_Ju2_Juarez_CH","2025-09-09T14:13:24.000+00:00","VERIFICACION CONECTOR / DESKTOP","ITM-AE-JU-JUP1 CSG","Luis Enrique Cordero Villegas (JuP1/MFP51)"
+na,"10.226.214.175","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-JU2-260_PSZ-B203","MX_Ju2_Juarez_CH",,,,
+aguvm00010,"10.227.86.13","2025-11-16T04:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","ProMaster Virtualized Application Server","ESX Server Service",
+misvm00005,"10.228.124.207","2025-11-16T05:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Robo Machine WMS","ESX Server Service",
+"mx4-c-00008","10.228.6.144","2025-10-22T22:00:00.000+0200","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Latin America - Region 3","EXTERNAL Luis Alberto Hernandez Garcia (RBMX/HSE1.1-SF)"
+na,"10.228.86.38","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engeneering,"ENZ-SL4-AGU-0016_QMMLAB","MX_Agu_Aguascalientes_AG",,,,
+na,"10.228.86.39","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engeneering,"ENZ-SL4-AGU-0016_QMMLAB","MX_Agu_Aguascalientes_AG",,,,
+na,"10.228.86.40","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engeneering,"ENZ-SL4-AGU-0016_QMMLAB","MX_Agu_Aguascalientes_AG",,,,
+na,"10.228.86.41","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engeneering,"ENZ-SL4-AGU-0016_QMMLAB","MX_Agu_Aguascalientes_AG",,,,
+na,"10.228.86.42","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engeneering,"ENZ-SL4-AGU-0016_QMMLAB","MX_Agu_Aguascalientes_AG",,,,
+na,"10.228.86.43","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engeneering,"ENZ-SL4-AGU-0016_QMMLAB","MX_Agu_Aguascalientes_AG",,,,
+na,"10.228.86.46","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engeneering,"ENZ-SL4-AGU-0016_QMMLAB","MX_Agu_Aguascalientes_AG",,,,
+na,"10.228.86.47","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engeneering,"ENZ-SL4-AGU-0016_QMMLAB","MX_Agu_Aguascalientes_AG",,,,
+na,"10.228.86.48","2025-11-11T19:00:00.000+0100","Bosch Security Layer",Engeneering,"ENZ-SL4-AGU-0016_QMMLAB","MX_Agu_Aguascalientes_AG",,,,
+na,"10.23.234.122","2025-10-22T17:00:00.000+0200","Bosch Intranet",Service,NONE,NONE,,,,
+na,"10.23.234.126","2025-10-20T18:00:00.000+0200","Bosch Intranet",Service,NONE,NONE,,,,
+na,"10.23.234.85","2025-11-05T14:00:00.000+0100","Bosch Intranet",Service,NONE,NONE,,,,
+na,"10.23.234.99","2025-10-28T19:00:00.000+0100","Bosch Intranet",Service,NONE,NONE,,,,
+ca0vm00280,"10.234.70.138","2025-11-18T17:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-443_VMGT_CA",Campinas,"2025-09-09T14:13:24.000+00:00","New Infra - Scan engine 3 -4","ESX Server Service",
+ca0vm00281,"10.234.70.139","2025-11-18T17:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-443_VMGT_CA",Campinas,"2025-09-09T14:13:24.000+00:00","New Infra - scanner 1  - 3","ESX Server Service",
+ad13aa5e9,"10.24.164.122","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AD-3_RWD-LINE-3","US_Ad_Anderson_SC",,,,
+kw102672,"10.24.177.207","2025-11-19T06:00:00.000+0100","Bosch Intranet",Manufacturing,NONE,NONE,,,,
+"tl-c-0036t","10.24.219.153","2025-11-13T19:00:00.000+0100","Bosch Intranet",NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","LA Dispatch","Itzel Nava Valdes (TlP/HRL1)"
+"tl-c-0036t","10.24.219.153","2025-11-13T19:00:00.000+0100","Bosch Intranet",NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","LA Dispatch","Itzel Nava Valdes (TlP/HRL1)"
+"tl-c-0026h","10.24.219.70","2025-11-01T12:00:00.000+0100","Bosch Intranet",NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Latin America - Region 3","Andres Gonzalez Eligio (C/AUP11-MX12)"
+"tl-c-002uy","10.24.222.115","2025-10-29T01:00:00.000+0100","Bosch Intranet",NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Latin America - Region 3","Samuel Ramirez Becerra (TlP/LOW11)"
+"tl-c-002ue","10.24.222.83","2025-10-25T14:00:00.000+0200","Bosch Intranet",NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Latin America - Region 3","Leon Diaz Torres (TlP/LOW23)"
+aguets203,"10.24.243.167","2025-11-10T23:00:00.000+0100","Bosch Security Layer",Lab,"ENZ-SL4-AGUP-0015_ECP","MX_Agu_Aguascalientes_AG",,,,
+na,"10.24.243.181","2025-11-10T23:00:00.000+0100","Bosch Security Layer",Lab,"ENZ-SL4-AGUP-0015_ECP","MX_Agu_Aguascalientes_AG",,,,
+"eh-c-00176","10.27.113.117","2025-11-05T09:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany North East3","Jens Schulze (EhP/TEF3.2)"
+"eh-c-00176","10.27.113.117","2025-11-05T09:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany North East3","Jens Schulze (EhP/TEF3.2)"
+"hl-z1268","10.28.19.214","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0019_SECURE-FLAECHENNETZ-HL101","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","Moehwald Pruefstand CRI2000-HQ INV10314","ITM-PS-HlP CSG","Richard Billinger (HlP/MFW11)"
+"hl-z2667","10.28.19.232","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0019_SECURE-FLAECHENNETZ-HL101","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","Trumpf Laser IMA-Anlage INV10652","ITM-PS-HlP CSG","Richard Billinger (HlP/MFW11)"
+"hl-z2552","10.28.19.233","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0019_SECURE-FLAECHENNETZ-HL101","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","Fernwartungsrechner SEC-Lan","Germany South East, Austria2","Stefan Entfellner (HlP/TEF4)"
+"hl-z1926","10.28.19.246","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0019_SECURE-FLAECHENNETZ-HL101","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00",INV10589,"ITM-PS-HlP CSG","Alexander Fischer (HlP/MFE12)"
+hl22032,"10.28.45.136","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0045_SECURE_FLAECHENNETZ_WERK1_HL1XX","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","Pruefstand Moehwald Testing","ITM-PS-HlP CSG","Rupert Entfellner (HlP/MFW12)"
+"hl-z3513","10.28.45.149","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0045_SECURE_FLAECHENNETZ_WERK1_HL1XX","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","LineoMatic - Luftmessschlitten","ITM-PS-HlP CSG","Andreas Lienbacher (HlP/TEF1)"
+hl22807,"10.28.45.217","2025-10-27T10:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0045_SECURE_FLAECHENNETZ_WERK1_HL1XX","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","Schraub PC INV10326","ITM-PS-HlP CSG","Patrick Schnitzhofer (HlP/MFW15)"
+"hl-z1984","10.28.46.192","2025-11-13T07:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0046_SECURE_FLAECHENNETZ_WERK1_HL2XX","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","QMM Pruefstand CRI-2000-Hl","ITM-PS-HlP CSG","Nikolaus Wallinger (PS/QMM1-HlP)"
+"hl-z1399","10.28.46.218","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0046_SECURE_FLAECHENNETZ_WERK1_HL2XX","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","Laserbeschriftung INV 10476","ITM-PS-HlP CSG","Arno Seiringer (HlP/COS)"
+hl20054,"10.28.46.237","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0046_SECURE_FLAECHENNETZ_WERK1_HL2XX","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","MAE Zeiss INV6821","ITM-PS-HlP CSG","Marco Schnitzhofer (HlP/COS2)"
+"hl-z4650","10.28.46.242","2025-11-06T13:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0046_SECURE_FLAECHENNETZ_WERK1_HL2XX","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","Walter Messmaschine","ITM-PS-HlP CSG","Marco Schnitzhofer (HlP/COS2)"
+na,"10.28.46.46","2025-10-22T07:00:00.000+0200","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0046_SECURE_FLAECHENNETZ_WERK1_HL2XX","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","Form Talysurf","Germany South East, Austria2",
+hl22822,"10.28.47.160","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HL-0047_SECURE_FLAECHENNETZ_WERK2_HL5XX","AT_Hl_Hallein","2025-09-09T14:13:24.000+00:00","MAE Zeiss","ITM-PS-HlP CSG","Andreas Lienbacher (HlP/TEF1)"
+skomm2,"10.33.113.13","2025-11-16T04:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-NU8-2331-SERVER_NU8","DE_Nu8_Nuernberg","2025-10-01T03:49:11.000+00:00",,,"Sebastian.Schoebinger@de.bosch.com"
+skomm2,"10.33.113.13","2025-11-16T04:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-NU8-2331-SERVER_NU8","DE_Nu8_Nuernberg","2025-10-17T04:24:59.000+00:00",,,"Sebastian.Schoebinger@de.bosch.com"
+nu8x1068,"10.33.114.6","2025-10-29T16:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-NU8-300_FERTIGUNGSNETZ_PRUEFSTAENDE","DE_Nu8_Nuernberg","2025-09-09T14:13:24.000+00:00","Moehwald EPS835W Pruefstand CP4","ITM-AA-KOSH CSG","Michael Lowak (KOSH/MOE1)"
+nu8x1068,"10.33.114.6","2025-10-29T16:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-NU8-300_FERTIGUNGSNETZ_PRUEFSTAENDE","DE_Nu8_Nuernberg","2025-09-09T14:13:24.000+00:00","Moehwald EPS835W Pruefstand CP4","ITM-AA-KOSH CSG","Michael Lowak (KOSH/MOE1)"
+arnrbcm02,"10.33.221.6","2025-11-16T13:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","SCCM DP for Location Arnstadt","ESX Server Service",
+na,"10.34.213.130","2025-10-30T06:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,,,,
+hi0vmqmd1,"10.34.24.135","2025-11-08T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Virtual Server for scheduled reporting workflows","ESX Server Service",
+hi0av007,"10.34.30.136","2025-11-17T03:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","New AV-Server in DE for Hi","ESX Server Service",
+na,"10.34.91.238","2025-11-05T07:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HI-0136_HI470_FERTIGUNG_ANLAGEN_COSE","DE_Hi_Hildesheim","2025-09-09T14:13:24.000+00:00","final CI-CAT-Import INC000027232326","Germany North East5","Axel Drescher (SzP/COS2-Hi)"
+rt020480,"10.38.116.167","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-626_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00",2WISXK14,"ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+rt090991,"10.38.120.108","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-591_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00",1DIKXP41,"ITM-AE-RT-RTP1 CSG","Falk Dietrich (RtP1/MSF-EN11)"
+rt025800,"10.38.120.178","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-592_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00",2SORXI96,"ITM-AE-RT-RTP1 CSG","Peter Egger (RtP1/MSF-PTI6)"
+rt090992,"10.38.120.212","2025-10-22T11:00:00.000+0200","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-593_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","1BOWXT19_Anlagenrechner","ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+na,"10.38.120.246","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-593_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00",1TREXI88,"ITM-AE-RT-RTP1 CSG","Peter Egger (RtP1/MSF-PTI6)"
+"rt-x5904","10.38.120.26","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-590_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","3LASXL31_Anlagenrechner","ITM-AE-RT-RTP1 CSG","Andreas Hartlieb (RtP1/MSF-EN22)"
+"rt-z6598","10.38.120.9","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-590_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","n\a","Germany Middle South1","Tobias Hertkorn (RtP1/MFI3)"
+"rt-z9770","10.38.121.28","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-594_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","n\a","Germany Middle South1","Daniel Mauser (RtP1/MSF-EN23)"
+rt025173,"10.38.121.78","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-595_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","1OFEXS26_Zellenrechner","ITM-AE-RT-RTP1 CSG","Falk Dietrich (RtP1/MSF-EN11)"
+"rt-z3342","10.38.121.83","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-595_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Lenovo TC M55p Tower","Germany Middle South1","Tobias Hertkorn (RtP1/MFI3)"
+"rt-z03zn","10.38.139.109","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-139_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","XENON_1_Gurter_1_SMP480_Leitrechner","ITM-AE-RT-RTP1 CSG","Kathrin Oesterle (RtP1/MSB-PS3)"
+"rt-x5910","10.38.14.109","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_4_Grohmann","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-z07cb","10.38.14.112","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_4_MMX_Kipptisch_Nr.11","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-z07db","10.38.14.113","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_4_MMX_Premold_Funktionsprüfung_Nr.7","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-z0nik","10.38.14.132","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen",,,,
+"rt-z01si","10.38.14.133","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_3_MMX_Premold_Funktionspruefung_Nr.6","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-z01sh","10.38.14.134","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_3_MMX_Premold_Kontaktiertest_Nr.6","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-z4246","10.38.14.136","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestücken_2_MM3_Premold_Kontaktiertest_Nr.5","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"rt-z036l","10.38.14.150","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_3_Grohmann","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-z036l","10.38.14.150","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_3_Grohmann","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-x7031","10.38.14.162","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestücker_5_MMX_Kipptisch_Nr.13","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-x7050","10.38.14.163","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestücker_5_Funktionstest","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-x7137","10.38.14.164","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestücker_5_Grohmann","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-x9354","10.38.14.175","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","MMX_Kipptisch_Nr.16","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"rt-x00wf","10.38.14.46","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Kipptisch_3_Y-Achse_W050","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"rt-x00wh","10.38.14.50","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Kipptisch_3_rechts","ITM-AE-RT-RTP1 CSG","Benjamin Hoffmann (RtP1/MSB-IS2)"
+"rt-x4258","10.38.14.68","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Kipptisch_2_Abgleichen_2_X-Achse_W050","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"rt-x4260","10.38.14.69","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Kipptisch_2_Abgleichen_2_Y-Achse_W050","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+rt0vm00384,"10.38.219.19","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","AECDB system","ESX Server Service",
+"rt-gurter10","10.38.222.140","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","BOS_Unigurter_10","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+"rt-gurter17","10.38.222.153","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","BOS_Unigurter_17","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+"rt-gurter17","10.38.222.153","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","BOS_Unigurter_17","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+"rt-gurter22","10.38.222.163","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","BOS_Unigurter_22","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+"rt-gurter34","10.38.222.187","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","ICOS_Gurter_34","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+na,"10.38.50.69","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-517_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Burnin_Remote1","ITM-AE-RT-RTP1 CSG","Roland Ramm (RtP1/MSB-AS2)"
+na,"10.38.50.75","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-517_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Burnin_BI14","ITM-AE-RT-RTP1 CSG","Roland Ramm (RtP1/MSB-AS2)"
+na,"10.38.50.76","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-517_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Burnin_BI18","ITM-AE-RT-RTP1 CSG","Roland Ramm (RtP1/MSB-AS2)"
+na,"10.38.50.78","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-517_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Burnin_BI19","ITM-AE-RT-RTP1 CSG","Roland Ramm (RtP1/MSB-AS2)"
+"rt-mm-tool-3insxn52","10.38.68.73","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-0798_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00",3INSXN52,"ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+"rt-mm-tool-3insxn52","10.38.68.73","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-0798_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00",3INSXN52,"ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+rt090627,"10.38.84.165","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-598_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","QT35_Netzrechner","ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+rt091831,"10.38.84.166","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-598_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","QT35_2_Messrechner","ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+rt091446,"10.38.87.206","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-617_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","QF36_1","ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+bh0vm00090,"10.41.230.167","2025-11-16T12:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Kemas_FSS","ESX Server Service",
+"bf4-c-009kg","10.41.80.159","2025-10-28T03:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria3","Nikolas Raedler (BhP/MFO12-W320-A5)"
+"bf4-c-009kg","10.41.80.159","2025-10-28T03:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria3","Nikolas Raedler (BhP/MFO12-W320-A5)"
+"bh-c-0023p","10.41.80.190","2025-10-21T05:00:00.000+0200","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria3","Martin Birker (BhP/TEF4-TSE-011)"
+abtv5404,"10.42.26.248","2025-11-16T12:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Kia-CC-DA-Scripte","XC IT Infrastructure CSG",
+abtv5406,"10.42.27.195","2025-11-15T03:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Kia-CC-DA-Scripte","XC IT Infrastructure CSG",
+htvvm01020,"10.43.16.43","2025-11-16T04:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-10-18T03:02:46.000+00:00","Win2025 new servers","ESX Server Service",
+htvvm01021,"10.43.16.55","2025-10-28T02:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-10-18T03:02:46.000+00:00","Win2025 new servers","ESX Server Service",
+ba0nc20002,"10.43.164.41","2025-11-18T15:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-956_VLAN-956-FERTIGUNG_BAU207_AKTOR_ENTWICKLUNG","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","Technikum Nano-Focus","Germany North East2","Eugen Hohmann (BaP/MFE-ECR1)"
+ba0x1212,"10.43.164.43","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-956_VLAN-956-FERTIGUNG_BAU207_AKTOR_ENTWICKLUNG","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","Olympus UC30","Germany North East2","Eugen Hohmann (BaP/MFE-ECR1)"
+ji3032,"10.43.8.32","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+ji3033,"10.43.8.33","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+ji3037,"10.43.8.37","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+ji3041,"10.43.8.41","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+ji3042,"10.43.8.42","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+mc0gsc12,"10.43.91.24","2025-11-03T01:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-10T09:21:03.000+00:00","21418415 Videosrv Mc","x86 Hardware Operation",
+"fe-z1n97","10.44.69.38","2025-11-18T09:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Ervin Benko (BCI/PAP-EAP3)"
+"fe-z1n97","10.44.69.38","2025-11-18T09:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany North East1","Ralf Kattinger (HC-IN/ENG11)"
+"fe-z1n97","10.44.69.38","2025-11-18T09:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South1","Miroslav Mihalec (RtP2/TEF23)"
+"fe-z1n97","10.44.69.38","2025-11-18T09:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe2","Frantisek Dolejs (RBCB/TEF31.1)"
+"fe-z1n97","10.44.69.38","2025-11-18T09:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany Middle Feuerbach","Philipp Kraess (BMG-1DE/EMP11)"
+"fe-z1n97","10.44.69.38","2025-11-18T09:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","WW ITFM ASSETS CSG","Pasquale Cocchiola (BCI/PAP-EAP4)"
+"fe-z1n97","10.44.69.38","2025-11-18T09:00:00.000+0100","Bosch Intranet",RASVPN,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Germany South East, Austria3","Dennis Ganz (BhP/TEF-EAT16-BAS)"
+se0av003,"10.46.152.64","2025-11-11T13:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","New AV-Server in DE for Se","ESX Server Service",
+"lo-y1292","10.52.114.113","2025-11-18T15:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2703_LO2_MANUFACTURING-LINE-ZONE_B-204","DE_Lo_Lohr",,,,
+"lo-m-918238-01","10.52.114.36","2025-11-17T15:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2703_LO2_MANUFACTURING-LINE-ZONE_B-204","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","IPC-2316-3","ITM-DC-Lo1-LoP1 CSG","Wolfgang Ascherfeld (LoP1/MFV32-4)"
+"lo-x6119","10.52.114.46","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2703_LO2_MANUFACTURING-LINE-ZONE_B-204","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","n\a","Germany Middle North1","Wolfgang Ascherfeld (LoP1/MFV32-4)"
+"lo-10630","10.52.114.47","2025-11-18T07:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2703_LO2_MANUFACTURING-LINE-ZONE_B-204","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","n\a","ITM-DC-Lo1-LoP1 CSG","Wolfgang Ascherfeld (LoP1/MFV32-4)"
+"lo-x11133","10.52.124.126","2025-11-03T08:00:00.000+0100","Bosch Security Layer",Engineering,"ENZ-SL4-LO-2605_LO6_LO601-603-ENZ1-NE","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","Lo6-Lo-x11133-Control computer for EMC generator EM-Test","ITE-DC-Lo6-NE CSG","Thomas Voelker (DC-AE/PAD-SYS)"
+"lo-x11622","10.52.124.190","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engineering,"ENZ-SL4-LO-2605_LO6_LO601-603-ENZ1-NE","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","Lo6-IPC-Lo-X11622-xp01-Visula Layout Editor w. CR5000 f. circuit drawing CAD system f. Zuken","ITE-DC-Lo6-NE CSG","Tim Amersbach (DC-AE/EEO)"
+"lo-x11622_xp01","10.52.124.44","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engineering,"ENZ-SL4-LO-2605_LO6_LO601-603-ENZ1-NE","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","Lo6-PC-LO-X11622_xp01-Visula Layout Editor w. CR5000 f. circuit drawing CAD system f. Zuken","ITE-DC-Lo6-NE CSG","Tim Amersbach (DC-AE/EEO)"
+"er-1120","10.52.132.6","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2703_LO6_FGA_IPC","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","LoP2/MOE22, Device Assembly, Data Provision","ITM-DC-LoP2 CSG","Hans-Peter Mohr (LoP2/MOE22)"
+"lo-esv13","10.52.28.150","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Server,"ENZ-SL4-LO-2604_LO6_LO601-EPI1-SRV-NE","DE_Lo_Lohr",,,,
+"er-1464","10.52.50.40","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2714_LO6_MANUFACTORING-LINE-ZONE_B-610","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","LoP2/MOE213, ICT, GenRad 2281","ITM-DC-LoP2 CSG","Rico Dingeldein (LoP2/MOE213)"
+"er-z1080","10.52.50.53","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2714_LO6_MANUFACTORING-LINE-ZONE_B-610","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","LOP2/MOE223, ICT, Test Station","ITM-DC-LoP2 CSG","Rico Dingeldein (LoP2/MOE213)"
+"lo-y1039","10.52.53.32","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2712_LO6_MANUFACTORING-LINE-ZONE_B-608","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","Schleich Tester (lo-y1039)","ITM-DC-LoP2 CSG","Jochen Schaefer (DC-AE/SVC421)"
+"lo-y1242","10.52.97.49","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2702_LO1_MANUFACTORING-LINE-ZONE_B-101","DE_Lo_Lohr",,,,
+"lo-x3146","10.52.98.44","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2706_LO1_MANUFACTURING-LINE-ZONE_B-102_AND_B-103","DE_Lo_Lohr","2025-09-15T03:04:33.000+00:00",,,
+"lo-y1041","10.52.98.53","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-LO-2706_LO1_MANUFACTURING-LINE-ZONE_B-102_AND_B-103","DE_Lo_Lohr","2025-09-10T09:22:52.000+00:00",,,
+"bj-c-003tv","10.53.226.241","2025-11-13T13:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe2","Miroslav Kratoska (RBCB/TEF31.1)"
+"bj-c-003tv","10.53.226.241","2025-11-13T13:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe2","Miroslav Kratoska (RBCB/TEF31.1)"
+dr6rdpext01,"10.56.136.127","2025-11-13T20:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","DrP BCN RDP External 01","ESX Server Service",
+si0vm10592,"10.58.13.137","2025-11-18T12:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-2545_VULNERABILITY-MANAGEMENT-1_ST",Stuttgart,"2025-09-09T14:13:24.000+00:00","New Infra - Scanner 1 - 3","ESX Server Service",
+si0vm10596,"10.58.13.141","2025-11-18T17:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-2545_VULNERABILITY-MANAGEMENT-1_ST",Stuttgart,"2025-09-09T14:13:24.000+00:00","New Infra - Scanner 4 - 3","ESX Server Service",
+"fe-z1nd7","10.61.161.31","2025-11-18T22:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","Germany Middle Feuerbach","S Anandkumar (C/IPG)"
+homa1015,"10.7.149.90","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HO-205_HOP1_302_UFM_V205","DE_Ho_Homburg",,,,
+"ps-hop1-d05623","10.7.152.227","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HO-601_HO","DE_Ho_Homburg","2025-09-09T14:13:24.000+00:00","HOMA1651, Loesewinkelkontrolle","ITM-PS-HoP1 CSG","Armin Schirra (HoP1/MOE4)"
+"ps-hop1-d04608","10.7.157.8","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HO-622_HOP1_202_FEINMESSRAUM_V622","DE_Ho_Homburg","2025-09-09T14:13:24.000+00:00","homa1638, Messrechner, Mahr MarForm MMQ400","ITM-PS-HoP1 CSG","Dirk Schoenborn (HoP1/MOE10)"
+homa1701,"10.7.159.171","2025-11-07T13:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1702,"10.7.159.172","2025-11-03T08:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1703,"10.7.159.173","2025-11-07T13:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1704,"10.7.159.174","2025-11-07T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1705,"10.7.159.175","2025-11-07T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1706,"10.7.159.176","2025-11-07T11:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1707,"10.7.159.177","2025-11-07T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1708,"10.7.159.178","2025-11-07T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1709,"10.7.159.179","2025-11-06T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1711,"10.7.159.180","2025-11-07T15:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1731,"10.7.159.182","2025-11-07T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+homa1740,"10.7.159.183","2025-11-07T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"DFZ-SL4-0645_HO","DE_Ho_Homburg",,,,
+ho0vm120,"10.7.160.184","2025-11-17T18:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Altiris Site Server HO","ESX Server Service",
+ho0gdmdata,"10.7.170.200","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HO-614_101_CRI3_M_P_HO","DE_Ho_Homburg",,,,
+"ho0cri3cl01-old","10.7.170.220","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HO-614_101_CRI3_M_P_HO","DE_Ho_Homburg",,,,
+"ho0cri3cl02-old","10.7.170.221","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HO-614_101_CRI3_M_P_HO","DE_Ho_Homburg",,,,
+na,"10.7.204.122","2025-11-06T14:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,,,,
+na,"10.7.204.153","2025-11-03T14:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:18:24.000+00:00",,,
+homa1173,"10.7.229.193","2025-11-19T06:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Prüfplatz / Messplatz Sperrventil","ITM-DC-HoP2 CSG",
+ho0crin4pcd,"10.7.249.154","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+"wz-c-003kg","10.72.193.9","2025-10-30T15:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe4","Igor Serafin (VM/EMH3-PL)"
+"wz-c-003kg","10.72.193.9","2025-10-30T15:00:00.000+0100","Bosch Intranet","Office_WLAN",NONE,NONE,"2025-09-09T14:13:24.000+00:00","n/a","Central Europe4","Igor Serafin (VM/EMH3-PL)"
+si0vm09343,"10.73.237.137","2025-10-29T09:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Part of new scan engines constallation","ESX Server Service",
+si0vm10438,"10.73.238.51","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","PS-EC Retis Application Server","ESX Server Service",
+htvmfspmwtrep2,"10.76.12.136","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Office,"DFZ-SL4-HTV-0700_LABANDRFID","HU_Htv_Hatvan",,,,
+htvnp015,"10.76.2.172","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","WT-loader-unloader 1 FunctionTest","ITM-AE-HTV CSG","Patrick Haeussler (HtvP/MSE3.3)"
+na,"10.76.2.38","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan",,,,
+na,"10.76.2.39","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","UNI 20 testchamber tester","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+na,"10.76.2.40","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","UNI 22 testchamber tester","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+na,"10.76.2.41","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","UNI 23 testchamber tester","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+htvnp082,"10.76.2.58","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","UNI 82 testchamber tester","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+htvnp056,"10.76.2.61","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","SMx TnF","ITM-AE-HTV CSG","Patrick Haeussler (HtvP/MSE3.3)"
+htvnp057,"10.76.2.62","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","SMx TnF","ITM-AE-HTV CSG","Patrick Haeussler (HtvP/MSE3.3)"
+htvnp034,"10.76.2.79","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","SMx TnF","ITM-AE-HTV CSG","Patrick Haeussler (HtvP/MSE3.3)"
+na,"10.76.2.8","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HTV-762_MMXTFANDRC","HU_Htv_Hatvan","2025-09-09T14:13:24.000+00:00","GR N2 Cabinet nr.10","ITM-AE-HTV CSG","Patrick Haeussler (HtvP/MSE3.3)"
+cngvm00042,"10.8.144.145","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Server for Robot Real-time Management System","ESX Server Service",
+cngvm00049,"10.8.144.154","2025-11-19T06:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Database server for Digital Problem Solving Knowledge Project","ESX Server Service",
+szhvm00644,"10.8.236.106","2025-11-18T17:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-450_VMGT_SZH",Suzhou,"2025-09-09T14:13:24.000+00:00","New Infra - Scan Engine 5 -4","ESX Server Service",
+szh2vm0096,"10.8.236.107","2025-11-18T17:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-450_VMGT_SZH",Suzhou,"2025-09-09T14:13:24.000+00:00","New infra - scanner 4","ESX Server Service",
+szh2vm0097,"10.8.236.108","2025-11-18T17:00:00.000+0100","Bosch Security Layer",Server,"RSZ-SL4-450_VMGT_SZH",Suzhou,"2025-09-09T14:13:24.000+00:00","New infra - scanner 3 - 3","ESX Server Service",
+liz84153,"10.89.149.249","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Engineering,"ENZ-SL4-LIZ-0312_SEC_ITL-HALLE1_UNSECURE","AT_Liz_Linz",,,,
+sgdc05737,"10.98.240.17","2025-10-29T15:00:00.000+0100","Bosch Security Layer",Manufacturing,"ENZ-SL4-SGM-240_EU_DE_SGM_LAB_3_P2","DE_Sgm_SchwaebischGmuend","2025-09-09T14:13:24.000+00:00","Kalibrierrechner - Kalibrierdatenbank(Geräte DB)","ITE-AS-SGM CSG","Albrecht Rosenfeld (VM-CVS/ENT)"
+na,"173.157.9.30","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-ACL-SL4-NA-1_MGMT_VLAN","IN_Na_Nashik","2025-09-09T14:13:24.000+00:00","CRI Assembly line 3 server","Basic Server Service non CI managed",
+AD13AA5E9,na,"2025-11-16T17:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+AD1A9DF3D,na,"2025-11-18T18:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+AD1CDACF0,na,"2025-11-18T00:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"AF-00005",na,"2025-11-17T04:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Prüfstand B005","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00007","10.104.170.57","2025-11-17T08:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-301_FERTIGUNG-MOE2","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Prüfstand RM674","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00010","10.104.161.202","2025-11-18T13:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 1-1 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00011",na,"2025-11-13T17:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1-1 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00012",na,"2025-11-17T17:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1-2 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00013",na,"2025-11-17T08:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1-2 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00014",na,"2025-11-19T06:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1-3 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00015",na,"2025-11-15T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1-3 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00016",na,"2025-11-17T01:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1-4 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00017",na,"2025-11-13T18:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1-4 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00018",na,"2025-11-17T23:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1-5 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00019",na,"2025-11-19T00:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1-5 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00020",na,"2025-11-12T11:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Endreinigung Markert 1.2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00022",na,"2025-11-10T18:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Rüstplatz Linie 1.2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00023",na,"2025-11-16T07:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","PalTec TRG1-1 Leitrechner","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00025",na,"2025-11-16T07:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","PalTec TRG2-1 Leitrechner","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00028","10.104.161.220","2025-11-16T13:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Vorreinigen Markert 2.1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00033",na,"2025-11-16T09:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 2-3 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00034","10.104.161.226","2025-11-17T05:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2-3 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00035",na,"2025-11-14T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 2-4 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00036","10.104.161.228","2025-11-06T16:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2-4 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00037","10.104.161.229","2025-11-13T08:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2-5 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00038",na,"2025-11-19T04:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 2-5 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00041",na,"2025-11-14T03:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Endreinigung Markert 2.2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00042","10.104.161.234","2025-11-18T22:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Honmaschine ELHA 2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00043",na,"2025-11-17T08:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Honmaschine Messplatz 2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00045",na,"2025-11-18T03:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Vorreinigen Markert 1.1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00046",na,"2025-11-15T11:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Rüstplatz Linie 2.3","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00047",na,"2025-11-18T19:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Rüstplatz Linie 2.4","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00048",na,"2025-11-19T06:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Rüstplatz Linie 1.3","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00050","10.104.161.242","2025-11-12T23:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Honmaschine ELHA 1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00051",na,"2025-11-19T04:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Honmaschine Messplatz 1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00053",na,"2025-11-15T14:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1.6 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00054",na,"2025-11-18T18:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","BAZ 1.6 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00055","10.104.161.250","2025-11-14T19:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2.6 VPP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-00056","10.104.161.251","2025-11-18T14:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-303_FERTIGUNG-SOFLEX","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","BAZ 2.6 VSP40","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-VM001","10.104.160.164","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-AF-30_SERVER-UNSECURE-VMS","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Soflex-Server (Produktionsplanung Gehäusefertigung)","ESX Server Service",
+"AF-VM002","10.104.160.165","2025-11-14T04:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-AF-30_SERVER-UNSECURE-VMS","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Soflex-Server (Produktionsplanung Gehäusefertigung)","ESX Server Service",
+"AF-VM003","10.104.160.166","2025-11-18T23:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-AF-30_SERVER-UNSECURE-VMS","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Soflex-Server (Produktionsplanung Gehäusefertigung)","ESX Server Service",
+"AF-VM004","10.104.160.167","2025-11-18T15:00:00.000+0100","Bosch Security Layer",Server,"LRSZ-SL4-AF-30_SERVER-UNSECURE-VMS","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Soflex-Server (Produktionsplanung Kolbenfertigung)","ESX Server Service",
+"AF-X1019",na,"2025-11-18T14:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Parametrierstation M4","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-X1196",na,"2025-11-03T09:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","ATMO SPS Leitrechner L1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-X1206",na,"2025-11-19T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","ATMO SPS Leitrechner L2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-Y1120","10.104.168.42","2025-11-18T16:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AF-300_FERTIGUNG-MOE1","DE_Af_Augsfeld","2025-09-09T14:13:24.000+00:00","Kelch Voreinstellgerät","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-Y1181",na,"2025-11-17T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Prüfstand RM535 Rechner 1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-Y1182",na,"2025-11-18T07:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Prüfstand RM535 Rechner 2","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AF-Y1258",na,"2025-11-14T10:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Traub TNX65 Nr. 1","ITM-DC-AF-AfP-TEF5 CSG","Peter Nepf (AfP/MOE)"
+"AGUETS11001_2",na,"2025-11-17T22:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+AGUETS206,na,"2025-11-18T22:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+AN0N0067,na,"2025-11-18T23:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+AN0N0068,"10.15.184.20","2025-11-10T03:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+AN0N0070,"10.15.184.27","2025-11-16T03:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+AN0N0094,"10.15.184.25","2025-11-14T09:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+AN0NS24B,na,"2025-11-16T02:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+AN0NV054,na,"2025-11-04T22:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+AN0X1383,"10.15.184.4","2025-11-15T09:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-225_FERTIGUNGSNETZ_BRECHSTATIONEN","DE_An_Ansbach",,,,
+AN0X4306,"10.17.20.176","2025-11-18T20:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-238_FERTIGUNGSNETZ_ABS_GEN9_KTL1_LAENGSTAKTSYSTEME","DE_An_Ansbach",,,,
+AN0X5250,"10.17.37.176","2025-11-05T22:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-247_FERTIGUNGSNETZ_ABS9_L204_KTL2","DE_An_Ansbach",,,,
+AN0X5367,"10.15.161.85","2025-10-31T03:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-206_FERTIGUNGSNETZ_ABS8_ENDMONTAGE_L3_6","DE_An_Ansbach",,,,
+AN0X5796,"10.17.128.3","2025-11-15T00:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-258_FERTIGUNGSNETZ_ABS9_L107","DE_An_Ansbach",,,,
+AN0Z1090,"10.17.24.14","2025-10-28T04:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-242_FERTIGUNGSNETZ_HAL_103","DE_An_Ansbach",,,,
+AN0Z1440,"10.17.41.9","2025-11-15T23:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-251_FERTIGUNGSNETZ_BK2A","DE_An_Ansbach",,,,
+AN0Z1464,"10.15.170.108","2025-11-16T22:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-215_FERTIGUNGSNETZ_BRM_VORMONTAGE","DE_An_Ansbach",,,,
+AN0Z1749,"10.15.159.94","2025-11-11T04:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-204_FERTIGUNGSNETZ_ABS8_ENDMONTAGE_L3_8","DE_An_Ansbach",,,,
+BA0NC20002,"10.43.164.41","2025-11-13T12:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-956_VLAN-956-FERTIGUNG_BAU207_AKTOR_ENTWICKLUNG","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","Technikum Nano-Focus","Germany North East2","Eugen Hohmann (BaP/MFE-ECR1)"
+BA0PC20024,"10.16.48.82","2025-11-18T03:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Hr. Kloos Stefan TTB-Lader1 MAE PC 09-01-0-0-0","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0PC20025,"10.16.48.105","2025-11-19T02:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Hr. Kloos Stefan TTB-Lader2 MAE PC 09-01-0-0-0","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0PC20463,"10.16.224.51","2025-11-17T03:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Hr. Kloos Stefan OKM Messgeraet 09-01-0-0-0","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0PC20613,na,"2025-11-18T00:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","IPM Messgeraet 09-03-0-1-2","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0PC6945,na,"2025-11-17T00:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Hr. Kloos Stefan 09-01-0-1-2","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0X1212,"10.43.164.43","2025-11-18T00:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-BA-956_VLAN-956-FERTIGUNG_BAU207_AKTOR_ENTWICKLUNG","DE_Ba_Bamberg","2025-09-09T14:13:24.000+00:00","Olympus UC30","Germany North East2","Eugen Hohmann (BaP/MFE-ECR1)"
+BA0Y1018,na,"2025-11-18T10:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0Y1020,na,"2025-11-18T14:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0Y1021,na,"2025-11-17T01:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Messraum gr. Schreibtisch","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0Y1023,na,"2025-11-19T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0Y1024,na,"2025-11-17T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0Y1026,na,"2025-11-19T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0Y1027,na,"2025-11-18T22:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","GS-395016","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0Y1028,"10.16.48.59","2025-11-18T10:00:00.000+0100","Bosch Intranet",Office,NONE,NONE,"2025-09-09T14:13:24.000+00:00","GS-395016 TTB7","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+BA0Z2228,na,"2025-11-18T23:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","IPM-Blickle","Germany North East2","Stefan Kloos (BaP/W830-WS)"
+"BOSCH-4F948DF1E",na,"2025-11-18T07:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+BW168159,"10.15.161.72","2025-11-19T00:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-AN-206_FERTIGUNGSNETZ_ABS8_ENDMONTAGE_L3_6","DE_An_Ansbach",,,,
+"CT-CRIN02-NEW",na,"2025-11-16T18:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:14:43.000+00:00",,,
+CT0M365APP,na,"2025-10-31T14:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+CT0VM00032,na,"2025-11-06T20:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Opcon HVL Server","ESX Server Service",
+CT0VM00033,na,"2025-11-16T08:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","CRIN Runner Line","ESX Server Service",
+"EC-HRT02","10.105.0.231","2025-11-11T13:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Haerterei Protherm 9800","ESX Server Service",
+"ER-1464",na,"2025-11-06T16:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","LoP2/MOE213, ICT, GenRad 2281","ITM-DC-LoP2 CSG","Rico Dingeldein (LoP2/MOE213)"
+"ER-Z1080",na,"2025-11-08T07:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","LOP2/MOE223, ICT, Test Station","ITM-DC-LoP2 CSG","Rico Dingeldein (LoP2/MOE213)"
+"HI-Z074K",na,"2025-10-29T12:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","final CI-CAT-Import INC000027232326","Germany North East5","Axel Drescher (SzP/COS2-Hi)"
+HI0VM013,"10.34.30.247","2025-11-17T11:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Share and CR5000-Database","ESX Server Service",
+"HO0CRI2NAS01-A",na,"2025-10-24T18:00:00.000+0200",Internet,NONE,NONE,NONE,,,,
+"HO0CRI2NAS01-B",na,"2025-10-26T18:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"HO0CRI3CL02-OLD","10.7.170.221","2025-11-13T17:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-HO-614_101_CRI3_M_P_HO","DE_Ho_Homburg",,,,
+HOMA1015,na,"2025-11-03T04:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HOMA1173,na,"2025-11-10T22:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Prüfplatz / Messplatz Sperrventil","ITM-DC-HoP2 CSG",
+HOMA1704,na,"2025-11-06T08:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HOMA1707,na,"2025-11-07T12:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HOMA1731,na,"2025-11-03T14:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HORMBK01,"10.105.36.99","2025-11-04T08:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Backup Server ITM","ESX Server Service",
+HORVIS02,"10.105.36.94","2025-11-11T13:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Application-Server for Visualisierung","ESX Server Service",
+HTVMFSPMWTREP2,na,"2025-11-19T06:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP013,na,"2025-11-19T04:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP015,na,"2025-11-18T08:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP034,na,"2025-11-19T04:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP038,na,"2025-11-18T21:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP053,na,"2025-11-19T05:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP054,na,"2025-11-19T04:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP057,na,"2025-11-19T06:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP065,na,"2025-11-18T21:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP066,na,"2025-11-18T06:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP078,na,"2025-11-18T10:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP081,na,"2025-11-19T03:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+HTVNP091,na,"2025-11-18T16:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"ITM-AE-HTVP-020",na,"2025-11-18T07:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","SMG 18 testchamber tester","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+"ITM-AE-HTVP-035",na,"2025-11-19T04:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","SMx TnF","ITM-AE-HTV CSG","Peter Kovacs (HtvP/MSE3.3-P2)"
+"ITM-AE-HTVP-055",na,"2025-11-17T19:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","UNI 23 testchamber tester","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+"ITM-AE-HTVP-064",na,"2025-11-18T22:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","MMx C04 Testchamber","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+"ITM-AE-HTVP-089",na,"2025-11-18T23:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","UNI 82 testchamber tester","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+"ITM-AE-HTVP-090",na,"2025-11-19T04:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","UNI 20 testchamber tester","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+"ITM-AE-HTVP096",na,"2025-11-18T21:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","MMx C11 Testchamber","ITM-AE-HTV CSG","David Kurucz (HtvP/MSE3.3-P2)"
+JI3032,na,"2025-11-01T23:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+JI3042,na,"2025-10-23T20:00:00.000+0200",Internet,NONE,NONE,NONE,,,,
+"JU-057082",na,"2025-11-18T07:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"JU-33B3F3",na,"2025-11-17T22:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","VERIFICACION CONECTOR / DESKTOP","ITM-AE-JU-JUP1 CSG","Luis Enrique Cordero Villegas (JuP1/MFP51)"
+"JU-3C7C6A",na,"2025-11-19T06:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","FINAL / PC / TS5400","ITM-AE-JU-JUP1 CSG","Juan Angel Rascon Valdez (JuP1/MFP71)"
+KW102672,na,"2025-11-02T19:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"LO-10630",na,"2025-11-18T06:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","ITM-DC-Lo1-LoP1 CSG","Wolfgang Ascherfeld (LoP1/MFV32-4)"
+"LO-ESV13","10.52.28.150","2025-11-18T12:00:00.000+0100","Bosch Security Layer",Server,"ENZ-SL4-LO-2604_LO6_LO601-EPI1-SRV-NE","DE_Lo_Lohr",,,,
+"LO-X11622",na,"2025-10-28T21:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Lo6-IPC-Lo-X11622-xp01-Visula Layout Editor w. CR5000 f. circuit drawing CAD system f. Zuken","ITE-DC-Lo6-NE CSG","Tim Amersbach (DC-AE/EEO)"
+"LO-X11622_XP01","10.52.124.44","2025-11-18T02:00:00.000+0100","Bosch Security Layer",Engineering,"ENZ-SL4-LO-2605_LO6_LO601-603-ENZ1-NE","DE_Lo_Lohr","2025-09-09T14:13:24.000+00:00","Lo6-PC-LO-X11622_xp01-Visula Layout Editor w. CR5000 f. circuit drawing CAD system f. Zuken","ITE-DC-Lo6-NE CSG","Tim Amersbach (DC-AE/EEO)"
+"LO-X3146",na,"2025-11-17T09:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-15T03:04:33.000+00:00",,,
+"LO-X6119",na,"2025-11-18T18:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","Germany Middle North1","Wolfgang Ascherfeld (LoP1/MFV32-4)"
+"LO-Y1039",na,"2025-11-12T14:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Schleich Tester (lo-y1039)","ITM-DC-LoP2 CSG","Jochen Schaefer (DC-AE/SVC421)"
+"LO-Y1041",na,"2025-11-13T13:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-10T09:22:52.000+00:00",,,
+"LO-Y1242",na,"2025-11-13T08:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"LO-Y1292",na,"2025-11-18T08:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+MD1ZP010,na,"2025-11-19T02:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"MOE3-7002",na,"2025-11-19T03:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"MSFT-NDR",na,"2025-11-18T23:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"NAASL3_DC",na,"2025-10-23T12:00:00.000+0200",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","CRI Assembly line 3 server","Basic Server Service non CI managed",
+NNTACCESSI01,na,"2025-11-18T15:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","application server for Zucchetti","ESX Server Service",
+NNTCOLLECT01,na,"2025-11-18T13:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","web application for data exchange from/to local erp(APACHE,GAMMA) and SAP","ESX Server Service",
+"PG-UT2524C",na,"2025-11-16T22:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT2575C",na,"2025-11-19T02:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT2791C",na,"2025-11-17T22:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT2804C",na,"2025-11-18T21:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT2838C",na,"2025-11-11T18:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT2842C",na,"2025-11-19T05:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT2940C",na,"2025-10-29T03:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT2955C",na,"2025-11-19T03:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT2991C",na,"2025-11-19T06:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT3331C",na,"2025-11-19T04:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT3357C",na,"2025-11-19T05:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"PG-UT3467C",na,"2025-11-19T02:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+PROMIKST2,na,"2025-11-18T05:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+RAPID7CIFS,na,"2025-11-18T17:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"RT-GURTER10","10.38.222.140","2025-11-15T11:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","BOS_Unigurter_10","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+"RT-GURTER17","10.38.222.153","2025-11-19T01:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","BOS_Unigurter_17","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+"RT-GURTER17","10.38.222.153","2025-11-19T01:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","BOS_Unigurter_17","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+"RT-GURTER22","10.38.222.163","2025-11-16T18:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","BOS_Unigurter_22","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+"RT-GURTER34","10.38.222.187","2025-11-18T09:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-536_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","ICOS_Gurter_34","ITM-AE-RT-RTP1 CSG","Matthias Ruoff (RtP1/MSB-AS3)"
+"RT-NE4DEV03","10.13.50.113","2025-11-13T15:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+"RT-NE4JENKINS11","10.13.50.81","2025-11-13T15:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+"RT-NE4JENKINS12","10.13.50.83","2025-11-13T15:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+"RT-NE4JENKINS14","10.13.52.232","2025-11-13T15:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+"RT-NE4MGMT-DG","10.13.53.198","2025-11-12T13:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+"RT-NE4MGMT-RB","10.13.53.197","2025-11-12T08:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+"RT-NE4TOOLS01","10.13.50.107","2025-11-13T15:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,,,,
+"RT-OFENAEHR24","10.38.50.69","2025-11-19T04:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-517_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Burnin_Remote1","ITM-AE-RT-RTP1 CSG","Roland Ramm (RtP1/MSB-AS2)"
+"RT-OFENAEHR30",na,"2025-11-17T23:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Burnin_BI14","ITM-AE-RT-RTP1 CSG","Roland Ramm (RtP1/MSB-AS2)"
+"RT-OFENAEHR31","10.38.50.76","2025-11-18T07:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-517_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Burnin_BI18","ITM-AE-RT-RTP1 CSG","Roland Ramm (RtP1/MSB-AS2)"
+"RT-OFENAEHR34","10.38.50.78","2025-11-19T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-517_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Burnin_BI19","ITM-AE-RT-RTP1 CSG","Roland Ramm (RtP1/MSB-AS2)"
+"RT-X00WF",na,"2025-11-16T00:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Kipptisch_3_Y-Achse_W050","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-X00WH",na,"2025-11-16T23:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Kipptisch_3_rechts","ITM-AE-RT-RTP1 CSG","Benjamin Hoffmann (RtP1/MSB-IS2)"
+"RT-X1143","10.38.120.244","2025-11-16T13:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-593_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","1TREXI88_VM","ITM-AE-RT-RTP1 CSG","Peter Egger (RtP1/MSF-PTI6)"
+"RT-X4258",na,"2025-11-17T05:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Kipptisch_2_Abgleichen_2_X-Achse_W050","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-X4260",na,"2025-11-18T05:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Kipptisch_2_Abgleichen_2_Y-Achse_W050","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-X5510","10.13.90.200","2025-11-13T16:00:00.000+0100","Bosch Security Layer",Engineering,"ENZ-SL4-RT-0090_ANLAGENNETZ_UG","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","n/a","Germany Middle South1","Reiner Krause (ME/QEC-PA1)"
+"RT-X5904",na,"2025-11-17T15:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","3LASXL31_Anlagenrechner","ITM-AE-RT-RTP1 CSG","Andreas Hartlieb (RtP1/MSF-EN22)"
+"RT-X5910","10.38.14.109","2025-11-18T11:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_4_Grohmann","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-X7031",na,"2025-11-18T21:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Bestücker_5_MMX_Kipptisch_Nr.13","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-X7050","10.38.14.163","2025-11-18T15:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestücker_5_Funktionstest","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-X7137","10.38.14.164","2025-11-18T23:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestücker_5_Grohmann","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-X7932","10.13.236.92","2025-11-18T04:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_61","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-X7933","10.13.236.98","2025-11-18T06:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_62","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-X8682","10.13.236.110","2025-11-18T03:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-236_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_68","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-X9354","10.38.14.175","2025-11-17T10:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","MMX_Kipptisch_Nr.16","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-Z01QH",na,"2025-11-18T08:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_24","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-Z01SH",na,"2025-11-16T20:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Bestuecker_3_MMX_Premold_Kontaktiertest_Nr.6","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-Z01SI",na,"2025-11-17T20:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Bestuecker_3_MMX_Premold_Funktionspruefung_Nr.6","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-Z02DD",na,"2025-11-19T06:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","Germany Middle South1","Andreas Sczesny (ME/QEC-PA3)"
+"RT-Z02MJ",na,"2025-11-16T17:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_29","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-Z036L","10.38.14.150","2025-11-18T09:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_3_Grohmann","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-Z036L","10.38.14.150","2025-11-18T09:00:00.000+0100","Bosch Security Layer",Manufacturing,"MFZ-SL4-RT-565_RT-ITM-RTP1","DE_Rt_Reutlingen","2025-09-09T14:13:24.000+00:00","Bestuecker_3_Grohmann","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-Z038P",na,"2025-11-18T18:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_31","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-Z03ZN",na,"2025-11-17T21:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","XENON_1_Gurter_1_SMP480_Leitrechner","ITM-AE-RT-RTP1 CSG","Kathrin Oesterle (RtP1/MSB-PS3)"
+"RT-Z07CB",na,"2025-11-18T01:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Bestuecker_4_MMX_Kipptisch_Nr.11","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-Z07DB",na,"2025-11-13T15:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Bestuecker_4_MMX_Premold_Funktionsprüfung_Nr.7","ITM-AE-RT-RTP1 CSG","Frank Wochner (RtP1/MSB-IS2)"
+"RT-Z07FT",na,"2025-11-18T09:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_45","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-Z07SN",na,"2025-11-17T09:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Uni_Kammer_Messrechner_46","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-Z0NIK",na,"2025-11-16T17:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"RT-Z3342",na,"2025-11-17T19:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Lenovo TC M55p Tower","Germany Middle South1","Tobias Hertkorn (RtP1/MFI3)"
+"RT-Z4246",na,"2025-11-19T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","Bestücken_2_MM3_Premold_Kontaktiertest_Nr.5","ITM-AE-RT-RTP1 CSG","Johannes Hollkott (RtP1/MSB-IS1)"
+"RT-Z6598",na,"2025-11-18T17:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","Germany Middle South1","Tobias Hertkorn (RtP1/MFI3)"
+"RT-Z9770",na,"2025-11-16T04:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","n\a","Germany Middle South1","Daniel Mauser (RtP1/MSF-EN23)"
+RT020480,na,"2025-11-18T17:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00",2WISXK14,"ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+RT025173,na,"2025-11-19T04:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","1OFEXS26_Zellenrechner","ITM-AE-RT-RTP1 CSG","Falk Dietrich (RtP1/MSF-EN11)"
+RT025800,na,"2025-11-17T09:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00",2SORXI96,"ITM-AE-RT-RTP1 CSG","Peter Egger (RtP1/MSF-PTI6)"
+RT090077,na,"2025-11-18T11:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00",3INSXN52,"ITM-AE-RT-RTP1 CSG","Christoph Sauter (RtP1/MSF-PTI3)"
+RT090627,na,"2025-11-17T10:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","QT35_Netzrechner","ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+RT090991,na,"2025-11-14T20:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00",1DIKXP41,"ITM-AE-RT-RTP1 CSG","Falk Dietrich (RtP1/MSF-EN11)"
+RT090992,na,"2025-10-21T09:00:00.000+0200",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","1BOWXT19_Anlagenrechner","ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+RT091446,na,"2025-11-18T16:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","QF36_1","ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+RT091831,na,"2025-11-19T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","QT35_2_Messrechner","ITM-AE-RT-RTP1 CSG","Christian Renz (RtP1/MSF-PTI3)"
+SBDETS025,na,"2025-11-18T21:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+SBDETS155,na,"2025-11-18T10:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+SBDETS224,na,"2025-11-16T08:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+"SW-VM008","10.46.67.25","2025-11-12T08:00:00.000+0100","Bosch Intranet",Server,NONE,NONE,"2025-09-09T14:13:24.000+00:00","KEPServer and OPC Router","ESX Server Service",
+"TI-X000H",na,"2025-11-01T21:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M372 B45 station 15 Fes im Adapter plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X000I",na,"2025-11-12T19:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M372 B45 station 20 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X000O",na,"2025-11-01T00:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M372 B45 station 22 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X000R",na,"2025-11-13T15:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M372 B45 station 30 Gummi plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X0013",na,"2025-11-11T00:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M372 B45 station 50 Spoiler OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X0017",na,"2025-11-01T22:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M372 B45 station 55 Endkappe OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X001E",na,"2025-11-16T07:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M372 B45 station 60 Spoiler IC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X002H",na,"2025-11-12T09:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M691 Buigautomaat 2 bendingline Fes in tray","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"TI-X0031",na,"2025-11-17T18:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M386 B46 station 10 Adapter & Fes montage plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"TI-X003B",na,"2025-11-02T08:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M386 B46 station 30 Gummi plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"TI-X003K",na,"2025-10-31T14:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M386 B46 station 60 Endkappe OC plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"TI-X003Z",na,"2025-11-12T06:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M386 B46 station 70 HF-Cover plc","ITM-ED-Ti CSG","Jurgen Hayen (MA-WS/QMM)"
+"TI-X004Z",na,"2025-11-07T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M390 B47 station 30 Gummi plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X005N",na,"2025-10-23T19:00:00.000+0200",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M390 B47 station 70 HF-Cover plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X0072",na,"2025-10-30T09:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M394 B48 station 20 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X0075",na,"2025-11-15T02:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M394 B48 station 21 USS plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X0078",na,"2025-10-29T04:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M394 B48 station 30 Gummi plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X007C",na,"2025-11-07T16:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M394 B48 station 50 Spoiler OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X007I",na,"2025-10-29T00:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M394 B48 station 60 Endkappe OC plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+"TI-X007Y",na,"2025-11-17T18:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M394 B48 station 70 HF-Cover plc","ITM-ED-Ti CSG","Mike De Cuyper (RBBE/MFO-WB)"
+TI1FE145132,na,"2025-10-30T20:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M604 PKS-JBA Menger","ITM-ED-Ti CSG","Ludwig Vandermaesen (RBBE/MOE-RB)"
+TI1FE145134,na,"2025-11-18T07:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M604 PKS-JBA KKV","ITM-ED-Ti CSG","Ludwig Vandermaesen (RBBE/MOE-RB)"
+TI1FE145135,na,"2025-11-08T22:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M604 PKS-JBA Batch Label","ITM-ED-Ti CSG","Ludwig Vandermaesen (RBBE/MOE-RB)"
+TI1FE145136,na,"2025-11-15T22:00:00.000+0100",Internet,NONE,NONE,NONE,"2025-09-09T14:13:24.000+00:00","M604 PKS-JBA Polymer","ITM-ED-Ti CSG","Ludwig Vandermaesen (RBBE/MOE-RB)"
+TS3002,na,"2025-11-10T11:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+TS3003,na,"2025-11-17T22:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+TS3008,na,"2025-11-10T18:00:00.000+0100",Internet,NONE,NONE,NONE,,,,
+TS3013MX,na,"2025-11-17T19:00:00.000+0100",Internet,NONE,NONE,NONE,,,,

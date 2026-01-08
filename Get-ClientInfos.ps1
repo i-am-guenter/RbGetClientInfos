@@ -1,226 +1,309 @@
 <#
 .SYNOPSIS
-    This script imports the csv file from the splunk output for legacy protocols and adds additional
+    Reads IPs and/or hostname from input csv file exported by the splunk query.
+    Performing a DNS lookup for each entry and add more details to the entries by querying Active Directory
+    
+.NOTES
 
 .DESCRIPTION
-    1. Import CSV (Parameter oder GUI).
-    2. Priorisierung: IP > Hostname für die ID.
-    3. DNS Lookup.
-    4. AD Suche via DirectorySearcher (High Performance).
-    5. Auslesen der Parent-OU Attribute (City, Country, Name).
-    6. Logging und CSV Export.
 
-.PARAMETER CsvFile
-    Optional. Pfad zur Import-Datei. Wenn leer -> FileDialog.
-    Erwartet Header-less CSV oder Header "IP","Hostname". 
-    Das Script nimmt an: Spalte 1 = IP, Spalte 2 = Hostname.
+.PARAMETER inputFile
+Path to the file, exported from Splunk query. The file includes basic information and following headers/columns:
+        final_hostname, 
+        final_ip, 
+        _time, 
+        final_ip_type, 
+        final_ip_subnet_network_type, 
+        final_ip_zone,
+        final_ip_zone_location,
+        metisCreatedDate,
+        shortDescription,
+        primarySupportGroup,
+        primaryUsedBy
 
-.PARAMETER OutputFile
-    Mandatory. Pfad für die Ergebnis-CSV.
+.PARAMETER outputFile
 
-.PARAMETER LogFile
-    Mandatory. Pfad für das Logfile.
+.PARAMETER logFile
+
+.EXAMPLE
+Get-ClientInfo.ps1 -Inputfile filename.csv -Outputfile yyyy-mm-dd_hh-mm_export.csv -Logfile yyy-mm-dd_hh-mm_exportlog.log
+
 #>
 
 param(
+    # csv input file from Splunk query
+
     [Parameter(Mandatory=$false)]
-    [string]$CsvFile,
-
-    [Parameter(Mandatory=$true)]
-    [string]$OutputFile,
-
-    [Parameter(Mandatory=$true)]
-    [string]$LogFile
+    [string]$Inputfile,
+    [string]$OutputFile = ("./outputs/{0:yyyyMMdd_HHmm}_output.csv" -f (Get-Date)),
+    [string]$Logfile = ("./logs/{0:yyyyMMdd_HHmm}_exportlogfile.log" -f (Get-Date)),
+    [bool]$OnlyNaHosts = $false
 )
 
-# --- Hilfsfunktionen ---
-
-function Write-Log {
-    param([string]$Message, [string]$Level="INFO")
-    $TimeStamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    $LogLine = "[$TimeStamp] [$Level] $Message"
+# --- Helper Functions ---
+# Log all events to the logfiles
+function Write-Log ($message, [string]$level="INFO") {
+    $timeStamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    $logLine = "[$timeStamp] [$level] $message"
+    
     $color = "Cyan"
-    if ($Level -eq "ERROR") {$color = "Red"}
-    elseif ($Level -eq "WARN") {$color = "Yellow"}
-    Write-Host $LogLine -ForegroundColor $color
-    Add-Content -Path $LogFile -Value $LogLine -ErrorAction SilentlyContinue
+    if ($level -eq "ERROR") { $color = "Red" }
+    elseif ($level -eq "WARN") { $color = "Yellow" }
+    
+    Write-Host $logLine -ForegroundColor $color
+    Add-Content -Path $Logfile -Value $logLine -ErrorAction SilentlyContinue
 }
-
-function Get-FileName {
+ 
+function Get-FileNameViaGui {
     Add-Type -AssemblyName System.Windows.Forms
-    $FileBrowser = New-Object System.Windows.Forms.OpenFileDialog -Property @{ 
-        Filter = 'CSV Files (*.csv)|*.csv|All Files (*.*)|*.*'
-        Title = 'Bitte CSV-Datei auswählen'
-    }
-    if ($FileBrowser.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
-        return $FileBrowser.FileName
+    $fileBrowser = New-Object System.Windows.Forms.OpenFileDialog
+    $fileBrowser.Filter = 'CSV Files (*.csv)|*.csv|All Files (*.*)|*.*'
+    $fileBrowser.Title = 'Please select a CSV file'
+    
+    if ($fileBrowser.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
+        return $fileBrowser.FileName
     } else {
         return $null
     }
 }
 
-# --- Initialisierung ---
+function GetOuNameByIpZoneLocation {
+    param(
+        [string]$inputString
+    )
+
+    $regexPattern = "(?<g1>\w{2})_(?<g2>\w{2,3})_(?<g3>.*)"
+    
+    if ($inputString -match $regexPattern) {
+        return $Matches['g2']
+    }
+    return $null
+}
+# --- Initialization ---
 
 $ErrorActionPreference = "Stop"
 
 try {
-    # 1. Input Datei validieren
-    if ([string]::IsNullOrWhiteSpace($CsvFile)) {
-        Write-Log "Kein Input-Parameter angegeben. Starte Dialog..."
-        $CsvFile = Get-FileName
-        if (-not $CsvFile) {
-            Write-Log "Keine Datei ausgewählt. Script wird beendet." "ERROR"
+    # 1. Validate Input File
+    if ([string]::IsNullOrWhiteSpace($Inputfile)) {
+        Write-Log "No input parameter specified. Starting dialog..."
+        $Inputfile = Get-FileNameViaGui
+        if (-not $Inputfile) {
+            Write-Log "No file selected. Script will exit." "ERROR"
             exit
         }
     }
 
-    Write-Log "Starte Verarbeitung von: $CsvFile"
+    Write-Log "Starting processing of: $Inputfile"
 
-    # 2. AD Sucher vorbereiten (Global Catalog für Speed)
-    # Wir suchen den Forest Root, um den GC anzusprechen
-    $RootDSE = [adsi]"LDAP://RootDSE"
-    $ForestName = $RootDSE.rootDomainNamingContext
-    $GCPath = "GC://$ForestName"
+    # 2. Prepare AD Searcher (Global Catalog)
+    $rootDSE = [adsi]"LDAP://RootDSE"
+    $forestName = $rootDSE.rootDomainNamingContext
+    $gcPath = "GC://$forestName"
     
-    Write-Log "Verbinde mit Global Catalog: $GCPath"
+    Write-Log "Connecting to Global Catalog: $gcPath"
 
-    # DirectorySearcher Instanziieren (Schneller als Get-ADComputer)
-    $Searcher = New-Object System.DirectoryServices.DirectorySearcher([adsi]$GCPath)
-    $Searcher.PageSize = 1000 # Paging für große Umgebungen
-    # Wir laden nur das Nötigste, um Traffic zu sparen
-    $Searcher.PropertiesToLoad.AddRange(@("distinguishedName", "dNSHostName")) 
+    $searcher = New-Object System.DirectoryServices.DirectorySearcher([adsi]$gcPath)
+    $searcher.PageSize = 1000
+    $searcher.PropertiesToLoad.AddRange(@("distinguishedName", "dNSHostName", "Name")) 
 
-    # 3. CSV Einlesen
-    # Wir lesen ohne Header, um Spalte 1 und 2 per Index anzusprechen, 
-    # falls die CSV keine oder falsche Header hat.
-    $RawData = Import-Csv -Path $CsvFile -Delimiter ","
-    $Results = New-Object System.Collections.Generic.List[PSCustomObject]
+    # 3. Read CSV
+    # Reading without header to access column 1 and 2 by index (Col1, Col2)
 
-    foreach ($Row in $RawData) {
-        # Skip Header Line if it looks like a header (optional, simple check)
-        if ($Row.final_hostname -eq "final_hostname" -and $Row.final_ip -eq "final_ip") { continue }
+    $csvData = Import-Csv -Path $Inputfile
+    $rawData = $csvData | Sort-Object final_ip -Unique
+    Write-Log "Processing $($rawData.Count) of $($csvData.Count) entries." 
+    
+    $results = New-Object System.Collections.Generic.List[PSCustomObject]
 
-        $InputIP = $Row.final_ip
-        $InputHost = $Row.final_hostname
-        # Logik: ID Bestimmung
-        $SearchId = $null
-        $SearchType = "Unknown"
+    foreach ($row in $rawData) {
+        # Skip header if present
+        if ($row.final_hostname -eq "final_hostname" -and $row.final_ip -eq "final_ip") { continue }
+        
+        # Optional: Skip rows with hostname other than "na" process entries with hostname 'na'
+        if ($OnlyNaHosts -and $row.final_hostname -ne "na") {continue} 
 
-        if (-not [string]::IsNullOrWhiteSpace($InputIP)) {
-            $SearchId = $InputIP
-            $SearchType = "IP"
-        } elseif (-not [string]::IsNullOrWhiteSpace($InputHost)) {
-            $SearchId = $InputHost
-            $SearchType = "Hostname"
+        $inputHost = $row.final_hostname
+        $inputIP = $row.final_ip
+        
+        # Logic: Determine ID
+        $searchId = $null
+        $searchType = "Unknown"
+
+        if ($row.final_hostname -eq 'na')  {
+            $searchId = $row.final_ip
+            $searchType = "IP"
         } else {
-            Write-Log "Skip line. No IP or hostname found." "WARN"
-            continue
+            $searchType ="NONE"
+            Write-Log "Name resolution skipped for host $($row.final_hostname)" "WARN"
+            # continue
         }
 
-        # Initialisieren der Output-Variablen
-        $FinalHostname = $null
-        $FinalIP = $null
-        $FinalLocation = $null    # City
-        $FinalCountry = $null     # Country
-        $FinalLocAbbrev = $null   # Name (OU)
+        if ($row.final_hostname -ne "na") { $pk = $row.final_hostname }
+        if ($row.final_hostname -eq "na") { $pk = $row.final_ip }
 
-        Write-Log "Verarbeite ID: $SearchId ($SearchType)"
 
-        # --- Schritt 1 & 2: DNS & Hostname Ermittlung ---
+        # Reset Output Variables
+
+        $finalHostname = $null
+        $finalIP = $null
+        $finalLocationL = $null
+        $finalCountry = $null   
+        $finalLocAbbrev = $null
+        $compDn = $null
+        $finalOuDn = $null
+        $finalCountry = $null
+        $descriptionFromOu = $null
+
+ 
+        Write-Log "Processing ID: $searchId ($searchType)  - Host: $($row.final_hostname)"
+
+        # --- Step 1 & 2: DNS & Hostname Resolution ---
         
-        $DnsResolved = $false
+        $dnsResolved = $false
         
         try {
-            if ($SearchType -eq "IP") {
-                # Reverse Lookup
-                $DnsEntry = [System.Net.Dns]::GetHostEntry($SearchId)
-                $finalHostname = $DnsEntry.HostName
-                $hostname = $finalHostname.Split(".")[0]
-                $FinalIP = $SearchId
-                $DnsResolved = $true
-            } else {
-                # Forward Lookup (falls nur Hostname da war, brauchen wir IP für Output)
-                $DnsEntry = [System.Net.Dns]::GetHostEntry($SearchId)
-                $finalHostname = $DnsEntry.HostName # fqdn
-                $hostname = $finalHostname.Split(".")[0]
-                # Nehmen wir die erste IPv4 Adresse
-                $FinalIP = ($DnsEntry.AddressList | Where-Object { $_.AddressFamily -eq 'InterNetwork' } | Select-Object -First 1).IPAddressToString
+            if ($searchType -eq "IP") {
+                $dnsEntry = [System.Net.Dns]::GetHostEntry($searchId)
+                $finalHostname = ($dnsEntry.HostName).Split(".")[0]
+                $finalIP = $searchId
                 $dnsResolved = $true
+            } else {
+                $dnsResolved = $true
+                $finalIP = $row.final_ip
+                $finalHostname = $row.final_hostname
             }
         } catch {
-            Write-Log "DNS Fehler für $SearchId : $($_.Exception.Message)" "WARN"
-            $FinalIP = if($SearchType -eq "IP") { $SearchId } else { $null }
-            # Wenn IP nicht auflösbar, wird laut Anforderung Objekt mit nulls erstellt (passiert am Ende)
+            Write-Log "DNS Error for $searchId : $($_.Exception.Message)" "WARN"
+            if($searchType -eq "IP") { $finalIP = $searchId }
         }
 
-        # --- Schritt 3 & 4: AD Suche & Parent Info ---
+        # --- Step 3 & 4: AD Search & Top-Level OU Info ---
 
         if ($dnsResolved -and $finalHostname) {
-            # Extrahiere Hostname ohne Domain-Part für die Suche, falls nötig, 
-            # aber dNSHostName Attribut ist meist FQDN. Wir suchen sicherheitshalber nach dNSHostName.
-            $hostname
-            $Searcher.Filter = "(&(objectClass=computer)(Name=$hostname))"
+            
+            $searcher.Filter = "(&(objectClass=computer)(Name=$finalHostname))"
             
             try {
-                $SearchResult = $Searcher.FindOne()
+                $searchResult = $searcher.FindOne()
 
-                if ($SearchResult) {
-                    # Computer gefunden
-                    $CompDN = $SearchResult.Properties["distinguishedName"][0]
-                    Write-Log "AD Objekt gefunden: $CompDN"
+                if ($searchResult) {
+                    $compDN = $searchResult.Properties["distinguishedName"][0]
+                    Write-Log "AD Object found: $compDN"
 
-                    # Parent Objekt holen
-                    # Wir nutzen [adsi] mit LDAP (nicht GC), um Schreib/Lese-Attribute der OU sicher zu haben
-                    # Parse Parent DN aus dem Child DN
-                    $ParentDN = $CompDN.Substring($CompDN.IndexOf(",") + 1)
-                    $ParentEntry = [adsi]"LDAP://$ParentDN"
+                    # ---------------------------------------------------------
+                    # Find Top-Level OU after domain part (DC=)
+                    # ---------------------------------------------------------
+                    
+                    $dnParts = $compDN -split ","
+                    $targetOuDN = $null
 
-                    # Check: Ist es OU oder Container?
-                    if ($ParentEntry.SchemaClassName -eq "organizationalUnit") {
-                        # Attribute lesen. Achtung: Wenn Attribut leer, wirft ADSI keinen Fehler, sondern gibt null zurück.
-                        # Location (City) -> Attribut 'l'
-                        if ($ParentEntry.Properties.Contains("l")) {
-                            $FinalLocation = $ParentEntry.Properties["l"][0]
-                        }
-                        # Country -> Attribut 'co' (Country-Name) oder 'c' (Country-Code). Wir nehmen 'co' wie meist üblich für lesbare Namen.
-                        if ($ParentEntry.Properties.Contains("co")) {
-                            $FinalCountry = $ParentEntry.Properties["co"][0]
-                        }
-                        # LocationAbbreviation -> Attribut 'name'
-                        if ($ParentEntry.Properties.Contains("name")) {
-                            $FinalLocAbbrev = $ParentEntry.Properties["name"][0]
+
+                    if ($dnParts -contains 'OU=Applications')
+                    {
+                        Write-Log -message "Application OU determined" -level "WARN"
+                            <# Action to perform. You can use $ to reference the current instance of this class #>
+                        $loc = GetOuNameByIpZoneLocation -inputString $row.final_ip_zone_location
+                        if ($loc)
+                        {
+                            $searcher.Filter = "(&(objectClass=OrganizationalUnit)(Name=$loc))"
+                            $targetOuDn2 = $searcher.FindOne()
+                            $targetOuDN = $targetOuDn2.Properties["distinguishedName"][0]
+                            $fromApplicationOu = $true
                         }
                     } else {
-                        Write-Log "Parent ist keine OU ($($ParentEntry.SchemaClassName)). Setze Werte auf null."
+                        for ($i = $dnParts.Count - 1; $i -ge 0; $i--) {
+                            $part = $dnParts[$i].Trim()
+                        
+                            if ($part -match "^DC=") { continue }
+                                if ($part -match "^OU=") {
+
+                                # Reconstruct the DN for the OU with all parts from current index $i
+                                $targetOuDN = ($dnParts[$i..($dnParts.Count - 1)]) -join ","
+                            }
+                            $fromApplicationOu = $false
+                            break
+                        }
                     }
 
+
+
+                    if ($targetOuDN) {
+                        Write-Log "Top-Level OU determined: $targetOuDN"
+                        $ouEntry = [adsi]"LDAP://$targetOuDN"
+                        
+                        # Read Attributes from Organizational Unit
+                        
+                        # OU property 'l' for location
+                        if ($ouEntry.Properties.Contains("l")) {
+                            $finalLocationL = $ouEntry.Properties["l"][0]
+                        }
+
+                        # OU property 'c' for country information
+                        if ($ouEntry.Properties.Contains("c")) {
+                            $finalCountry = $ouEntry.Properties["c"][0]
+                        }
+
+                        # OU property 'name' for OU name, thus location abbreviation
+                        if ($ouEntry.Properties.Contains("name")) {
+                            $finalLocAbbrev = $ouEntry.Properties["name"][0]
+                        }
+
+                        # OU property 'distinguishedName' for whole object path
+                        if ($ouEntry.Properties.Contains("distinguishedName")) {
+                            $finalOuDn = $ouEntry.Properties["distinguishedName"][0]
+                       }
+
+                       # OU property 'description' to get more optional additional information
+                        if ($ouEntry.Properties.Contains("description")) {
+                            $descriptionFromOu = $ouEntry.Properties["description"][0]
+                        }
+                    } else {
+                        Write-Log "Top-Level container is not an OU or could not be determined. Setting values to null."
+                    }
+                    # ---------------------------------------------------------
+
                 } else {
-                    Write-Log "Kein Computer-Objekt im GC gefunden für: $hostname" "WARN"
+                    Write-Log "No Computer object found in GC for: $finalHostname" "WARN"
                 }
             } catch {
-                Write-Log "AD Fehler bei Suche nach $hostname : $($_.Exception.Message)" "ERROR"
+                Write-Log "AD Error while searching for $finalHostname : $($_.Exception.Message)" "ERROR"
             }
         }
 
-        # Output Objekt bauen
-        $Obj = [PSCustomObject]@{
-            Hostname             = $hostname
-            IPAddress            = $FinalIP
-            Location             = $FinalLocation
-            Country              = $FinalCountry
-            LocationAbbreviation = $FinalLocAbbrev
+        # Build Output Object
+        $obj = [PSCustomObject]@{
+            pk                              = $pk
+            final_hostname                  = $finalHostname
+            final_ip                        = $finalIP
+            _time                           = $row._time
+            final_ip_type                   = $row.final_ip_type
+            final_ip_subnet_network_type    = $row.final_ip_subnet_network_type
+            final_ip_zone                   = $row.final_ip_zone
+            final_ip_zone_location          = $row.final_ip_zone_location
+            metisCreatedDate                = $row.metisCreatedDate
+            shortDescription                = $row.shortDescription
+            primarySupportGroup             = $row.primarySupportGroup
+            primaryUsedBy                   = $row.primaryUsedBy
+            ComputerDn                      = $compDn
+            OrgUnitDn                       = $finalOuDn
+            LocationFromAd                  = $finalLocation
+            CountryFromAd                   = $finalCountry
+            LocationAbbreviation            = $finalLocAbbrev
+            OuObjectDescription             = $descriptionFromOu
+            FromApplicationOu               = $fromApplicationOu
         }
-
-        $Results.Add($Obj)
+        Write-Debug $obj
+        $results.Add($obj)
     }
 
     # Export
-    Write-Log "Exportiere Ergebnisse nach $OutputFile"
-    $Results | Export-Csv -Path $OutputFile -NoTypeInformation -Delimiter ";" -Encoding UTF8
+    Write-Log "Exporting results to $outputFile"
+    $results | Export-Csv -Path $outputFile -NoTypeInformation -Delimiter ";" -Encoding UTF8
 
-    Write-Log "Script erfolgreich beendet."
+    Write-Log "Script finished successfully."
 
 } catch {
-    Write-Log "Kritischer Fehler im Script: $($_.Exception.Message)" "ERROR"
+    Write-Log "Critical Error in script: $($_.Exception.Message)" "ERROR"
     exit 1
 }

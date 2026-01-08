@@ -1,0 +1,846 @@
+[2026-01-08 16:07:32] [INFO] Starting processing of: .\inputFile.csv
+[2026-01-08 16:07:32] [INFO] Connecting to Global Catalog: GC://DC=bosch,DC=com
+[2026-01-08 16:07:32] [INFO] Processing 222 of 536 entries.
+[2026-01-08 16:07:32] [INFO] Processing ID: 10.1.210.164 (IP)  - Host: na
+[2026-01-08 16:07:36] [INFO] AD Object found: CN=FE27-C-00002,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:36] [WARN] Application OU determined
+[2026-01-08 16:07:36] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:36] [WARN] Name resolution skipped for host ti1fe145132
+[2026-01-08 16:07:36] [INFO] Processing ID:  (NONE)  - Host: ti1fe145132
+[2026-01-08 16:07:37] [INFO] AD Object found: CN=TI1FE145132,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:37] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:37] [WARN] Name resolution skipped for host ti1fe145134
+[2026-01-08 16:07:37] [INFO] Processing ID:  (NONE)  - Host: ti1fe145134
+[2026-01-08 16:07:37] [INFO] AD Object found: CN=TI1FE145134,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:37] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:37] [WARN] Name resolution skipped for host ti1fe145135
+[2026-01-08 16:07:37] [INFO] Processing ID:  (NONE)  - Host: ti1fe145135
+[2026-01-08 16:07:37] [INFO] AD Object found: CN=TI1FE145135,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:37] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:37] [WARN] Name resolution skipped for host ti1fe145136
+[2026-01-08 16:07:37] [INFO] Processing ID:  (NONE)  - Host: ti1fe145136
+[2026-01-08 16:07:37] [INFO] AD Object found: CN=TI1FE145136,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:37] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:37] [INFO] Processing ID: 10.10.151.39 (IP)  - Host: na
+[2026-01-08 16:07:43] [INFO] AD Object found: CN=TI-X002H,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:43] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:43] [WARN] Name resolution skipped for host ti-x000h
+[2026-01-08 16:07:43] [INFO] Processing ID:  (NONE)  - Host: ti-x000h
+[2026-01-08 16:07:44] [INFO] AD Object found: CN=TI-X000H,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [WARN] Name resolution skipped for host ti-x000i
+[2026-01-08 16:07:44] [INFO] Processing ID:  (NONE)  - Host: ti-x000i
+[2026-01-08 16:07:44] [INFO] AD Object found: CN=TI-X000I,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [WARN] Name resolution skipped for host ti-x000l
+[2026-01-08 16:07:44] [INFO] Processing ID:  (NONE)  - Host: ti-x000l
+[2026-01-08 16:07:44] [INFO] AD Object found: CN=TI-X000L,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [WARN] Name resolution skipped for host ti-x000o
+[2026-01-08 16:07:44] [INFO] Processing ID:  (NONE)  - Host: ti-x000o
+[2026-01-08 16:07:44] [INFO] AD Object found: CN=TI-X000O,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [WARN] Name resolution skipped for host ti-x000r
+[2026-01-08 16:07:44] [INFO] Processing ID:  (NONE)  - Host: ti-x000r
+[2026-01-08 16:07:44] [INFO] AD Object found: CN=TI-X000R,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [WARN] Name resolution skipped for host ti-x000u
+[2026-01-08 16:07:44] [INFO] Processing ID:  (NONE)  - Host: ti-x000u
+[2026-01-08 16:07:44] [INFO] AD Object found: CN=TI-X000U,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [WARN] Name resolution skipped for host ti-x0013
+[2026-01-08 16:07:44] [INFO] Processing ID:  (NONE)  - Host: ti-x0013
+[2026-01-08 16:07:44] [INFO] AD Object found: CN=TI-X0013,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:44] [WARN] Name resolution skipped for host ti-x0017
+[2026-01-08 16:07:44] [INFO] Processing ID:  (NONE)  - Host: ti-x0017
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=TI-X0017,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:45] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Name resolution skipped for host ti-x001e
+[2026-01-08 16:07:45] [INFO] Processing ID:  (NONE)  - Host: ti-x001e
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=TI-X001E,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:45] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Name resolution skipped for host ti-x001h
+[2026-01-08 16:07:45] [INFO] Processing ID:  (NONE)  - Host: ti-x001h
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=TI-X001H,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:45] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Name resolution skipped for host md1zp010
+[2026-01-08 16:07:45] [INFO] Processing ID:  (NONE)  - Host: md1zp010
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=MD1ZP010,OU=NON PEACY,OU=Clientcomputers,OU=Md1,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:45] [INFO] Top-Level OU determined: OU=Md1,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Name resolution skipped for host md0vm139
+[2026-01-08 16:07:45] [INFO] Processing ID:  (NONE)  - Host: md0vm139
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=MD0VM139,OU=NoGPO,OU=SERVERCOMPUTERS,OU=Ci-unixserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Application OU determined
+[2026-01-08 16:07:45] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:45] [WARN] Name resolution skipped for host af-vm001
+[2026-01-08 16:07:45] [INFO] Processing ID:  (NONE)  - Host: af-vm001
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=af-vm001,OU=NonPeacy,OU=Servercomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:45] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Name resolution skipped for host af-vm002
+[2026-01-08 16:07:45] [INFO] Processing ID:  (NONE)  - Host: af-vm002
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=af-vm002,OU=NonPeacy,OU=Servercomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:45] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Name resolution skipped for host af-vm003
+[2026-01-08 16:07:45] [INFO] Processing ID:  (NONE)  - Host: af-vm003
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=af-vm003,OU=NonPeacy,OU=Servercomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:45] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Name resolution skipped for host af-vm004
+[2026-01-08 16:07:45] [INFO] Processing ID:  (NONE)  - Host: af-vm004
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=AF-VM004,OU=NoCIOSB3,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Application OU determined
+[2026-01-08 16:07:45] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:45] [WARN] Name resolution skipped for host af-00010
+[2026-01-08 16:07:45] [INFO] Processing ID:  (NONE)  - Host: af-00010
+[2026-01-08 16:07:45] [INFO] AD Object found: CN=af-00010,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00011
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00011
+[2026-01-08 16:07:46] [INFO] AD Object found: CN=af-00011,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00012
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00012
+[2026-01-08 16:07:46] [INFO] AD Object found: CN=af-00012,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00013
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00013
+[2026-01-08 16:07:46] [INFO] AD Object found: CN=af-00013,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00014
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00014
+[2026-01-08 16:07:46] [INFO] AD Object found: CN=af-00014,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00015
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00015
+[2026-01-08 16:07:46] [INFO] AD Object found: CN=af-00015,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00016
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00016
+[2026-01-08 16:07:46] [INFO] AD Object found: CN=af-00016,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00017
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00017
+[2026-01-08 16:07:46] [INFO] AD Object found: CN=af-00017,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00019
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00019
+[2026-01-08 16:07:46] [INFO] AD Object found: CN=af-00019,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00018
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00018
+[2026-01-08 16:07:46] [INFO] AD Object found: CN=af-00018,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:46] [WARN] Name resolution skipped for host af-00020
+[2026-01-08 16:07:46] [INFO] Processing ID:  (NONE)  - Host: af-00020
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00020,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [WARN] Name resolution skipped for host af-00022
+[2026-01-08 16:07:47] [INFO] Processing ID:  (NONE)  - Host: af-00022
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00022,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [WARN] Name resolution skipped for host af-00023
+[2026-01-08 16:07:47] [INFO] Processing ID:  (NONE)  - Host: af-00023
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00023,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [WARN] Name resolution skipped for host af-00025
+[2026-01-08 16:07:47] [INFO] Processing ID:  (NONE)  - Host: af-00025
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00025,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [WARN] Name resolution skipped for host af-00028
+[2026-01-08 16:07:47] [INFO] Processing ID:  (NONE)  - Host: af-00028
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00028,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [WARN] Name resolution skipped for host af-00033
+[2026-01-08 16:07:47] [INFO] Processing ID:  (NONE)  - Host: af-00033
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00033,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [WARN] Name resolution skipped for host af-00034
+[2026-01-08 16:07:47] [INFO] Processing ID:  (NONE)  - Host: af-00034
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00034,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [WARN] Name resolution skipped for host af-00035
+[2026-01-08 16:07:47] [INFO] Processing ID:  (NONE)  - Host: af-00035
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00035,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [WARN] Name resolution skipped for host af-00036
+[2026-01-08 16:07:47] [INFO] Processing ID:  (NONE)  - Host: af-00036
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00036,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [WARN] Name resolution skipped for host af-00037
+[2026-01-08 16:07:47] [INFO] Processing ID:  (NONE)  - Host: af-00037
+[2026-01-08 16:07:47] [INFO] AD Object found: CN=af-00037,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:47] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00038
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00038
+[2026-01-08 16:07:48] [INFO] AD Object found: CN=af-00038,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00041
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00041
+[2026-01-08 16:07:48] [INFO] AD Object found: CN=af-00041,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00042
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00042
+[2026-01-08 16:07:48] [INFO] AD Object found: CN=AF-00042,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00043
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00043
+[2026-01-08 16:07:48] [INFO] AD Object found: CN=af-00043,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00045
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00045
+[2026-01-08 16:07:48] [INFO] AD Object found: CN=af-00045,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00046
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00046
+[2026-01-08 16:07:48] [INFO] AD Object found: CN=af-00046,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00047
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00047
+[2026-01-08 16:07:48] [INFO] AD Object found: CN=af-00047,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00048
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00048
+[2026-01-08 16:07:48] [INFO] AD Object found: CN=af-00048,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00050
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00050
+[2026-01-08 16:07:48] [INFO] AD Object found: CN=af-00050,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:48] [WARN] Name resolution skipped for host af-00051
+[2026-01-08 16:07:48] [INFO] Processing ID:  (NONE)  - Host: af-00051
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=af-00051,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [WARN] Name resolution skipped for host af-00053
+[2026-01-08 16:07:49] [INFO] Processing ID:  (NONE)  - Host: af-00053
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=af-00053,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [WARN] Name resolution skipped for host af-00054
+[2026-01-08 16:07:49] [INFO] Processing ID:  (NONE)  - Host: af-00054
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=af-00054,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [WARN] Name resolution skipped for host af-00055
+[2026-01-08 16:07:49] [INFO] Processing ID:  (NONE)  - Host: af-00055
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=af-00055,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [WARN] Name resolution skipped for host af-00056
+[2026-01-08 16:07:49] [INFO] Processing ID:  (NONE)  - Host: af-00056
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=af-00056,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [WARN] Name resolution skipped for host af-y1181
+[2026-01-08 16:07:49] [INFO] Processing ID:  (NONE)  - Host: af-y1181
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=AF-Y1181,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [WARN] Name resolution skipped for host af-y1182
+[2026-01-08 16:07:49] [INFO] Processing ID:  (NONE)  - Host: af-y1182
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=AF-Y1182,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [WARN] Name resolution skipped for host af-y1120
+[2026-01-08 16:07:49] [INFO] Processing ID:  (NONE)  - Host: af-y1120
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=af-y1120,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [WARN] Name resolution skipped for host af-x1019
+[2026-01-08 16:07:49] [INFO] Processing ID:  (NONE)  - Host: af-x1019
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=AF-X1019,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [WARN] Name resolution skipped for host af-y1258
+[2026-01-08 16:07:49] [INFO] Processing ID:  (NONE)  - Host: af-y1258
+[2026-01-08 16:07:49] [INFO] AD Object found: CN=AF-Y1258,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:49] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host af-x1196
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: af-x1196
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=af-x1196,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host af-x1206
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: af-x1206
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=AF-X1206,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host af-00007
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: af-00007
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=AF-00007,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host af-00005
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: af-00005
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=AF-00005,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host ec0vm00050
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: ec0vm00050
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=EC0VM00050,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Application OU determined
+[2026-01-08 16:07:50] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host cervault11
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: cervault11
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=CERVAULT11,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Application OU determined
+[2026-01-08 16:07:50] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host po0vm00011
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: po0vm00011
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=PO0VM00011,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=br,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Application OU determined
+[2026-01-08 16:07:50] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host po0vm00015
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: po0vm00015
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=PO0VM00015,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=br,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Application OU determined
+[2026-01-08 16:07:50] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host udi4vm08
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: udi4vm08
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=UDI4VM08,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Application OU determined
+[2026-01-08 16:07:50] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:50] [WARN] Name resolution skipped for host udi4vm11
+[2026-01-08 16:07:50] [INFO] Processing ID:  (NONE)  - Host: udi4vm11
+[2026-01-08 16:07:50] [INFO] AD Object found: CN=UDI4VM11,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:50] [WARN] Application OU determined
+[2026-01-08 16:07:50] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:51] [WARN] Name resolution skipped for host udi4as01
+[2026-01-08 16:07:51] [INFO] Processing ID:  (NONE)  - Host: udi4as01
+[2026-01-08 16:07:51] [WARN] No Computer object found in GC for: udi4as01
+[2026-01-08 16:07:51] [WARN] Name resolution skipped for host udi4vm0027
+[2026-01-08 16:07:51] [INFO] Processing ID:  (NONE)  - Host: udi4vm0027
+[2026-01-08 16:07:51] [INFO] AD Object found: CN=UDI4VM0027,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:51] [WARN] Application OU determined
+[2026-01-08 16:07:51] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:51] [WARN] Name resolution skipped for host udi4vm0024
+[2026-01-08 16:07:51] [INFO] Processing ID:  (NONE)  - Host: udi4vm0024
+[2026-01-08 16:07:51] [INFO] AD Object found: CN=UDI4VM0024,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:51] [WARN] Application OU determined
+[2026-01-08 16:07:51] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:07:51] [WARN] Name resolution skipped for host nuef0119
+[2026-01-08 16:07:51] [INFO] Processing ID:  (NONE)  - Host: nuef0119
+[2026-01-08 16:07:51] [INFO] AD Object found: CN=NUEF0119,OU=TDV,OU=Clientcomputers,OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:51] [INFO] Top-Level OU determined: OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:51] [WARN] Name resolution skipped for host nuef0120
+[2026-01-08 16:07:51] [INFO] Processing ID:  (NONE)  - Host: nuef0120
+[2026-01-08 16:07:51] [INFO] AD Object found: CN=NUEF0120,OU=TDV,OU=Clientcomputers,OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:51] [INFO] Top-Level OU determined: OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-08 16:07:51] [WARN] Name resolution skipped for host htvnp078
+[2026-01-08 16:07:51] [INFO] Processing ID:  (NONE)  - Host: htvnp078
+[2026-01-08 16:07:51] [INFO] AD Object found: CN=HTVNP078,OU=Non-CI-Managed,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:51] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:51] [WARN] Name resolution skipped for host htvnp053
+[2026-01-08 16:07:51] [INFO] Processing ID:  (NONE)  - Host: htvnp053
+[2026-01-08 16:07:51] [INFO] AD Object found: CN=HTVNP053,OU=Non-CI-Managed,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:51] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:51] [WARN] Name resolution skipped for host htvnp066
+[2026-01-08 16:07:51] [INFO] Processing ID:  (NONE)  - Host: htvnp066
+[2026-01-08 16:07:51] [INFO] AD Object found: CN=HTVNP066,OU=Non-CI-Managed,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:51] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:51] [WARN] Name resolution skipped for host htvnp054
+[2026-01-08 16:07:51] [INFO] Processing ID:  (NONE)  - Host: htvnp054
+[2026-01-08 16:07:51] [INFO] AD Object found: CN=HTVNP054,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:51] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:07:52] [INFO] Processing ID: 10.11.26.95 (IP)  - Host: na
+[2026-01-08 16:07:56] [WARN] DNS Error for 10.11.26.95 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:07:56] [INFO] Processing ID: 10.11.26.96 (IP)  - Host: na
+[2026-01-08 16:08:01] [WARN] DNS Error for 10.11.26.96 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:01] [INFO] Processing ID: 10.11.26.97 (IP)  - Host: na
+[2026-01-08 16:08:05] [WARN] DNS Error for 10.11.26.97 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:05] [INFO] Processing ID: 10.11.26.98 (IP)  - Host: na
+[2026-01-08 16:08:10] [WARN] DNS Error for 10.11.26.98 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:10] [INFO] Processing ID: 10.11.26.99 (IP)  - Host: na
+[2026-01-08 16:08:14] [WARN] DNS Error for 10.11.26.99 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:14] [WARN] Name resolution skipped for host nntapachet03
+[2026-01-08 16:08:14] [INFO] Processing ID:  (NONE)  - Host: nntapachet03
+[2026-01-08 16:08:15] [INFO] AD Object found: CN=NNTAPACHET03,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [WARN] Application OU determined
+[2026-01-08 16:08:15] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:15] [WARN] Name resolution skipped for host nntapache08
+[2026-01-08 16:08:15] [INFO] Processing ID:  (NONE)  - Host: nntapache08
+[2026-01-08 16:08:15] [INFO] AD Object found: CN=NNTAPACHE08,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [WARN] Application OU determined
+[2026-01-08 16:08:15] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:15] [WARN] Name resolution skipped for host nntm91p25
+[2026-01-08 16:08:15] [INFO] Processing ID:  (NONE)  - Host: nntm91p25
+[2026-01-08 16:08:15] [WARN] No Computer object found in GC for: nntm91p25
+[2026-01-08 16:08:15] [WARN] Name resolution skipped for host ti-x0031
+[2026-01-08 16:08:15] [INFO] Processing ID:  (NONE)  - Host: ti-x0031
+[2026-01-08 16:08:15] [INFO] AD Object found: CN=TI-X0031,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [WARN] Name resolution skipped for host ti-x0035
+[2026-01-08 16:08:15] [INFO] Processing ID:  (NONE)  - Host: ti-x0035
+[2026-01-08 16:08:15] [INFO] AD Object found: CN=TI-X0035,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [WARN] Name resolution skipped for host ti-x0038
+[2026-01-08 16:08:15] [INFO] Processing ID:  (NONE)  - Host: ti-x0038
+[2026-01-08 16:08:15] [INFO] AD Object found: CN=TI-X0038,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [WARN] Name resolution skipped for host ti-x003b
+[2026-01-08 16:08:15] [INFO] Processing ID:  (NONE)  - Host: ti-x003b
+[2026-01-08 16:08:15] [INFO] AD Object found: CN=TI-X003B,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [WARN] Name resolution skipped for host ti-x003f
+[2026-01-08 16:08:15] [INFO] Processing ID:  (NONE)  - Host: ti-x003f
+[2026-01-08 16:08:15] [INFO] AD Object found: CN=TI-X003F,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:15] [WARN] Name resolution skipped for host ti-x003k
+[2026-01-08 16:08:15] [INFO] Processing ID:  (NONE)  - Host: ti-x003k
+[2026-01-08 16:08:16] [INFO] AD Object found: CN=TI-X003K,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:16] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:16] [WARN] Name resolution skipped for host ti-x003z
+[2026-01-08 16:08:16] [INFO] Processing ID:  (NONE)  - Host: ti-x003z
+[2026-01-08 16:08:16] [INFO] AD Object found: CN=TI-X003Z,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:16] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:16] [WARN] Name resolution skipped for host ti-x004t
+[2026-01-08 16:08:16] [INFO] Processing ID:  (NONE)  - Host: ti-x004t
+[2026-01-08 16:08:16] [INFO] AD Object found: CN=TI-X004T,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:16] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:16] [WARN] Name resolution skipped for host ti-x0072
+[2026-01-08 16:08:16] [INFO] Processing ID:  (NONE)  - Host: ti-x0072
+[2026-01-08 16:08:16] [INFO] AD Object found: CN=TI-X0072,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:16] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:16] [WARN] Name resolution skipped for host ti-x0075
+[2026-01-08 16:08:16] [INFO] Processing ID:  (NONE)  - Host: ti-x0075
+[2026-01-08 16:08:16] [INFO] AD Object found: CN=TI-X0075,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:16] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [WARN] Name resolution skipped for host ti-x0078
+[2026-01-08 16:08:17] [INFO] Processing ID:  (NONE)  - Host: ti-x0078
+[2026-01-08 16:08:17] [INFO] AD Object found: CN=TI-X0078,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [WARN] Name resolution skipped for host ti-x007c
+[2026-01-08 16:08:17] [INFO] Processing ID:  (NONE)  - Host: ti-x007c
+[2026-01-08 16:08:17] [INFO] AD Object found: CN=TI-X007C,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [WARN] Name resolution skipped for host ti-x007i
+[2026-01-08 16:08:17] [INFO] Processing ID:  (NONE)  - Host: ti-x007i
+[2026-01-08 16:08:17] [INFO] AD Object found: CN=TI-X007I,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [WARN] Name resolution skipped for host ti-x007y
+[2026-01-08 16:08:17] [INFO] Processing ID:  (NONE)  - Host: ti-x007y
+[2026-01-08 16:08:17] [INFO] AD Object found: CN=TI-X007Y,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [WARN] Name resolution skipped for host ti-x004w
+[2026-01-08 16:08:17] [INFO] Processing ID:  (NONE)  - Host: ti-x004w
+[2026-01-08 16:08:17] [INFO] AD Object found: CN=TI-X004W,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [WARN] Name resolution skipped for host ti-x004z
+[2026-01-08 16:08:17] [INFO] Processing ID:  (NONE)  - Host: ti-x004z
+[2026-01-08 16:08:17] [INFO] AD Object found: CN=TI-X004Z,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [WARN] Name resolution skipped for host ti-x0053
+[2026-01-08 16:08:17] [INFO] Processing ID:  (NONE)  - Host: ti-x0053
+[2026-01-08 16:08:17] [INFO] AD Object found: CN=TI-X0053,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:17] [WARN] Name resolution skipped for host ti-x004p
+[2026-01-08 16:08:17] [INFO] Processing ID:  (NONE)  - Host: ti-x004p
+[2026-01-08 16:08:18] [INFO] AD Object found: CN=TI-X004P,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:18] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:18] [WARN] Name resolution skipped for host ti-x0058
+[2026-01-08 16:08:18] [INFO] Processing ID:  (NONE)  - Host: ti-x0058
+[2026-01-08 16:08:18] [INFO] AD Object found: CN=TI-X0058,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:18] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:18] [WARN] Name resolution skipped for host ti-x005n
+[2026-01-08 16:08:18] [INFO] Processing ID:  (NONE)  - Host: ti-x005n
+[2026-01-08 16:08:18] [INFO] AD Object found: CN=TI-X005N,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:18] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:18] [WARN] Name resolution skipped for host element-2-b6
+[2026-01-08 16:08:18] [INFO] Processing ID:  (NONE)  - Host: element-2-b6
+[2026-01-08 16:08:18] [WARN] No Computer object found in GC for: element-2-b6
+[2026-01-08 16:08:18] [WARN] Name resolution skipped for host element-99-abx
+[2026-01-08 16:08:18] [INFO] Processing ID:  (NONE)  - Host: element-99-abx
+[2026-01-08 16:08:18] [WARN] No Computer object found in GC for: element-99-abx
+[2026-01-08 16:08:18] [WARN] Name resolution skipped for host brgvm00324
+[2026-01-08 16:08:18] [INFO] Processing ID:  (NONE)  - Host: brgvm00324
+[2026-01-08 16:08:18] [INFO] AD Object found: CN=BRGVM00324,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:18] [WARN] Application OU determined
+[2026-01-08 16:08:18] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:18] [WARN] Name resolution skipped for host brgvm00325
+[2026-01-08 16:08:18] [INFO] Processing ID:  (NONE)  - Host: brgvm00325
+[2026-01-08 16:08:18] [INFO] AD Object found: CN=BRGVM00325,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:18] [WARN] Application OU determined
+[2026-01-08 16:08:18] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:18] [WARN] Name resolution skipped for host brg-c-001ne
+[2026-01-08 16:08:18] [INFO] Processing ID:  (NONE)  - Host: brg-c-001ne
+[2026-01-08 16:08:18] [INFO] AD Object found: CN=BRG-C-001NE,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:18] [WARN] Application OU determined
+[2026-01-08 16:08:18] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:18] [INFO] Processing ID: 10.121.113.3 (IP)  - Host: na
+[2026-01-08 16:08:23] [INFO] AD Object found: CN=BRG-C-003YR,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:23] [WARN] Application OU determined
+[2026-01-08 16:08:23] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:23] [INFO] Processing ID: 10.121.113.61 (IP)  - Host: na
+[2026-01-08 16:08:23] [INFO] AD Object found: CN=BRG-C-00307,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:23] [WARN] Application OU determined
+[2026-01-08 16:08:23] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:23] [WARN] Name resolution skipped for host brg-c-001mu
+[2026-01-08 16:08:23] [INFO] Processing ID:  (NONE)  - Host: brg-c-001mu
+[2026-01-08 16:08:23] [INFO] AD Object found: CN=BRG-C-001MU,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:23] [WARN] Application OU determined
+[2026-01-08 16:08:23] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:23] [INFO] Processing ID: 10.121.113.83 (IP)  - Host: na
+[2026-01-08 16:08:23] [INFO] AD Object found: CN=BRG-C-002JP,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:23] [WARN] Application OU determined
+[2026-01-08 16:08:23] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:23] [INFO] Processing ID: 10.121.136.118 (IP)  - Host: na
+[2026-01-08 16:08:23] [INFO] AD Object found: CN=BRG-C-0027E,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:23] [WARN] Application OU determined
+[2026-01-08 16:08:23] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:23] [INFO] Processing ID: 10.121.138.150 (IP)  - Host: na
+[2026-01-08 16:08:23] [INFO] AD Object found: CN=BRG-C-001Y2,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:23] [WARN] Application OU determined
+[2026-01-08 16:08:23] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:23] [WARN] Name resolution skipped for host brg-c-0043r
+[2026-01-08 16:08:23] [INFO] Processing ID:  (NONE)  - Host: brg-c-0043r
+[2026-01-08 16:08:23] [INFO] AD Object found: CN=BRG-C-0043R,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:23] [WARN] Application OU determined
+[2026-01-08 16:08:23] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:23] [INFO] Processing ID: 10.121.138.52 (IP)  - Host: na
+[2026-01-08 16:08:28] [INFO] AD Object found: CN=BRG-C-003E1,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:28] [WARN] Application OU determined
+[2026-01-08 16:08:28] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:28] [INFO] Processing ID: 10.121.140.219 (IP)  - Host: na
+[2026-01-08 16:08:28] [INFO] AD Object found: CN=BRG-C-001MF,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:28] [WARN] Application OU determined
+[2026-01-08 16:08:28] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:28] [WARN] Name resolution skipped for host brg-c-003rd
+[2026-01-08 16:08:28] [INFO] Processing ID:  (NONE)  - Host: brg-c-003rd
+[2026-01-08 16:08:28] [INFO] AD Object found: CN=BRG-C-003RD,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:28] [WARN] Application OU determined
+[2026-01-08 16:08:28] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:28] [WARN] Name resolution skipped for host brg-c-0045k
+[2026-01-08 16:08:28] [INFO] Processing ID:  (NONE)  - Host: brg-c-0045k
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=BRG-C-0045K,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:29] [WARN] Application OU determined
+[2026-01-08 16:08:29] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host brg-c-003qh
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: brg-c-003qh
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=BRG-C-003QH,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:29] [WARN] Application OU determined
+[2026-01-08 16:08:29] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host brg-c-0045g
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: brg-c-0045g
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=BRG-C-0045G,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:29] [WARN] Application OU determined
+[2026-01-08 16:08:29] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host av-seprod
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: av-seprod
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=AV-SEPROD,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:29] [WARN] Application OU determined
+[2026-01-08 16:08:29] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host av0sge01
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: av0sge01
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=AV0SGE01,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-08 16:08:29] [WARN] Application OU determined
+[2026-01-08 16:08:29] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host rt-x8682
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: rt-x8682
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=RT-X8682,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:29] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host rt-z01qh
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: rt-z01qh
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=RT-Z01QH,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:29] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host rt-z02mj
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: rt-z02mj
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=RT-Z02MJ,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:29] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host rt-z038p
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: rt-z038p
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=RT-Z038P,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:29] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host minint-q37gidi
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: minint-q37gidi
+[2026-01-08 16:08:29] [WARN] No Computer object found in GC for: minint-q37gidi
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host minint-389u19g
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: minint-389u19g
+[2026-01-08 16:08:29] [WARN] No Computer object found in GC for: minint-389u19g
+[2026-01-08 16:08:29] [WARN] Name resolution skipped for host rt-x7932
+[2026-01-08 16:08:29] [INFO] Processing ID:  (NONE)  - Host: rt-x7932
+[2026-01-08 16:08:29] [INFO] AD Object found: CN=rt-x7932,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:29] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:30] [WARN] Name resolution skipped for host rt-x7933
+[2026-01-08 16:08:30] [INFO] Processing ID:  (NONE)  - Host: rt-x7933
+[2026-01-08 16:08:30] [INFO] AD Object found: CN=RT-X7933,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:30] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:30] [WARN] Name resolution skipped for host rt-x5510
+[2026-01-08 16:08:30] [INFO] Processing ID:  (NONE)  - Host: rt-x5510
+[2026-01-08 16:08:30] [INFO] AD Object found: CN=RT-X5510,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:30] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:30] [WARN] Name resolution skipped for host rt-z02dd
+[2026-01-08 16:08:30] [INFO] Processing ID:  (NONE)  - Host: rt-z02dd
+[2026-01-08 16:08:30] [INFO] AD Object found: CN=RT-Z02DD,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:30] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:30] [WARN] Name resolution skipped for host si0vm11143
+[2026-01-08 16:08:30] [INFO] Processing ID:  (NONE)  - Host: si0vm11143
+[2026-01-08 16:08:30] [INFO] AD Object found: CN=SI0VM11143,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=de,DC=bosch,DC=com
+[2026-01-08 16:08:30] [WARN] Application OU determined
+[2026-01-08 16:08:30] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:08:30] [INFO] Processing ID: 10.140.216.155 (IP)  - Host: na
+[2026-01-08 16:08:35] [WARN] DNS Error for 10.140.216.155 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:35] [INFO] Processing ID: 10.140.216.164 (IP)  - Host: na
+[2026-01-08 16:08:39] [WARN] DNS Error for 10.140.216.164 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:39] [INFO] Processing ID: 10.140.220.39 (IP)  - Host: na
+[2026-01-08 16:08:44] [WARN] DNS Error for 10.140.220.39 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:44] [INFO] Processing ID: 10.141.156.181 (IP)  - Host: na
+[2026-01-08 16:08:48] [WARN] DNS Error for 10.141.156.181 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:48] [INFO] Processing ID: 10.142.101.185 (IP)  - Host: na
+[2026-01-08 16:08:53] [WARN] DNS Error for 10.142.101.185 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:53] [INFO] Processing ID: 10.142.198.45 (IP)  - Host: na
+[2026-01-08 16:08:58] [WARN] DNS Error for 10.142.198.45 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:08:58] [INFO] Processing ID: 10.142.79.19 (IP)  - Host: na
+[2026-01-08 16:09:02] [WARN] DNS Error for 10.142.79.19 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:02] [INFO] Processing ID: 10.143.169.178 (IP)  - Host: na
+[2026-01-08 16:09:07] [WARN] DNS Error for 10.143.169.178 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:07] [WARN] Name resolution skipped for host an0z1749
+[2026-01-08 16:09:07] [INFO] Processing ID:  (NONE)  - Host: an0z1749
+[2026-01-08 16:09:07] [INFO] AD Object found: CN=AN0Z1749,OU=Hybrid,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:07] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:07] [WARN] Name resolution skipped for host an0z1782
+[2026-01-08 16:09:07] [INFO] Processing ID:  (NONE)  - Host: an0z1782
+[2026-01-08 16:09:07] [INFO] AD Object found: CN=AN0Z1782,OU=Bonden,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:07] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:07] [WARN] Name resolution skipped for host an0z1464
+[2026-01-08 16:09:07] [INFO] Processing ID:  (NONE)  - Host: an0z1464
+[2026-01-08 16:09:07] [INFO] AD Object found: CN=AN0Z1464,OU=Hybrid,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:07] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:07] [WARN] Name resolution skipped for host an0x5367
+[2026-01-08 16:09:07] [INFO] Processing ID:  (NONE)  - Host: an0x5367
+[2026-01-08 16:09:07] [INFO] AD Object found: CN=AN0X5367,OU=Hybrid,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:07] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:07] [WARN] Name resolution skipped for host an0ns24b
+[2026-01-08 16:09:07] [INFO] Processing ID:  (NONE)  - Host: an0ns24b
+[2026-01-08 16:09:07] [INFO] AD Object found: CN=AN0NS24B,OU=Spritzen,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:07] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [INFO] Processing ID: 10.15.180.234 (IP)  - Host: na
+[2026-01-08 16:09:08] [INFO] AD Object found: CN=AN0Z1749,OU=Hybrid,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [WARN] Name resolution skipped for host an0n0068
+[2026-01-08 16:09:08] [INFO] Processing ID:  (NONE)  - Host: an0n0068
+[2026-01-08 16:09:08] [INFO] AD Object found: CN=AN0N0068,OU=Quiss,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [WARN] Name resolution skipped for host an0n0070
+[2026-01-08 16:09:08] [INFO] Processing ID:  (NONE)  - Host: an0n0070
+[2026-01-08 16:09:08] [INFO] AD Object found: CN=AN0N0070,OU=Quiss,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [WARN] Name resolution skipped for host an0x1383
+[2026-01-08 16:09:08] [INFO] Processing ID:  (NONE)  - Host: an0x1383
+[2026-01-08 16:09:08] [INFO] AD Object found: CN=AN0X1383,OU=Hybrid,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [WARN] Name resolution skipped for host an0n0067-ip3
+[2026-01-08 16:09:08] [INFO] Processing ID:  (NONE)  - Host: an0n0067-ip3
+[2026-01-08 16:09:08] [WARN] No Computer object found in GC for: an0n0067-ip3
+[2026-01-08 16:09:08] [WARN] Name resolution skipped for host 168802329an0n0094
+[2026-01-08 16:09:08] [INFO] Processing ID:  (NONE)  - Host: 168802329an0n0094
+[2026-01-08 16:09:08] [WARN] No Computer object found in GC for: 168802329an0n0094
+[2026-01-08 16:09:08] [WARN] Name resolution skipped for host bw168159
+[2026-01-08 16:09:08] [INFO] Processing ID:  (NONE)  - Host: bw168159
+[2026-01-08 16:09:08] [WARN] No Computer object found in GC for: bw168159
+[2026-01-08 16:09:08] [WARN] Name resolution skipped for host nu0x2899
+[2026-01-08 16:09:08] [INFO] Processing ID:  (NONE)  - Host: nu0x2899
+[2026-01-08 16:09:08] [INFO] AD Object found: CN=NU0X2899,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:08] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:08] [WARN] Name resolution skipped for host nu0x2949
+[2026-01-08 16:09:08] [INFO] Processing ID:  (NONE)  - Host: nu0x2949
+[2026-01-08 16:09:09] [INFO] AD Object found: CN=NU0X2949,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:09] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:09] [WARN] Name resolution skipped for host nu0x2950
+[2026-01-08 16:09:09] [INFO] Processing ID:  (NONE)  - Host: nu0x2950
+[2026-01-08 16:09:09] [INFO] AD Object found: CN=NU0X2950,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:09] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:09] [WARN] Name resolution skipped for host nu0x2951
+[2026-01-08 16:09:09] [INFO] Processing ID:  (NONE)  - Host: nu0x2951
+[2026-01-08 16:09:09] [INFO] AD Object found: CN=NU0X2951,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:09] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:09] [WARN] Name resolution skipped for host batef34qlrzdvb3
+[2026-01-08 16:09:09] [INFO] Processing ID:  (NONE)  - Host: batef34qlrzdvb3
+[2026-01-08 16:09:09] [INFO] AD Object found: CN=BATEF34QLRZDVB3,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:09] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:09] [INFO] Processing ID: 10.16.121.11 (IP)  - Host: na
+[2026-01-08 16:09:13] [WARN] DNS Error for 10.16.121.11 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:13] [INFO] Processing ID: 10.16.121.9 (IP)  - Host: na
+[2026-01-08 16:09:18] [WARN] DNS Error for 10.16.121.9 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:18] [WARN] Name resolution skipped for host ba0y1018
+[2026-01-08 16:09:18] [INFO] Processing ID:  (NONE)  - Host: ba0y1018
+[2026-01-08 16:09:18] [INFO] AD Object found: CN=BA0Y1018,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:18] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:18] [WARN] Name resolution skipped for host ba0pc20024
+[2026-01-08 16:09:18] [INFO] Processing ID:  (NONE)  - Host: ba0pc20024
+[2026-01-08 16:09:18] [INFO] AD Object found: CN=BA0PC20024,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:18] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:18] [WARN] Name resolution skipped for host ba0y1027
+[2026-01-08 16:09:18] [INFO] Processing ID:  (NONE)  - Host: ba0y1027
+[2026-01-08 16:09:18] [INFO] AD Object found: CN=BA0Y1027,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:18] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:18] [WARN] Name resolution skipped for host ba0pc20025
+[2026-01-08 16:09:18] [INFO] Processing ID:  (NONE)  - Host: ba0pc20025
+[2026-01-08 16:09:18] [INFO] AD Object found: CN=BA0PC20025,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:18] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:18] [WARN] Name resolution skipped for host ba0y1026
+[2026-01-08 16:09:18] [INFO] Processing ID:  (NONE)  - Host: ba0y1026
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0Y1026,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [WARN] Name resolution skipped for host ba0pc20463
+[2026-01-08 16:09:19] [INFO] Processing ID:  (NONE)  - Host: ba0pc20463
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0PC20463,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [WARN] Name resolution skipped for host ba0y1021
+[2026-01-08 16:09:19] [INFO] Processing ID:  (NONE)  - Host: ba0y1021
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0Y1021,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [WARN] Name resolution skipped for host ba0z2228
+[2026-01-08 16:09:19] [INFO] Processing ID:  (NONE)  - Host: ba0z2228
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0Z2228,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [WARN] Name resolution skipped for host ba0pc20613
+[2026-01-08 16:09:19] [INFO] Processing ID:  (NONE)  - Host: ba0pc20613
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0PC20613,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [WARN] Name resolution skipped for host ba0y1023
+[2026-01-08 16:09:19] [INFO] Processing ID:  (NONE)  - Host: ba0y1023
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0Y1023,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [WARN] Name resolution skipped for host ba0pc6945
+[2026-01-08 16:09:19] [INFO] Processing ID:  (NONE)  - Host: ba0pc6945
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0PC6945,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [WARN] Name resolution skipped for host ba0y1024
+[2026-01-08 16:09:19] [INFO] Processing ID:  (NONE)  - Host: ba0y1024
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0Y1024,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [WARN] Name resolution skipped for host ba0y1020
+[2026-01-08 16:09:19] [INFO] Processing ID:  (NONE)  - Host: ba0y1020
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0Y1020,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [WARN] Name resolution skipped for host ba0y1028
+[2026-01-08 16:09:19] [INFO] Processing ID:  (NONE)  - Host: ba0y1028
+[2026-01-08 16:09:19] [INFO] AD Object found: CN=BA0Y1028,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:19] [INFO] Processing ID: 10.166.240.145 (IP)  - Host: na
+[2026-01-08 16:09:24] [WARN] DNS Error for 10.166.240.145 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:24] [WARN] Name resolution skipped for host an0z1440
+[2026-01-08 16:09:24] [INFO] Processing ID:  (NONE)  - Host: an0z1440
+[2026-01-08 16:09:24] [WARN] No Computer object found in GC for: an0z1440
+[2026-01-08 16:09:24] [WARN] Name resolution skipped for host an0x5796
+[2026-01-08 16:09:24] [INFO] Processing ID:  (NONE)  - Host: an0x5796
+[2026-01-08 16:09:24] [INFO] AD Object found: CN=AN0X5796,OU=Linie 5,OU=Airbag,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:24] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:24] [WARN] Name resolution skipped for host an0x4306
+[2026-01-08 16:09:24] [INFO] Processing ID:  (NONE)  - Host: an0x4306
+[2026-01-08 16:09:24] [INFO] AD Object found: CN=AN0X4306,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:24] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:24] [WARN] Name resolution skipped for host an0nv054
+[2026-01-08 16:09:24] [INFO] Processing ID:  (NONE)  - Host: an0nv054
+[2026-01-08 16:09:24] [INFO] AD Object found: CN=AN0NV054,OU=ABS8_Gx8 Vormontage,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:24] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:24] [INFO] Processing ID: 10.17.22.236 (IP)  - Host: na
+[2026-01-08 16:09:29] [WARN] DNS Error for 10.17.22.236 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:29] [WARN] Name resolution skipped for host an0z1090
+[2026-01-08 16:09:29] [INFO] Processing ID:  (NONE)  - Host: an0z1090
+[2026-01-08 16:09:29] [INFO] AD Object found: CN=AN0Z1090,OU=Gen9,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:29] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:29] [WARN] Name resolution skipped for host an0x5250
+[2026-01-08 16:09:29] [INFO] Processing ID:  (NONE)  - Host: an0x5250
+[2026-01-08 16:09:29] [INFO] AD Object found: CN=AN0X5250,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:29] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:29] [WARN] Name resolution skipped for host an0z1088
+[2026-01-08 16:09:29] [INFO] Processing ID:  (NONE)  - Host: an0z1088
+[2026-01-08 16:09:29] [INFO] AD Object found: CN=AN0Z1088,OU=Airbag,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:29] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:29] [WARN] Name resolution skipped for host an0z2108
+[2026-01-08 16:09:29] [INFO] Processing ID:  (NONE)  - Host: an0z2108
+[2026-01-08 16:09:29] [INFO] AD Object found: CN=AN0Z2108,OU=Linie 5,OU=Airbag,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:29] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-08 16:09:29] [WARN] Name resolution skipped for host wx0qmm02
+[2026-01-08 16:09:29] [INFO] Processing ID:  (NONE)  - Host: wx0qmm02
+[2026-01-08 16:09:29] [INFO] AD Object found: CN=WX0QMM02,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=APAC,DC=bosch,DC=com
+[2026-01-08 16:09:29] [WARN] Application OU determined
+[2026-01-08 16:09:29] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:30] [INFO] Processing ID: 10.182.132.57 (IP)  - Host: na
+[2026-01-08 16:09:34] [WARN] DNS Error for 10.182.132.57 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:34] [WARN] Name resolution skipped for host pg-ut3095c
+[2026-01-08 16:09:34] [INFO] Processing ID:  (NONE)  - Host: pg-ut3095c
+[2026-01-08 16:09:34] [WARN] No Computer object found in GC for: pg-ut3095c
+[2026-01-08 16:09:34] [WARN] Name resolution skipped for host pg-ut2791c
+[2026-01-08 16:09:34] [INFO] Processing ID:  (NONE)  - Host: pg-ut2791c
+[2026-01-08 16:09:34] [WARN] No Computer object found in GC for: pg-ut2791c
+[2026-01-08 16:09:34] [WARN] Name resolution skipped for host pg-ut3512c
+[2026-01-08 16:09:34] [INFO] Processing ID:  (NONE)  - Host: pg-ut3512c
+[2026-01-08 16:09:34] [WARN] No Computer object found in GC for: pg-ut3512c
+[2026-01-08 16:09:34] [WARN] Name resolution skipped for host pg-ut2804c
+[2026-01-08 16:09:34] [INFO] Processing ID:  (NONE)  - Host: pg-ut2804c
+[2026-01-08 16:09:34] [INFO] AD Object found: CN=PG-UT2804C,OU=Clientcomputers,OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-08 16:09:34] [INFO] Top-Level OU determined: OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-08 16:09:34] [WARN] Name resolution skipped for host pg-ut2991c
+[2026-01-08 16:09:34] [INFO] Processing ID:  (NONE)  - Host: pg-ut2991c
+[2026-01-08 16:09:35] [WARN] No Computer object found in GC for: pg-ut2991c
+[2026-01-08 16:09:35] [WARN] Name resolution skipped for host pg-ut4220c
+[2026-01-08 16:09:35] [INFO] Processing ID:  (NONE)  - Host: pg-ut4220c
+[2026-01-08 16:09:35] [WARN] No Computer object found in GC for: pg-ut4220c
+[2026-01-08 16:09:35] [INFO] Processing ID: 10.182.135.230 (IP)  - Host: na
+[2026-01-08 16:09:39] [WARN] DNS Error for 10.182.135.230 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:39] [WARN] Name resolution skipped for host moe3-7002
+[2026-01-08 16:09:39] [INFO] Processing ID:  (NONE)  - Host: moe3-7002
+[2026-01-08 16:09:39] [INFO] AD Object found: CN=MOE3-7002,CN=Computers,DC=APAC,DC=bosch,DC=com
+[2026-01-08 16:09:39] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:39] [INFO] Processing ID: 10.182.136.136 (IP)  - Host: na
+[2026-01-08 16:09:44] [WARN] DNS Error for 10.182.136.136 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:44] [INFO] Processing ID: 10.182.136.223 (IP)  - Host: na
+[2026-01-08 16:09:48] [WARN] DNS Error for 10.182.136.223 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:48] [INFO] Processing ID: 10.182.136.225 (IP)  - Host: na
+[2026-01-08 16:09:53] [WARN] DNS Error for 10.182.136.225 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:53] [INFO] Processing ID: 10.182.136.250 (IP)  - Host: na
+[2026-01-08 16:09:58] [WARN] DNS Error for 10.182.136.250 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:09:58] [WARN] Name resolution skipped for host hc-c-0034d
+[2026-01-08 16:09:58] [INFO] Processing ID:  (NONE)  - Host: hc-c-0034d
+[2026-01-08 16:09:58] [INFO] AD Object found: CN=HC-C-0034D,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=APAC,DC=bosch,DC=com
+[2026-01-08 16:09:58] [WARN] Application OU determined
+[2026-01-08 16:09:58] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:58] [WARN] Name resolution skipped for host sgpvm00795
+[2026-01-08 16:09:58] [INFO] Processing ID:  (NONE)  - Host: sgpvm00795
+[2026-01-08 16:09:58] [INFO] AD Object found: CN=SGPVM00795,OU=NoGPO,OU=SERVERCOMPUTERS,OU=Ci-unixserver,OU=Applications,DC=APAC,DC=bosch,DC=com
+[2026-01-08 16:09:58] [WARN] Application OU determined
+[2026-01-08 16:09:58] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:58] [WARN] Name resolution skipped for host sgpvm00796
+[2026-01-08 16:09:58] [INFO] Processing ID:  (NONE)  - Host: sgpvm00796
+[2026-01-08 16:09:58] [INFO] AD Object found: CN=SGPVM00796,OU=NoGPO,OU=SERVERCOMPUTERS,OU=Ci-unixserver,OU=Applications,DC=APAC,DC=bosch,DC=com
+[2026-01-08 16:09:58] [WARN] Application OU determined
+[2026-01-08 16:09:58] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:58] [WARN] Name resolution skipped for host sgpvm00797
+[2026-01-08 16:09:58] [INFO] Processing ID:  (NONE)  - Host: sgpvm00797
+[2026-01-08 16:09:58] [INFO] AD Object found: CN=SGPVM00797,OU=NoGPO,OU=SERVERCOMPUTERS,OU=Ci-unixserver,OU=Applications,DC=APAC,DC=bosch,DC=com
+[2026-01-08 16:09:58] [WARN] Application OU determined
+[2026-01-08 16:09:58] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:58] [WARN] Name resolution skipped for host promikst2
+[2026-01-08 16:09:58] [INFO] Processing ID:  (NONE)  - Host: promikst2
+[2026-01-08 16:09:58] [INFO] AD Object found: CN=PROMIKST2,OU=NonPeacy,OU=Clientcomputers,OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-08 16:09:58] [INFO] Top-Level OU determined: OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-08 16:09:58] [WARN] Name resolution skipped for host ad0vm00024
+[2026-01-08 16:09:58] [INFO] Processing ID:  (NONE)  - Host: ad0vm00024
+[2026-01-08 16:09:58] [INFO] AD Object found: CN=AD0VM00024,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=us,DC=bosch,DC=com
+[2026-01-08 16:09:58] [WARN] Application OU determined
+[2026-01-08 16:09:58] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:09:58] [INFO] Processing ID: 10.225.49.77 (IP)  - Host: na
+[2026-01-08 16:10:04] [WARN] No Computer object found in GC for: AD1A9DF3D
+[2026-01-08 16:10:04] [INFO] Processing ID: 10.225.49.78 (IP)  - Host: na
+[2026-01-08 16:10:10] [WARN] No Computer object found in GC for: AD1CDACF0
+[2026-01-08 16:10:10] [WARN] Name resolution skipped for host ju-3c7c6a
+[2026-01-08 16:10:10] [INFO] Processing ID:  (NONE)  - Host: ju-3c7c6a
+[2026-01-08 16:10:10] [WARN] No Computer object found in GC for: ju-3c7c6a
+[2026-01-08 16:10:10] [INFO] Processing ID: 10.225.99.86 (IP)  - Host: na
+[2026-01-08 16:10:15] [WARN] DNS Error for 10.225.99.86 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:10:15] [INFO] Processing ID: 10.226.214.175 (IP)  - Host: na
+[2026-01-08 16:10:20] [WARN] DNS Error for 10.226.214.175 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:10:20] [WARN] Name resolution skipped for host aguvm00010
+[2026-01-08 16:10:20] [INFO] Processing ID:  (NONE)  - Host: aguvm00010
+[2026-01-08 16:10:20] [INFO] AD Object found: CN=AGUVM00010,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=us,DC=bosch,DC=com
+[2026-01-08 16:10:20] [WARN] Application OU determined
+[2026-01-08 16:10:20] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:10:20] [WARN] Name resolution skipped for host misvm00005
+[2026-01-08 16:10:20] [INFO] Processing ID:  (NONE)  - Host: misvm00005
+[2026-01-08 16:10:20] [INFO] AD Object found: CN=MISVM00005,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=us,DC=bosch,DC=com
+[2026-01-08 16:10:20] [WARN] Application OU determined
+[2026-01-08 16:10:20] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:10:20] [WARN] Name resolution skipped for host mx4-c-00008
+[2026-01-08 16:10:20] [INFO] Processing ID:  (NONE)  - Host: mx4-c-00008
+[2026-01-08 16:10:20] [INFO] AD Object found: CN=MX4-C-00008,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=us,DC=bosch,DC=com
+[2026-01-08 16:10:20] [WARN] Application OU determined
+[2026-01-08 16:10:20] [INFO] Top-Level container is not an OU or could not be determined. Setting values to null.
+[2026-01-08 16:10:20] [INFO] Processing ID: 10.228.86.38 (IP)  - Host: na
+[2026-01-08 16:10:24] [WARN] DNS Error for 10.228.86.38 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:10:24] [INFO] Processing ID: 10.228.86.39 (IP)  - Host: na
+[2026-01-08 16:10:29] [WARN] DNS Error for 10.228.86.39 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:10:29] [INFO] Processing ID: 10.228.86.40 (IP)  - Host: na
+[2026-01-08 16:10:33] [WARN] DNS Error for 10.228.86.40 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:10:33] [INFO] Processing ID: 10.228.86.41 (IP)  - Host: na
+[2026-01-08 16:10:38] [WARN] DNS Error for 10.228.86.41 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-08 16:10:38] [INFO] Exporting results to ./outputs/20260108_1607_output.csv
+[2026-01-08 16:10:38] [INFO] Script finished successfully.

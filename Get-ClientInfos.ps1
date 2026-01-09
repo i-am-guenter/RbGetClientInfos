@@ -49,6 +49,7 @@ function Write-Log ($message, [string]$level="INFO") {
     $color = "Cyan"
     if ($level -eq "ERROR") { $color = "Red" }
     elseif ($level -eq "WARN") { $color = "Yellow" }
+    elseif ($level -eq "DEBUG") { $color = "DarkMagenta" }
     
     Write-Host $logLine -ForegroundColor $color
     Add-Content -Path $Logfile -Value $logLine -ErrorAction SilentlyContinue
@@ -78,6 +79,62 @@ function GetOuNameByIpZoneLocation {
         return $Matches['g2']
     }
     return $null
+}
+
+function GetAdObjectFromGc {
+    param(
+        [string]$objectClass,
+        [string]$objectName,
+        [object]$dsSearcher
+    )
+    try 
+    {
+        $searcher.Filter = "(&(objectClass=$objectClass)(name=$objectName))"
+        $dsResult = $searcher.FindOne()
+
+        return $dsResult
+    } catch
+    {
+        Write-Log "Error occurred while querying the $objectClass $objectName" "ERROR"
+    }
+}
+
+function GetCountryNameByIsoCode {
+    # PowerShell script to get country name from ISO code using REST API
+
+    param (
+        [Parameter(Mandatory = $true)]
+        [ValidatePattern('^[A-Za-z]{2}$')]  # Ensure exactly 2 letters
+        [string]$IsoCode
+    )
+
+    try {
+        # Normalize to uppercase
+        $IsoCode = $IsoCode.ToUpper()
+
+        # API endpoint for ISO code lookup
+        $url = "https://restcountries.com/v3.1/alpha/$IsoCode"
+
+        # Call the API
+        $response = Invoke-RestMethod -Uri $url -Method GET -ErrorAction Stop
+
+        if ($null -ne $response) {
+            # Extract the common country name
+            $countryName = $response.name.common
+            Write-Log "ISO Code '$IsoCode' corresponds to: $countryName" "INFO"
+            return $countryName
+        }
+        else {
+            Write-Log "No country found for ISO code '$IsoCode'." "WARN"
+            return $null
+        }
+    }
+    catch [System.Net.WebException] {
+        Write-Error "Network or API error: $($_.Exception.Message)"
+    }
+    catch {
+        Write-Error "Unexpected error: $($_.Exception.Message)"
+    }
 }
 # --- Initialization ---
 
@@ -130,14 +187,22 @@ try {
         $searchId = $null
         $searchType = "Unknown"
 
-        if ($row.final_hostname -eq 'na')  {
-            $searchId = $row.final_ip
+        if ($inputIP -ne 'na' -and $inputHost -eq 'na') {
+            $searchId = $inputIP
             $searchType = "IP"
+        } elseif ($inputHost -ne 'na' -and $inuptIP -eq 'na') {
+            $searchId = $inputHost
+            $searchType = "Hostname"
+        } elseif ($inputHost -ne 'na' -and  $inputIP -ne 'na') {
+            $searchId = $finalHost
+            $searchType = "Skip"
+            Write-Log "Hostname and IP known. No name resolution needed for host $inputHost ($inputIP)."
         } else {
-            $searchType ="NONE"
-            Write-Log "Name resolution skipped for host $($row.final_hostname)" "WARN"
-            # continue
+            $searchType = "None"
+            $searchId = "na"
+            continue
         }
+
 
         if ($row.final_hostname -ne "na") { $pk = $row.final_hostname }
         if ($row.final_hostname -eq "na") { $pk = $row.final_ip }
@@ -156,116 +221,141 @@ try {
         $descriptionFromOu = $null
 
  
-        Write-Log "Processing ID: $searchId ($searchType)  - Host: $($row.final_hostname)"
+        Write-Log "Processing ID: $($row.final_hostname) ($searchType)  - PK: $pk"
 
         # --- Step 1 & 2: DNS & Hostname Resolution ---
         
         $dnsResolved = $false
-        
+    
         try {
             if ($searchType -eq "IP") {
-                $dnsEntry = [System.Net.Dns]::GetHostEntry($searchId)
+                # Reverse Lookup
+                $dnsEntry = [System.Net.Dns]::GetHostEntry($SearchId)
                 $finalHostname = ($dnsEntry.HostName).Split(".")[0]
                 $finalIP = $searchId
                 $dnsResolved = $true
-            } else {
+                $nameResolutionResult = "Success_IP"
+            } elseif ($searchType -eq "Hostname") {
+                # Forward Lookup (falls nur Hostname da war, brauchen wir IP für Output)
+                $dnsEntry = [System.Net.Dns]::GetHostEntry($SearchId)
+                $finalHostname = ($dnsEntry.HostName).Split(".")[0]
+                $finalIP = ($dnsEntry.AddressList | Where-Object { $_.AddressFamily -eq 'InterNetwork' } | Select-Object -First 1).IPAddressToString
                 $dnsResolved = $true
-                $finalIP = $row.final_ip
+                $nameResolutionResult  = "Success_Host"
+            } elseif ($searchType -eq "Skip") {
                 $finalHostname = $row.final_hostname
+                $finalIP = $row.final_ip
+                $dnsResolved = $true
+                $nameResolutionResult  = "Skip"
             }
         } catch {
-            Write-Log "DNS Error for $searchId : $($_.Exception.Message)" "WARN"
-            if($searchType -eq "IP") { $finalIP = $searchId }
+            Write-Log "DNS resolution error for  $SearchId : $($_.Exception.Message)" "WARN"
+            $finalIP = if($searchType -eq "IP") { $searchId } else { "na" }
+            $finalHostname = if ($searchType -eq "Hostname") { $searchId } else { "na" }
+            $nameResolutionResult  = "Failure"
         }
 
         # --- Step 3 & 4: AD Search & Top-Level OU Info ---
-
+        
         if ($dnsResolved -and $finalHostname) {
-            
-            $searcher.Filter = "(&(objectClass=computer)(Name=$finalHostname))"
-            
-            try {
-                $searchResult = $searcher.FindOne()
-
-                if ($searchResult) {
-                    $compDN = $searchResult.Properties["distinguishedName"][0]
-                    Write-Log "AD Object found: $compDN"
+            try 
+            {
+                # Try to get AD object from AD (GC)
+                $adObject = GetAdObjectFromGc -dsSearcher $searcher -objectClass "computer" -objectName $finalHostname
+                
+                if ($adObject) 
+                {
+                    # Write properties
+                    $compDN = $adObject.Properties["distinguishedname"][0]
+                    Write-Log "AD Object found: $compDN" "INFO"
 
                     # ---------------------------------------------------------
                     # Find Top-Level OU after domain part (DC=)
                     # ---------------------------------------------------------
-                    
+                
                     $dnParts = $compDN -split ","
                     $targetOuDN = $null
-
-
-                    if ($dnParts -contains 'OU=Applications')
+                    # Write-Log "Before if switch: $compDN ($($dnParts.Count))" "DEBUG"
+                    
+                    # if ($null -eq $dnParts) {Write-Host "dnParts is empty"}
+                    if (($dnParts -contains 'OU=Applications') -or ($dnParts -contains 'CN=Computers'))
                     {
-                        Write-Log -message "Application OU determined" -level "WARN"
-                            <# Action to perform. You can use $ to reference the current instance of this class #>
+                        # Write-Log "After if switch: $compDN ($($dnParts.Count))" "DEBUG"
+                        Write-Log -message "Non location OU determined" -level "WARN"
+                        $fromApplicationOu = $true
                         $loc = GetOuNameByIpZoneLocation -inputString $row.final_ip_zone_location
                         if ($loc)
                         {
                             $searcher.Filter = "(&(objectClass=OrganizationalUnit)(Name=$loc))"
-                            $targetOuDn2 = $searcher.FindOne()
-                            $targetOuDN = $targetOuDn2.Properties["distinguishedName"][0]
-                            $fromApplicationOu = $true
+                            $ouObject = GetAdObjectFromGc -dsSearcher $searcher -objectClass "OrganizationalUnit" -objectName $loc
+                            $targetOuDN = $ouObject.Properties["distinguishedName"][0]
                         }
-                    } else {
-                        for ($i = $dnParts.Count - 1; $i -ge 0; $i--) {
+                    } else 
+                    {
+                        for ($i = $dnParts.Count - 1; $i -ge 0; $i--) 
+                        {
                             $part = $dnParts[$i].Trim()
                         
                             if ($part -match "^DC=") { continue }
-                                if ($part -match "^OU=") {
-
+                            if ($part -match "^OU=") 
+                            {
                                 # Reconstruct the DN for the OU with all parts from current index $i
                                 $targetOuDN = ($dnParts[$i..($dnParts.Count - 1)]) -join ","
                             }
+                            
                             $fromApplicationOu = $false
                             break
                         }
                     }
-
-
-
-                    if ($targetOuDN) {
-                        Write-Log "Top-Level OU determined: $targetOuDN"
-                        $ouEntry = [adsi]"LDAP://$targetOuDN"
-                        
-                        # Read Attributes from Organizational Unit
-                        
-                        # OU property 'l' for location
-                        if ($ouEntry.Properties.Contains("l")) {
-                            $finalLocationL = $ouEntry.Properties["l"][0]
-                        }
-
-                        # OU property 'c' for country information
-                        if ($ouEntry.Properties.Contains("c")) {
-                            $finalCountry = $ouEntry.Properties["c"][0]
-                        }
-
-                        # OU property 'name' for OU name, thus location abbreviation
-                        if ($ouEntry.Properties.Contains("name")) {
-                            $finalLocAbbrev = $ouEntry.Properties["name"][0]
-                        }
-
-                        # OU property 'distinguishedName' for whole object path
-                        if ($ouEntry.Properties.Contains("distinguishedName")) {
-                            $finalOuDn = $ouEntry.Properties["distinguishedName"][0]
-                       }
-
-                       # OU property 'description' to get more optional additional information
-                        if ($ouEntry.Properties.Contains("description")) {
-                            $descriptionFromOu = $ouEntry.Properties["description"][0]
-                        }
-                    } else {
-                        Write-Log "Top-Level container is not an OU or could not be determined. Setting values to null."
-                    }
-                    # ---------------------------------------------------------
-
                 } else {
-                    Write-Log "No Computer object found in GC for: $finalHostname" "WARN"
+                    Write-Log "No AD object for $finalHostname found in the forest. Searching Location from IP zone..." "WARN"
+                    $location = GetOuNameByIpZoneLocation -inputString $row.final_ip_zone_location
+                    if ($location)
+                    {
+                        $targetOuObject = GetAdObjectFromGc -dsSearcher $searcher -objectClass "OrganizationalUnit" -objectName $location
+                        $targetOuDN = $targetOuObject.Properties["distinguishedName"][0]
+                        Write-Log "Found OU object is $targetOuDN"
+                    } else {
+                        Write-Log "No location OU found for the object." "WARN"
+                    }
                 }
+
+
+                if ($targetOuDN) {
+                    Write-Log "Top-Level OU determined: $targetOuDN"
+                    $ouEntry = [adsi]"LDAP://$targetOuDN"
+                    
+                    # Read Attributes from Organizational Unit
+                    
+                    # OU property 'l' for location
+                    if ($ouEntry.Properties.Contains("l")) {
+                        $finalLocationL = $ouEntry.Properties["l"][0]
+                    }
+
+                    # OU property 'c' for country information
+                    if ($ouEntry.Properties.Contains("c")) {
+                        $finalCountryIso = $ouEntry.Properties["c"][0]
+                        $finalCountryName = (GetCountryNameByIsoCode -IsoCode $finalCountryIso)
+                    }
+
+                    # OU property 'name' for OU name, thus location abbreviation
+                    if ($ouEntry.Properties.Contains("name")) {
+                        $finalLocAbbrev = $ouEntry.Properties["name"][0]
+                    }
+
+                    # OU property 'distinguishedName' for whole object path
+                    if ($ouEntry.Properties.Contains("distinguishedName")) {
+                        $finalOuDn = $ouEntry.Properties["distinguishedName"][0]
+                    }
+
+                    # OU property 'description' to get more optional additional information
+                    if ($ouEntry.Properties.Contains("description")) {
+                        $descriptionFromOu = $ouEntry.Properties["description"][0]
+                    }
+                } else {
+                    Write-Log "Top-Level container is not a Location OU or could not be determined. Setting values to null."
+                }
+
             } catch {
                 Write-Log "AD Error while searching for $finalHostname : $($_.Exception.Message)" "ERROR"
             }
@@ -287,13 +377,12 @@ try {
             primaryUsedBy                   = $row.primaryUsedBy
             ComputerDn                      = $compDn
             OrgUnitDn                       = $finalOuDn
-            LocationFromAd                  = $finalLocation
-            CountryFromAd                   = $finalCountry
+            LocationFromAd                  = $finalLocationL
             LocationAbbreviation            = $finalLocAbbrev
-            OuObjectDescription             = $descriptionFromOu
-            FromApplicationOu               = $fromApplicationOu
+            CountryIso                      = $finalCountryIso
+            CountryName                     = $finalCountryName
+            NameResolutionResult             = $nameResolutionResult
         }
-        Write-Debug $obj
         $results.Add($obj)
     }
 

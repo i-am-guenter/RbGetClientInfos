@@ -1,3 +1,0 @@
-[2026-01-08 16:06:13] [INFO] Starting processing of: .\inputFile.csv
-[2026-01-08 16:06:13] [INFO] Connecting to Global Catalog: GC://DC=bosch,DC=com
-[2026-01-08 16:06:13] [ERROR] Critical Error in script: The term '$' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.

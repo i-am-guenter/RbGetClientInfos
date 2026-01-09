@@ -213,12 +213,11 @@ try {
         $finalHostname = $null
         $finalIP = $null
         $finalLocationL = $null
-        $finalCountry = $null   
+        $finalCountryIso = $null   
+        $finalCountryName = $null
         $finalLocAbbrev = $null
         $compDn = $null
         $finalOuDn = $null
-        $finalCountry = $null
-        $descriptionFromOu = $null
 
  
         Write-Log "Processing ID: $($row.final_hostname) ($searchType)  - PK: $pk"
@@ -236,7 +235,7 @@ try {
                 $dnsResolved = $true
                 $nameResolutionResult = "Success_IP"
             } elseif ($searchType -eq "Hostname") {
-                # Forward Lookup (falls nur Hostname da war, brauchen wir IP für Output)
+                # Forward Lookup
                 $dnsEntry = [System.Net.Dns]::GetHostEntry($SearchId)
                 $finalHostname = ($dnsEntry.HostName).Split(".")[0]
                 $finalIP = ($dnsEntry.AddressList | Where-Object { $_.AddressFamily -eq 'InterNetwork' } | Select-Object -First 1).IPAddressToString
@@ -282,7 +281,6 @@ try {
                     {
                         # Write-Log "After if switch: $compDN ($($dnParts.Count))" "DEBUG"
                         Write-Log -message "Non location OU determined" -level "WARN"
-                        $fromApplicationOu = $true
                         $loc = GetOuNameByIpZoneLocation -inputString $row.final_ip_zone_location
                         if ($loc)
                         {
@@ -302,8 +300,6 @@ try {
                                 # Reconstruct the DN for the OU with all parts from current index $i
                                 $targetOuDN = ($dnParts[$i..($dnParts.Count - 1)]) -join ","
                             }
-                            
-                            $fromApplicationOu = $false
                             break
                         }
                     }
@@ -347,11 +343,12 @@ try {
                     if ($ouEntry.Properties.Contains("distinguishedName")) {
                         $finalOuDn = $ouEntry.Properties["distinguishedName"][0]
                     }
-
+                <#
                     # OU property 'description' to get more optional additional information
                     if ($ouEntry.Properties.Contains("description")) {
                         $descriptionFromOu = $ouEntry.Properties["description"][0]
                     }
+                #>
                 } else {
                     Write-Log "Top-Level container is not a Location OU or could not be determined. Setting values to null."
                 }

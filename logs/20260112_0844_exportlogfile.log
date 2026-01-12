@@ -1,0 +1,1280 @@
+[2026-01-12 08:44:10] [INFO] Start processing file: .\inputFiles\2026.01.09_legacy.SMB.Splunk.export.csv
+[2026-01-12 08:44:10] [INFO] Connecting to Global Catalog: 
+[2026-01-12 08:44:10] [INFO] Processing 267 of 383 entries.
+[2026-01-12 08:44:10] [INFO] Hostname and IP known. No name resolution needed for host ti1fe145132 (10.10.145.132).
+[2026-01-12 08:44:10] [INFO] Processing ID: ti1fe145132 (Skip)  - PK: ti1fe145132
+[2026-01-12 08:44:10] [INFO] AD Object found: CN=TI1FE145132,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:10] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:11] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:11] [INFO] Hostname and IP known. No name resolution needed for host ti1fe145134 (10.10.145.134).
+[2026-01-12 08:44:11] [INFO] Processing ID: ti1fe145134 (Skip)  - PK: ti1fe145134
+[2026-01-12 08:44:11] [INFO] AD Object found: CN=TI1FE145134,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:11] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:11] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:11] [INFO] Hostname and IP known. No name resolution needed for host ti1fe145135 (10.10.145.135).
+[2026-01-12 08:44:11] [INFO] Processing ID: ti1fe145135 (Skip)  - PK: ti1fe145135
+[2026-01-12 08:44:11] [INFO] AD Object found: CN=TI1FE145135,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:11] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:11] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:11] [INFO] Hostname and IP known. No name resolution needed for host ti1fe145136 (10.10.145.136).
+[2026-01-12 08:44:11] [INFO] Processing ID: ti1fe145136 (Skip)  - PK: ti1fe145136
+[2026-01-12 08:44:11] [INFO] AD Object found: CN=TI1FE145136,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:11] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:12] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:12] [INFO] Processing ID: na (IP)  - PK: 10.10.151.39
+[2026-01-12 08:44:16] [INFO] AD Object found: CN=TI-X002H,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:16] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:16] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:16] [INFO] Hostname and IP known. No name resolution needed for host ti-x000h (10.10.175.10).
+[2026-01-12 08:44:16] [INFO] Processing ID: ti-x000h (Skip)  - PK: ti-x000h
+[2026-01-12 08:44:16] [INFO] AD Object found: CN=TI-X000H,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:16] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:17] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:17] [INFO] Hostname and IP known. No name resolution needed for host ti-x000i (10.10.175.15).
+[2026-01-12 08:44:17] [INFO] Processing ID: ti-x000i (Skip)  - PK: ti-x000i
+[2026-01-12 08:44:17] [INFO] AD Object found: CN=TI-X000I,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:17] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:17] [INFO] Hostname and IP known. No name resolution needed for host ti-x000l (10.10.175.22).
+[2026-01-12 08:44:17] [INFO] Processing ID: ti-x000l (Skip)  - PK: ti-x000l
+[2026-01-12 08:44:17] [INFO] AD Object found: CN=TI-X000L,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:17] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:17] [INFO] Hostname and IP known. No name resolution needed for host ti-x000o (10.10.175.29).
+[2026-01-12 08:44:17] [INFO] Processing ID: ti-x000o (Skip)  - PK: ti-x000o
+[2026-01-12 08:44:17] [INFO] AD Object found: CN=TI-X000O,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:17] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:17] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:17] [INFO] Hostname and IP known. No name resolution needed for host ti-x000r (10.10.175.36).
+[2026-01-12 08:44:18] [INFO] Processing ID: ti-x000r (Skip)  - PK: ti-x000r
+[2026-01-12 08:44:18] [INFO] AD Object found: CN=TI-X000R,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:18] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:18] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:18] [INFO] Hostname and IP known. No name resolution needed for host ti-x000u (10.10.175.43).
+[2026-01-12 08:44:18] [INFO] Processing ID: ti-x000u (Skip)  - PK: ti-x000u
+[2026-01-12 08:44:18] [INFO] AD Object found: CN=TI-X000U,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:18] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:18] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:18] [INFO] Hostname and IP known. No name resolution needed for host ti-x0013 (10.10.175.56).
+[2026-01-12 08:44:18] [INFO] Processing ID: ti-x0013 (Skip)  - PK: ti-x0013
+[2026-01-12 08:44:18] [INFO] AD Object found: CN=TI-X0013,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:18] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:18] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:18] [INFO] Hostname and IP known. No name resolution needed for host ti-x0017 (10.10.175.64).
+[2026-01-12 08:44:18] [INFO] Processing ID: ti-x0017 (Skip)  - PK: ti-x0017
+[2026-01-12 08:44:18] [INFO] AD Object found: CN=TI-X0017,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:18] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:19] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:19] [INFO] Hostname and IP known. No name resolution needed for host ti-x001e (10.10.175.75).
+[2026-01-12 08:44:19] [INFO] Processing ID: ti-x001e (Skip)  - PK: ti-x001e
+[2026-01-12 08:44:19] [INFO] AD Object found: CN=TI-X001E,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:19] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:19] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:19] [INFO] Hostname and IP known. No name resolution needed for host ti-x001h (10.10.175.83).
+[2026-01-12 08:44:19] [INFO] Processing ID: ti-x001h (Skip)  - PK: ti-x001h
+[2026-01-12 08:44:19] [INFO] AD Object found: CN=TI-X001H,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:19] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:19] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:19] [INFO] Hostname and IP known. No name resolution needed for host md1zp010 (10.100.141.209).
+[2026-01-12 08:44:19] [INFO] Processing ID: md1zp010 (Skip)  - PK: md1zp010
+[2026-01-12 08:44:19] [INFO] AD Object found: CN=MD1ZP010,OU=NON PEACY,OU=Clientcomputers,OU=Md1,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:19] [INFO] Top-Level OU determined: OU=Md1,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:19] [INFO] ISO Code 'ES' corresponds to: Spain
+[2026-01-12 08:44:19] [INFO] Hostname and IP known. No name resolution needed for host AF-VM001 (10.104.160.164).
+[2026-01-12 08:44:20] [INFO] Processing ID: AF-VM001 (Skip)  - PK: AF-VM001
+[2026-01-12 08:44:20] [INFO] AD Object found: CN=af-vm001,OU=NonPeacy,OU=Servercomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:20] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:20] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:20] [INFO] Hostname and IP known. No name resolution needed for host af-vm002 (10.104.160.165).
+[2026-01-12 08:44:20] [INFO] Processing ID: af-vm002 (Skip)  - PK: af-vm002
+[2026-01-12 08:44:20] [INFO] AD Object found: CN=af-vm002,OU=NonPeacy,OU=Servercomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:20] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:20] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:20] [INFO] Hostname and IP known. No name resolution needed for host af-vm003 (10.104.160.166).
+[2026-01-12 08:44:20] [INFO] Processing ID: af-vm003 (Skip)  - PK: af-vm003
+[2026-01-12 08:44:20] [INFO] AD Object found: CN=af-vm003,OU=NonPeacy,OU=Servercomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:20] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:20] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:20] [INFO] Hostname and IP known. No name resolution needed for host af-vm004 (10.104.160.167).
+[2026-01-12 08:44:20] [INFO] Processing ID: af-vm004 (Skip)  - PK: af-vm004
+[2026-01-12 08:44:20] [INFO] AD Object found: CN=AF-VM004,OU=NoCIOSB3,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:20] [WARN] Non location OU determined
+[2026-01-12 08:44:20] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:21] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:21] [INFO] Hostname and IP known. No name resolution needed for host af-00010 (10.104.161.202).
+[2026-01-12 08:44:21] [INFO] Processing ID: af-00010 (Skip)  - PK: af-00010
+[2026-01-12 08:44:21] [INFO] AD Object found: CN=af-00010,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:21] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:21] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:21] [INFO] Hostname and IP known. No name resolution needed for host af-00011 (10.104.161.203).
+[2026-01-12 08:44:21] [INFO] Processing ID: af-00011 (Skip)  - PK: af-00011
+[2026-01-12 08:44:21] [INFO] AD Object found: CN=af-00011,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:21] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:21] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:21] [INFO] Hostname and IP known. No name resolution needed for host af-00012 (10.104.161.204).
+[2026-01-12 08:44:21] [INFO] Processing ID: af-00012 (Skip)  - PK: af-00012
+[2026-01-12 08:44:21] [INFO] AD Object found: CN=af-00012,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:21] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:21] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:21] [INFO] Hostname and IP known. No name resolution needed for host af-00013 (10.104.161.205).
+[2026-01-12 08:44:21] [INFO] Processing ID: af-00013 (Skip)  - PK: af-00013
+[2026-01-12 08:44:21] [INFO] AD Object found: CN=af-00013,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:21] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:22] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:22] [INFO] Hostname and IP known. No name resolution needed for host af-00014 (10.104.161.206).
+[2026-01-12 08:44:22] [INFO] Processing ID: af-00014 (Skip)  - PK: af-00014
+[2026-01-12 08:44:22] [INFO] AD Object found: CN=af-00014,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:22] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:22] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:22] [INFO] Hostname and IP known. No name resolution needed for host af-00015 (10.104.161.207).
+[2026-01-12 08:44:22] [INFO] Processing ID: af-00015 (Skip)  - PK: af-00015
+[2026-01-12 08:44:22] [INFO] AD Object found: CN=af-00015,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:22] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:22] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:22] [INFO] Hostname and IP known. No name resolution needed for host af-00016 (10.104.161.208).
+[2026-01-12 08:44:22] [INFO] Processing ID: af-00016 (Skip)  - PK: af-00016
+[2026-01-12 08:44:22] [INFO] AD Object found: CN=af-00016,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:22] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:22] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:22] [INFO] Hostname and IP known. No name resolution needed for host af-00017 (10.104.161.209).
+[2026-01-12 08:44:22] [INFO] Processing ID: af-00017 (Skip)  - PK: af-00017
+[2026-01-12 08:44:22] [INFO] AD Object found: CN=af-00017,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:22] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:23] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:23] [INFO] Hostname and IP known. No name resolution needed for host af-00019 (10.104.161.210).
+[2026-01-12 08:44:23] [INFO] Processing ID: af-00019 (Skip)  - PK: af-00019
+[2026-01-12 08:44:23] [INFO] AD Object found: CN=af-00019,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:23] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:23] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:23] [INFO] Hostname and IP known. No name resolution needed for host af-00018 (10.104.161.211).
+[2026-01-12 08:44:23] [INFO] Processing ID: af-00018 (Skip)  - PK: af-00018
+[2026-01-12 08:44:23] [INFO] AD Object found: CN=af-00018,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:23] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:23] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:23] [INFO] Hostname and IP known. No name resolution needed for host af-00020 (10.104.161.212).
+[2026-01-12 08:44:23] [INFO] Processing ID: af-00020 (Skip)  - PK: af-00020
+[2026-01-12 08:44:23] [INFO] AD Object found: CN=af-00020,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:23] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:23] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:23] [INFO] Hostname and IP known. No name resolution needed for host af-00022 (10.104.161.214).
+[2026-01-12 08:44:23] [INFO] Processing ID: af-00022 (Skip)  - PK: af-00022
+[2026-01-12 08:44:23] [INFO] AD Object found: CN=af-00022,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:23] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:24] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:24] [INFO] Hostname and IP known. No name resolution needed for host af-00023 (10.104.161.215).
+[2026-01-12 08:44:24] [INFO] Processing ID: af-00023 (Skip)  - PK: af-00023
+[2026-01-12 08:44:24] [INFO] AD Object found: CN=af-00023,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:24] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:24] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:24] [INFO] Hostname and IP known. No name resolution needed for host af-00025 (10.104.161.217).
+[2026-01-12 08:44:24] [INFO] Processing ID: af-00025 (Skip)  - PK: af-00025
+[2026-01-12 08:44:24] [INFO] AD Object found: CN=af-00025,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:24] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:24] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:24] [INFO] Hostname and IP known. No name resolution needed for host AF-00028 (10.104.161.220).
+[2026-01-12 08:44:24] [INFO] Processing ID: AF-00028 (Skip)  - PK: AF-00028
+[2026-01-12 08:44:24] [INFO] AD Object found: CN=af-00028,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:24] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:24] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:24] [INFO] Hostname and IP known. No name resolution needed for host af-00033 (10.104.161.225).
+[2026-01-12 08:44:24] [INFO] Processing ID: af-00033 (Skip)  - PK: af-00033
+[2026-01-12 08:44:24] [INFO] AD Object found: CN=af-00033,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:24] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:25] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:25] [INFO] Hostname and IP known. No name resolution needed for host af-00034 (10.104.161.226).
+[2026-01-12 08:44:25] [INFO] Processing ID: af-00034 (Skip)  - PK: af-00034
+[2026-01-12 08:44:25] [INFO] AD Object found: CN=af-00034,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:25] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:25] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:25] [INFO] Hostname and IP known. No name resolution needed for host af-00035 (10.104.161.227).
+[2026-01-12 08:44:25] [INFO] Processing ID: af-00035 (Skip)  - PK: af-00035
+[2026-01-12 08:44:25] [INFO] AD Object found: CN=af-00035,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:25] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:25] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:25] [INFO] Hostname and IP known. No name resolution needed for host af-00036 (10.104.161.228).
+[2026-01-12 08:44:25] [INFO] Processing ID: af-00036 (Skip)  - PK: af-00036
+[2026-01-12 08:44:25] [INFO] AD Object found: CN=af-00036,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:25] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:25] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:25] [INFO] Hostname and IP known. No name resolution needed for host af-00037 (10.104.161.229).
+[2026-01-12 08:44:25] [INFO] Processing ID: af-00037 (Skip)  - PK: af-00037
+[2026-01-12 08:44:25] [INFO] AD Object found: CN=af-00037,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:25] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:26] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:26] [INFO] Hostname and IP known. No name resolution needed for host af-00038 (10.104.161.230).
+[2026-01-12 08:44:26] [INFO] Processing ID: af-00038 (Skip)  - PK: af-00038
+[2026-01-12 08:44:26] [INFO] AD Object found: CN=af-00038,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:26] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:26] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:26] [INFO] Hostname and IP known. No name resolution needed for host af-00041 (10.104.161.233).
+[2026-01-12 08:44:26] [INFO] Processing ID: af-00041 (Skip)  - PK: af-00041
+[2026-01-12 08:44:26] [INFO] AD Object found: CN=af-00041,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:26] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:26] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:26] [INFO] Hostname and IP known. No name resolution needed for host af-00042 (10.104.161.234).
+[2026-01-12 08:44:26] [INFO] Processing ID: af-00042 (Skip)  - PK: af-00042
+[2026-01-12 08:44:26] [INFO] AD Object found: CN=AF-00042,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:26] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:26] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:26] [INFO] Hostname and IP known. No name resolution needed for host af-00043 (10.104.161.235).
+[2026-01-12 08:44:26] [INFO] Processing ID: af-00043 (Skip)  - PK: af-00043
+[2026-01-12 08:44:26] [INFO] AD Object found: CN=af-00043,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:26] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:27] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:27] [INFO] Hostname and IP known. No name resolution needed for host af-00045 (10.104.161.237).
+[2026-01-12 08:44:27] [INFO] Processing ID: af-00045 (Skip)  - PK: af-00045
+[2026-01-12 08:44:27] [INFO] AD Object found: CN=af-00045,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:27] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:27] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:27] [INFO] Hostname and IP known. No name resolution needed for host af-00046 (10.104.161.238).
+[2026-01-12 08:44:27] [INFO] Processing ID: af-00046 (Skip)  - PK: af-00046
+[2026-01-12 08:44:27] [INFO] AD Object found: CN=af-00046,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:27] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:27] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:27] [INFO] Hostname and IP known. No name resolution needed for host af-00047 (10.104.161.239).
+[2026-01-12 08:44:27] [INFO] Processing ID: af-00047 (Skip)  - PK: af-00047
+[2026-01-12 08:44:27] [INFO] AD Object found: CN=af-00047,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:27] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:27] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:27] [INFO] Hostname and IP known. No name resolution needed for host af-00048 (10.104.161.240).
+[2026-01-12 08:44:27] [INFO] Processing ID: af-00048 (Skip)  - PK: af-00048
+[2026-01-12 08:44:27] [INFO] AD Object found: CN=af-00048,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:27] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:28] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:28] [INFO] Hostname and IP known. No name resolution needed for host af-00050 (10.104.161.242).
+[2026-01-12 08:44:28] [INFO] Processing ID: af-00050 (Skip)  - PK: af-00050
+[2026-01-12 08:44:28] [INFO] AD Object found: CN=af-00050,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:28] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:28] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:28] [INFO] Hostname and IP known. No name resolution needed for host af-00051 (10.104.161.243).
+[2026-01-12 08:44:28] [INFO] Processing ID: af-00051 (Skip)  - PK: af-00051
+[2026-01-12 08:44:28] [INFO] AD Object found: CN=af-00051,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:28] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:28] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:28] [INFO] Hostname and IP known. No name resolution needed for host af-00053 (10.104.161.248).
+[2026-01-12 08:44:28] [INFO] Processing ID: af-00053 (Skip)  - PK: af-00053
+[2026-01-12 08:44:28] [INFO] AD Object found: CN=af-00053,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:28] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:28] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:28] [INFO] Hostname and IP known. No name resolution needed for host af-00054 (10.104.161.249).
+[2026-01-12 08:44:28] [INFO] Processing ID: af-00054 (Skip)  - PK: af-00054
+[2026-01-12 08:44:28] [INFO] AD Object found: CN=af-00054,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:28] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:29] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:29] [INFO] Hostname and IP known. No name resolution needed for host af-00055 (10.104.161.250).
+[2026-01-12 08:44:29] [INFO] Processing ID: af-00055 (Skip)  - PK: af-00055
+[2026-01-12 08:44:29] [INFO] AD Object found: CN=af-00055,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:29] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:29] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:29] [INFO] Hostname and IP known. No name resolution needed for host af-00056 (10.104.161.251).
+[2026-01-12 08:44:29] [INFO] Processing ID: af-00056 (Skip)  - PK: af-00056
+[2026-01-12 08:44:29] [INFO] AD Object found: CN=af-00056,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:29] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:29] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:29] [INFO] Hostname and IP known. No name resolution needed for host af-y1181 (10.104.168.33).
+[2026-01-12 08:44:29] [INFO] Processing ID: af-y1181 (Skip)  - PK: af-y1181
+[2026-01-12 08:44:29] [INFO] AD Object found: CN=AF-Y1181,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:29] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:29] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:29] [INFO] Hostname and IP known. No name resolution needed for host af-y1182 (10.104.168.37).
+[2026-01-12 08:44:29] [INFO] Processing ID: af-y1182 (Skip)  - PK: af-y1182
+[2026-01-12 08:44:29] [INFO] AD Object found: CN=AF-Y1182,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:29] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:30] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:30] [INFO] Hostname and IP known. No name resolution needed for host af-y1120 (10.104.168.42).
+[2026-01-12 08:44:30] [INFO] Processing ID: af-y1120 (Skip)  - PK: af-y1120
+[2026-01-12 08:44:30] [INFO] AD Object found: CN=af-y1120,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:30] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:30] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:30] [INFO] Hostname and IP known. No name resolution needed for host af-x1019 (10.104.168.44).
+[2026-01-12 08:44:30] [INFO] Processing ID: af-x1019 (Skip)  - PK: af-x1019
+[2026-01-12 08:44:30] [INFO] AD Object found: CN=AF-X1019,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:30] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:30] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:30] [INFO] Hostname and IP known. No name resolution needed for host af-y1258 (10.104.170.28).
+[2026-01-12 08:44:30] [INFO] Processing ID: af-y1258 (Skip)  - PK: af-y1258
+[2026-01-12 08:44:30] [INFO] AD Object found: CN=AF-Y1258,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:30] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:30] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:30] [INFO] Hostname and IP known. No name resolution needed for host af-x1196 (10.104.170.47).
+[2026-01-12 08:44:30] [INFO] Processing ID: af-x1196 (Skip)  - PK: af-x1196
+[2026-01-12 08:44:30] [INFO] AD Object found: CN=af-x1196,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:30] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:31] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:31] [INFO] Hostname and IP known. No name resolution needed for host af-x1206 (10.104.170.48).
+[2026-01-12 08:44:31] [INFO] Processing ID: af-x1206 (Skip)  - PK: af-x1206
+[2026-01-12 08:44:31] [INFO] AD Object found: CN=AF-X1206,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:31] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:31] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:31] [INFO] Hostname and IP known. No name resolution needed for host af-00007 (10.104.170.57).
+[2026-01-12 08:44:31] [INFO] Processing ID: af-00007 (Skip)  - PK: af-00007
+[2026-01-12 08:44:31] [INFO] AD Object found: CN=AF-00007,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:31] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:31] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:31] [INFO] Hostname and IP known. No name resolution needed for host af-00005 (10.104.170.58).
+[2026-01-12 08:44:31] [INFO] Processing ID: af-00005 (Skip)  - PK: af-00005
+[2026-01-12 08:44:31] [INFO] AD Object found: CN=AF-00005,OU=Fertigung-PC,OU=Clientcomputers,OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:31] [INFO] Top-Level OU determined: OU=Af,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:31] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:31] [INFO] Hostname and IP known. No name resolution needed for host udi4vm11 (10.109.23.112).
+[2026-01-12 08:44:31] [INFO] Processing ID: udi4vm11 (Skip)  - PK: udi4vm11
+[2026-01-12 08:44:31] [INFO] AD Object found: CN=UDI4VM11,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:31] [WARN] Non location OU determined
+[2026-01-12 08:44:31] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:44:31] [INFO] Hostname and IP known. No name resolution needed for host udi4as01 (10.109.23.117).
+[2026-01-12 08:44:31] [INFO] Processing ID: udi4as01 (Skip)  - PK: udi4as01
+[2026-01-12 08:44:32] [WARN] No AD object for udi4as01 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:44:32] [WARN] No location OU found for the object.
+[2026-01-12 08:44:32] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:44:32] [INFO] Hostname and IP known. No name resolution needed for host udi4vm0027 (10.109.23.119).
+[2026-01-12 08:44:32] [INFO] Processing ID: udi4vm0027 (Skip)  - PK: udi4vm0027
+[2026-01-12 08:44:32] [INFO] AD Object found: CN=UDI4VM0027,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:32] [WARN] Non location OU determined
+[2026-01-12 08:44:32] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:44:32] [INFO] Hostname and IP known. No name resolution needed for host udi4vm0024 (10.109.23.96).
+[2026-01-12 08:44:32] [INFO] Processing ID: udi4vm0024 (Skip)  - PK: udi4vm0024
+[2026-01-12 08:44:32] [INFO] AD Object found: CN=UDI4VM0024,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:32] [WARN] Non location OU determined
+[2026-01-12 08:44:32] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:44:32] [INFO] Hostname and IP known. No name resolution needed for host nuef0119 (10.11.180.86).
+[2026-01-12 08:44:32] [INFO] Processing ID: nuef0119 (Skip)  - PK: nuef0119
+[2026-01-12 08:44:32] [INFO] AD Object found: CN=NUEF0119,OU=TDV,OU=Clientcomputers,OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:32] [INFO] Top-Level OU determined: OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:32] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:32] [INFO] Hostname and IP known. No name resolution needed for host nuef0120 (10.11.181.98).
+[2026-01-12 08:44:32] [INFO] Processing ID: nuef0120 (Skip)  - PK: nuef0120
+[2026-01-12 08:44:32] [INFO] AD Object found: CN=NUEF0120,OU=TDV,OU=Clientcomputers,OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:32] [INFO] Top-Level OU determined: OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-12 08:44:32] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:44:32] [INFO] Hostname and IP known. No name resolution needed for host htvnp078 (10.11.26.209).
+[2026-01-12 08:44:32] [INFO] Processing ID: htvnp078 (Skip)  - PK: htvnp078
+[2026-01-12 08:44:32] [INFO] AD Object found: CN=HTVNP078,OU=Non-CI-Managed,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:32] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:32] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:44:33] [INFO] Hostname and IP known. No name resolution needed for host htvnp053 (10.11.26.210).
+[2026-01-12 08:44:33] [INFO] Processing ID: htvnp053 (Skip)  - PK: htvnp053
+[2026-01-12 08:44:33] [INFO] AD Object found: CN=HTVNP053,OU=Non-CI-Managed,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:33] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:33] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:44:33] [INFO] Hostname and IP known. No name resolution needed for host htvnp066 (10.11.26.211).
+[2026-01-12 08:44:33] [INFO] Processing ID: htvnp066 (Skip)  - PK: htvnp066
+[2026-01-12 08:44:33] [INFO] AD Object found: CN=HTVNP066,OU=Non-CI-Managed,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:33] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:33] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:44:33] [INFO] Hostname and IP known. No name resolution needed for host htvnp054 (10.11.26.213).
+[2026-01-12 08:44:33] [INFO] Processing ID: htvnp054 (Skip)  - PK: htvnp054
+[2026-01-12 08:44:33] [INFO] AD Object found: CN=HTVNP054,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:33] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:34] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:44:34] [INFO] Processing ID: na (IP)  - PK: 10.11.26.95
+[2026-01-12 08:44:38] [WARN] DNS resolution error for  10.11.26.95 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:44:38] [INFO] Processing ID: na (IP)  - PK: 10.11.26.96
+[2026-01-12 08:44:43] [WARN] DNS resolution error for  10.11.26.96 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:44:43] [INFO] Processing ID: na (IP)  - PK: 10.11.26.97
+[2026-01-12 08:44:47] [WARN] DNS resolution error for  10.11.26.97 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:44:47] [INFO] Processing ID: na (IP)  - PK: 10.11.26.98
+[2026-01-12 08:44:52] [WARN] DNS resolution error for  10.11.26.98 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:44:52] [INFO] Processing ID: na (IP)  - PK: 10.11.26.99
+[2026-01-12 08:44:56] [WARN] DNS resolution error for  10.11.26.99 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:44:56] [INFO] Hostname and IP known. No name resolution needed for host nntapachet03 (10.111.192.54).
+[2026-01-12 08:44:56] [INFO] Processing ID: nntapachet03 (Skip)  - PK: nntapachet03
+[2026-01-12 08:44:56] [INFO] AD Object found: CN=NNTAPACHET03,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:56] [WARN] Non location OU determined
+[2026-01-12 08:44:56] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:44:56] [INFO] Hostname and IP known. No name resolution needed for host nntapache08 (10.111.192.57).
+[2026-01-12 08:44:56] [INFO] Processing ID: nntapache08 (Skip)  - PK: nntapache08
+[2026-01-12 08:44:57] [INFO] AD Object found: CN=NNTAPACHE08,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:57] [WARN] Non location OU determined
+[2026-01-12 08:44:57] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:44:57] [INFO] Hostname and IP known. No name resolution needed for host ti-x0031 (10.119.56.1).
+[2026-01-12 08:44:57] [INFO] Processing ID: ti-x0031 (Skip)  - PK: ti-x0031
+[2026-01-12 08:44:57] [INFO] AD Object found: CN=TI-X0031,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:57] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:57] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:57] [INFO] Hostname and IP known. No name resolution needed for host ti-x0035 (10.119.56.10).
+[2026-01-12 08:44:57] [INFO] Processing ID: ti-x0035 (Skip)  - PK: ti-x0035
+[2026-01-12 08:44:57] [INFO] AD Object found: CN=TI-X0035,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:57] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:57] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:57] [INFO] Hostname and IP known. No name resolution needed for host ti-x0038 (10.119.56.18).
+[2026-01-12 08:44:57] [INFO] Processing ID: ti-x0038 (Skip)  - PK: ti-x0038
+[2026-01-12 08:44:57] [INFO] AD Object found: CN=TI-X0038,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:57] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:57] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:57] [INFO] Hostname and IP known. No name resolution needed for host ti-x003b (10.119.56.26).
+[2026-01-12 08:44:57] [INFO] Processing ID: ti-x003b (Skip)  - PK: ti-x003b
+[2026-01-12 08:44:57] [INFO] AD Object found: CN=TI-X003B,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:57] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:58] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:58] [INFO] Hostname and IP known. No name resolution needed for host ti-x003f (10.119.56.35).
+[2026-01-12 08:44:58] [INFO] Processing ID: ti-x003f (Skip)  - PK: ti-x003f
+[2026-01-12 08:44:58] [INFO] AD Object found: CN=TI-X003F,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:58] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:58] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:58] [INFO] Hostname and IP known. No name resolution needed for host ti-x003k (10.119.56.45).
+[2026-01-12 08:44:58] [INFO] Processing ID: ti-x003k (Skip)  - PK: ti-x003k
+[2026-01-12 08:44:58] [INFO] AD Object found: CN=TI-X003K,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:58] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:58] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:58] [INFO] Hostname and IP known. No name resolution needed for host ti-x003z (10.119.56.63).
+[2026-01-12 08:44:58] [INFO] Processing ID: ti-x003z (Skip)  - PK: ti-x003z
+[2026-01-12 08:44:58] [INFO] AD Object found: CN=TI-X003Z,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:58] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:58] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:58] [INFO] Hostname and IP known. No name resolution needed for host ti-x004t (10.119.58.12).
+[2026-01-12 08:44:58] [INFO] Processing ID: ti-x004t (Skip)  - PK: ti-x004t
+[2026-01-12 08:44:58] [INFO] AD Object found: CN=TI-X004T,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:58] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:59] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:59] [INFO] Hostname and IP known. No name resolution needed for host ti-x0072 (10.119.58.135).
+[2026-01-12 08:44:59] [INFO] Processing ID: ti-x0072 (Skip)  - PK: ti-x0072
+[2026-01-12 08:44:59] [INFO] AD Object found: CN=TI-X0072,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:59] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:59] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:59] [INFO] Hostname and IP known. No name resolution needed for host ti-x0075 (10.119.58.138).
+[2026-01-12 08:44:59] [INFO] Processing ID: ti-x0075 (Skip)  - PK: ti-x0075
+[2026-01-12 08:44:59] [INFO] AD Object found: CN=TI-X0075,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:59] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:59] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:59] [INFO] Hostname and IP known. No name resolution needed for host ti-x0078 (10.119.58.141).
+[2026-01-12 08:44:59] [INFO] Processing ID: ti-x0078 (Skip)  - PK: ti-x0078
+[2026-01-12 08:44:59] [INFO] AD Object found: CN=TI-X0078,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:59] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:44:59] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:44:59] [INFO] Hostname and IP known. No name resolution needed for host ti-x007c (10.119.58.145).
+[2026-01-12 08:44:59] [INFO] Processing ID: ti-x007c (Skip)  - PK: ti-x007c
+[2026-01-12 08:45:00] [INFO] AD Object found: CN=TI-X007C,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:00] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:00] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:45:00] [INFO] Hostname and IP known. No name resolution needed for host ti-x007i (10.119.58.150).
+[2026-01-12 08:45:00] [INFO] Processing ID: ti-x007i (Skip)  - PK: ti-x007i
+[2026-01-12 08:45:00] [INFO] AD Object found: CN=TI-X007I,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:00] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:00] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:45:00] [INFO] Hostname and IP known. No name resolution needed for host ti-x007y (10.119.58.165).
+[2026-01-12 08:45:00] [INFO] Processing ID: ti-x007y (Skip)  - PK: ti-x007y
+[2026-01-12 08:45:00] [INFO] AD Object found: CN=TI-X007Y,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:00] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:00] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:45:00] [INFO] Hostname and IP known. No name resolution needed for host ti-x004w (10.119.58.19).
+[2026-01-12 08:45:00] [INFO] Processing ID: ti-x004w (Skip)  - PK: ti-x004w
+[2026-01-12 08:45:00] [INFO] AD Object found: CN=TI-X004W,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:00] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:01] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:45:01] [INFO] Hostname and IP known. No name resolution needed for host ti-x004z (10.119.58.26).
+[2026-01-12 08:45:01] [INFO] Processing ID: ti-x004z (Skip)  - PK: ti-x004z
+[2026-01-12 08:45:01] [INFO] AD Object found: CN=TI-X004Z,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:01] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:01] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:45:01] [INFO] Hostname and IP known. No name resolution needed for host ti-x0053 (10.119.58.34).
+[2026-01-12 08:45:01] [INFO] Processing ID: ti-x0053 (Skip)  - PK: ti-x0053
+[2026-01-12 08:45:01] [INFO] AD Object found: CN=TI-X0053,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:01] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:02] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:45:02] [INFO] Hostname and IP known. No name resolution needed for host ti-x004p (10.119.58.4).
+[2026-01-12 08:45:02] [INFO] Processing ID: ti-x004p (Skip)  - PK: ti-x004p
+[2026-01-12 08:45:02] [INFO] AD Object found: CN=TI-X004P,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:02] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:02] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:45:02] [INFO] Hostname and IP known. No name resolution needed for host ti-x0058 (10.119.58.42).
+[2026-01-12 08:45:02] [INFO] Processing ID: ti-x0058 (Skip)  - PK: ti-x0058
+[2026-01-12 08:45:02] [INFO] AD Object found: CN=TI-X0058,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:02] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:02] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:45:02] [INFO] Hostname and IP known. No name resolution needed for host ti-x005n (10.119.58.61).
+[2026-01-12 08:45:02] [INFO] Processing ID: ti-x005n (Skip)  - PK: ti-x005n
+[2026-01-12 08:45:02] [INFO] AD Object found: CN=TI-X005N,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:02] [INFO] Top-Level OU determined: OU=Ti,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:03] [INFO] ISO Code 'BE' corresponds to: Belgium
+[2026-01-12 08:45:03] [INFO] Hostname and IP known. No name resolution needed for host av-seprod (10.121.194.155).
+[2026-01-12 08:45:03] [INFO] Processing ID: av-seprod (Skip)  - PK: av-seprod
+[2026-01-12 08:45:03] [INFO] AD Object found: CN=AV-SEPROD,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:45:03] [WARN] Non location OU determined
+[2026-01-12 08:45:03] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:45:03] [INFO] Hostname and IP known. No name resolution needed for host RT-X8682 (10.13.236.110).
+[2026-01-12 08:45:03] [INFO] Processing ID: RT-X8682 (Skip)  - PK: RT-X8682
+[2026-01-12 08:45:03] [INFO] AD Object found: CN=RT-X8682,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:03] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:03] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:03] [INFO] Hostname and IP known. No name resolution needed for host rt-z01qh (10.13.236.132).
+[2026-01-12 08:45:03] [INFO] Processing ID: rt-z01qh (Skip)  - PK: rt-z01qh
+[2026-01-12 08:45:03] [INFO] AD Object found: CN=RT-Z01QH,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:03] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:03] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:04] [INFO] Hostname and IP known. No name resolution needed for host rt-z02mj (10.13.236.146).
+[2026-01-12 08:45:04] [INFO] Processing ID: rt-z02mj (Skip)  - PK: rt-z02mj
+[2026-01-12 08:45:04] [INFO] AD Object found: CN=RT-Z02MJ,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:04] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:04] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:04] [INFO] Hostname and IP known. No name resolution needed for host rt-z038p (10.13.236.156).
+[2026-01-12 08:45:04] [INFO] Processing ID: rt-z038p (Skip)  - PK: rt-z038p
+[2026-01-12 08:45:04] [INFO] AD Object found: CN=RT-Z038P,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:04] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:04] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:04] [INFO] Hostname and IP known. No name resolution needed for host minint-q37gidi (10.13.236.56).
+[2026-01-12 08:45:04] [INFO] Processing ID: minint-q37gidi (Skip)  - PK: minint-q37gidi
+[2026-01-12 08:45:04] [WARN] No AD object for minint-q37gidi found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:05] [INFO] Found OU object is OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:05] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:05] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:05] [INFO] Hostname and IP known. No name resolution needed for host minint-389u19g (10.13.236.62).
+[2026-01-12 08:45:05] [INFO] Processing ID: minint-389u19g (Skip)  - PK: minint-389u19g
+[2026-01-12 08:45:05] [WARN] No AD object for minint-389u19g found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:05] [INFO] Found OU object is OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:05] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:05] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:05] [INFO] Hostname and IP known. No name resolution needed for host rt-x7932 (10.13.236.92).
+[2026-01-12 08:45:05] [INFO] Processing ID: rt-x7932 (Skip)  - PK: rt-x7932
+[2026-01-12 08:45:05] [INFO] AD Object found: CN=rt-x7932,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:05] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:05] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:05] [INFO] Hostname and IP known. No name resolution needed for host rt-x7933 (10.13.236.98).
+[2026-01-12 08:45:05] [INFO] Processing ID: rt-x7933 (Skip)  - PK: rt-x7933
+[2026-01-12 08:45:05] [INFO] AD Object found: CN=RT-X7933,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:05] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:06] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:06] [INFO] Hostname and IP known. No name resolution needed for host rt-x5510 (10.13.90.198).
+[2026-01-12 08:45:06] [INFO] Processing ID: rt-x5510 (Skip)  - PK: rt-x5510
+[2026-01-12 08:45:06] [INFO] AD Object found: CN=RT-X5510,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:06] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:06] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:06] [INFO] Hostname and IP known. No name resolution needed for host rt-z02dd (10.13.90.49).
+[2026-01-12 08:45:06] [INFO] Processing ID: rt-z02dd (Skip)  - PK: rt-z02dd
+[2026-01-12 08:45:06] [INFO] AD Object found: CN=RT-Z02DD,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:06] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:06] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:06] [INFO] Hostname and IP known. No name resolution needed for host AN0Z1749 (10.15.159.94).
+[2026-01-12 08:45:06] [INFO] Processing ID: AN0Z1749 (Skip)  - PK: AN0Z1749
+[2026-01-12 08:45:06] [INFO] AD Object found: CN=AN0Z1749,OU=Hybrid,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:06] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:06] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:06] [INFO] Hostname and IP known. No name resolution needed for host an0z1782 (10.15.161.113).
+[2026-01-12 08:45:06] [INFO] Processing ID: an0z1782 (Skip)  - PK: an0z1782
+[2026-01-12 08:45:06] [INFO] AD Object found: CN=AN0Z1782,OU=Bonden,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:06] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:07] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:07] [INFO] Hostname and IP known. No name resolution needed for host an0z1464 (10.15.161.114).
+[2026-01-12 08:45:07] [INFO] Processing ID: an0z1464 (Skip)  - PK: an0z1464
+[2026-01-12 08:45:07] [INFO] AD Object found: CN=AN0Z1464,OU=Hybrid,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:07] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:07] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:07] [INFO] Hostname and IP known. No name resolution needed for host an0ns24b (10.15.171.15).
+[2026-01-12 08:45:07] [INFO] Processing ID: an0ns24b (Skip)  - PK: an0ns24b
+[2026-01-12 08:45:07] [INFO] AD Object found: CN=AN0NS24B,OU=Spritzen,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:07] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:07] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:07] [INFO] Hostname and IP known. No name resolution needed for host an0z1749 (10.15.180.234).
+[2026-01-12 08:45:07] [INFO] Processing ID: an0z1749 (Skip)  - PK: an0z1749
+[2026-01-12 08:45:07] [INFO] AD Object found: CN=AN0Z1749,OU=Hybrid,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:07] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:07] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:07] [INFO] Hostname and IP known. No name resolution needed for host AN0N0068 (10.15.184.20).
+[2026-01-12 08:45:07] [INFO] Processing ID: AN0N0068 (Skip)  - PK: AN0N0068
+[2026-01-12 08:45:08] [INFO] AD Object found: CN=AN0N0068,OU=Quiss,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:08] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:08] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:08] [INFO] Hostname and IP known. No name resolution needed for host an0n0070 (10.15.184.27).
+[2026-01-12 08:45:08] [INFO] Processing ID: an0n0070 (Skip)  - PK: an0n0070
+[2026-01-12 08:45:08] [INFO] AD Object found: CN=AN0N0070,OU=Quiss,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:08] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:08] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:08] [INFO] Hostname and IP known. No name resolution needed for host an0x1383 (10.15.184.4).
+[2026-01-12 08:45:08] [INFO] Processing ID: an0x1383 (Skip)  - PK: an0x1383
+[2026-01-12 08:45:08] [INFO] AD Object found: CN=AN0X1383,OU=Hybrid,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:08] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:08] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:08] [INFO] Hostname and IP known. No name resolution needed for host an0n0067-ip3 (10.15.184.48).
+[2026-01-12 08:45:08] [INFO] Processing ID: an0n0067-ip3 (Skip)  - PK: an0n0067-ip3
+[2026-01-12 08:45:08] [WARN] No AD object for an0n0067-ip3 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:08] [INFO] Found OU object is OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:08] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:09] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:09] [INFO] Hostname and IP known. No name resolution needed for host 168802329an0n0094 (10.15.184.82).
+[2026-01-12 08:45:09] [INFO] Processing ID: 168802329an0n0094 (Skip)  - PK: 168802329an0n0094
+[2026-01-12 08:45:09] [WARN] No AD object for 168802329an0n0094 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:09] [INFO] Found OU object is OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:09] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:09] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:09] [INFO] Hostname and IP known. No name resolution needed for host nu0x2949 (10.15.212.29).
+[2026-01-12 08:45:09] [INFO] Processing ID: nu0x2949 (Skip)  - PK: nu0x2949
+[2026-01-12 08:45:09] [INFO] AD Object found: CN=NU0X2949,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:09] [WARN] Non location OU determined
+[2026-01-12 08:45:09] [INFO] Top-Level OU determined: OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:09] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:09] [INFO] Hostname and IP known. No name resolution needed for host nu0x2950 (10.15.212.30).
+[2026-01-12 08:45:09] [INFO] Processing ID: nu0x2950 (Skip)  - PK: nu0x2950
+[2026-01-12 08:45:09] [INFO] AD Object found: CN=NU0X2950,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:09] [WARN] Non location OU determined
+[2026-01-12 08:45:09] [INFO] Top-Level OU determined: OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:09] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:09] [INFO] Hostname and IP known. No name resolution needed for host nu0x2951 (10.15.212.31).
+[2026-01-12 08:45:09] [INFO] Processing ID: nu0x2951 (Skip)  - PK: nu0x2951
+[2026-01-12 08:45:10] [INFO] AD Object found: CN=NU0X2951,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:10] [WARN] Non location OU determined
+[2026-01-12 08:45:10] [INFO] Top-Level OU determined: OU=Nu,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:10] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:10] [INFO] Hostname and IP known. No name resolution needed for host batef34qlrzdvb3 (10.15.225.18).
+[2026-01-12 08:45:10] [INFO] Processing ID: batef34qlrzdvb3 (Skip)  - PK: batef34qlrzdvb3
+[2026-01-12 08:45:10] [INFO] AD Object found: CN=BATEF34QLRZDVB3,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:10] [WARN] Non location OU determined
+[2026-01-12 08:45:10] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:45:10] [INFO] Processing ID: na (IP)  - PK: 10.16.121.11
+[2026-01-12 08:45:14] [WARN] DNS resolution error for  10.16.121.11 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:45:14] [INFO] Hostname and IP known. No name resolution needed for host ba0y1018 (10.16.155.10).
+[2026-01-12 08:45:14] [INFO] Processing ID: ba0y1018 (Skip)  - PK: ba0y1018
+[2026-01-12 08:45:15] [INFO] AD Object found: CN=BA0Y1018,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:15] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:15] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:15] [INFO] Hostname and IP known. No name resolution needed for host ba0pc20024 (10.16.155.11).
+[2026-01-12 08:45:15] [INFO] Processing ID: ba0pc20024 (Skip)  - PK: ba0pc20024
+[2026-01-12 08:45:15] [INFO] AD Object found: CN=BA0PC20024,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:15] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:15] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:15] [INFO] Hostname and IP known. No name resolution needed for host ba0y1027 (10.16.155.12).
+[2026-01-12 08:45:15] [INFO] Processing ID: ba0y1027 (Skip)  - PK: ba0y1027
+[2026-01-12 08:45:15] [INFO] AD Object found: CN=BA0Y1027,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:15] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:15] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:15] [INFO] Hostname and IP known. No name resolution needed for host ba0pc20025 (10.16.155.13).
+[2026-01-12 08:45:15] [INFO] Processing ID: ba0pc20025 (Skip)  - PK: ba0pc20025
+[2026-01-12 08:45:15] [INFO] AD Object found: CN=BA0PC20025,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:15] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:16] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:16] [INFO] Hostname and IP known. No name resolution needed for host ba0y1026 (10.16.155.14).
+[2026-01-12 08:45:16] [INFO] Processing ID: ba0y1026 (Skip)  - PK: ba0y1026
+[2026-01-12 08:45:16] [INFO] AD Object found: CN=BA0Y1026,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:16] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:16] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:16] [INFO] Hostname and IP known. No name resolution needed for host ba0pc20463 (10.16.155.15).
+[2026-01-12 08:45:16] [INFO] Processing ID: ba0pc20463 (Skip)  - PK: ba0pc20463
+[2026-01-12 08:45:16] [INFO] AD Object found: CN=BA0PC20463,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:16] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:16] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:16] [INFO] Hostname and IP known. No name resolution needed for host ba0y1021 (10.16.155.19).
+[2026-01-12 08:45:16] [INFO] Processing ID: ba0y1021 (Skip)  - PK: ba0y1021
+[2026-01-12 08:45:16] [INFO] AD Object found: CN=BA0Y1021,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:16] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:17] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:17] [INFO] Hostname and IP known. No name resolution needed for host ba0z2228 (10.16.155.32).
+[2026-01-12 08:45:17] [INFO] Processing ID: ba0z2228 (Skip)  - PK: ba0z2228
+[2026-01-12 08:45:17] [INFO] AD Object found: CN=BA0Z2228,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:17] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:17] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:17] [INFO] Hostname and IP known. No name resolution needed for host ba0pc20613 (10.16.155.33).
+[2026-01-12 08:45:17] [INFO] Processing ID: ba0pc20613 (Skip)  - PK: ba0pc20613
+[2026-01-12 08:45:17] [INFO] AD Object found: CN=BA0PC20613,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:17] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:17] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:17] [INFO] Hostname and IP known. No name resolution needed for host ba0y1023 (10.16.155.5).
+[2026-01-12 08:45:17] [INFO] Processing ID: ba0y1023 (Skip)  - PK: ba0y1023
+[2026-01-12 08:45:17] [INFO] AD Object found: CN=BA0Y1023,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:17] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:17] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:17] [INFO] Hostname and IP known. No name resolution needed for host ba0pc6945 (10.16.155.6).
+[2026-01-12 08:45:17] [INFO] Processing ID: ba0pc6945 (Skip)  - PK: ba0pc6945
+[2026-01-12 08:45:17] [INFO] AD Object found: CN=BA0PC6945,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:17] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:18] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:18] [INFO] Hostname and IP known. No name resolution needed for host ba0y1024 (10.16.155.7).
+[2026-01-12 08:45:18] [INFO] Processing ID: ba0y1024 (Skip)  - PK: ba0y1024
+[2026-01-12 08:45:18] [INFO] AD Object found: CN=BA0Y1024,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:18] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:18] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:18] [INFO] Hostname and IP known. No name resolution needed for host ba0y1020 (10.16.155.8).
+[2026-01-12 08:45:18] [INFO] Processing ID: ba0y1020 (Skip)  - PK: ba0y1020
+[2026-01-12 08:45:18] [INFO] AD Object found: CN=BA0Y1020,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:18] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:18] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:18] [INFO] Hostname and IP known. No name resolution needed for host ba0y1028 (10.16.155.9).
+[2026-01-12 08:45:18] [INFO] Processing ID: ba0y1028 (Skip)  - PK: ba0y1028
+[2026-01-12 08:45:18] [INFO] AD Object found: CN=BA0Y1028,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:18] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:18] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:18] [INFO] Hostname and IP known. No name resolution needed for host BA0PC20463 (10.16.224.51).
+[2026-01-12 08:45:18] [INFO] Processing ID: BA0PC20463 (Skip)  - PK: BA0PC20463
+[2026-01-12 08:45:18] [INFO] AD Object found: CN=BA0PC20463,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:18] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:19] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:19] [INFO] Hostname and IP known. No name resolution needed for host BA0Y1028 (10.16.48.59).
+[2026-01-12 08:45:19] [INFO] Processing ID: BA0Y1028 (Skip)  - PK: BA0Y1028
+[2026-01-12 08:45:19] [INFO] AD Object found: CN=BA0Y1028,OU=Clientcomputers,OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:19] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:19] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:19] [INFO] Hostname and IP known. No name resolution needed for host bidpf37725 (10.166.200.16).
+[2026-01-12 08:45:19] [INFO] Processing ID: bidpf37725 (Skip)  - PK: bidpf37725
+[2026-01-12 08:45:19] [INFO] AD Object found: CN=BIDPF37725,CN=Computers,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:19] [WARN] Non location OU determined
+[2026-01-12 08:45:19] [ERROR] AD Error while searching for bidpf37725 : Cannot index into a null array.
+[2026-01-12 08:45:19] [INFO] Hostname and IP known. No name resolution needed for host an0z1440 (10.17.117.31).
+[2026-01-12 08:45:19] [INFO] Processing ID: an0z1440 (Skip)  - PK: an0z1440
+[2026-01-12 08:45:19] [WARN] No AD object for an0z1440 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:19] [WARN] No location OU found for the object.
+[2026-01-12 08:45:19] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:45:19] [INFO] Hostname and IP known. No name resolution needed for host an0x5796 (10.17.128.3).
+[2026-01-12 08:45:19] [INFO] Processing ID: an0x5796 (Skip)  - PK: an0x5796
+[2026-01-12 08:45:19] [INFO] AD Object found: CN=AN0X5796,OU=Linie 5,OU=Airbag,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:19] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:19] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:19] [INFO] Hostname and IP known. No name resolution needed for host an0x4306 (10.17.20.176).
+[2026-01-12 08:45:19] [INFO] Processing ID: an0x4306 (Skip)  - PK: an0x4306
+[2026-01-12 08:45:19] [INFO] AD Object found: CN=AN0X4306,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:20] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:20] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:20] [INFO] Hostname and IP known. No name resolution needed for host an0nv054 (10.17.21.19).
+[2026-01-12 08:45:20] [INFO] Processing ID: an0nv054 (Skip)  - PK: an0nv054
+[2026-01-12 08:45:20] [INFO] AD Object found: CN=AN0NV054,OU=ABS8_Gx8 Vormontage,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:20] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:20] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:20] [INFO] Hostname and IP known. No name resolution needed for host an0z1090 (10.17.24.14).
+[2026-01-12 08:45:20] [INFO] Processing ID: an0z1090 (Skip)  - PK: an0z1090
+[2026-01-12 08:45:20] [INFO] AD Object found: CN=AN0Z1090,OU=Gen9,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:20] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:20] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:20] [INFO] Hostname and IP known. No name resolution needed for host an0x5250 (10.17.37.176).
+[2026-01-12 08:45:20] [INFO] Processing ID: an0x5250 (Skip)  - PK: an0x5250
+[2026-01-12 08:45:20] [INFO] AD Object found: CN=AN0X5250,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:20] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:20] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:20] [INFO] Hostname and IP known. No name resolution needed for host an0z2108 (10.17.42.41).
+[2026-01-12 08:45:20] [INFO] Processing ID: an0z2108 (Skip)  - PK: an0z2108
+[2026-01-12 08:45:21] [INFO] AD Object found: CN=AN0Z2108,OU=Linie 5,OU=Airbag,OU=TC,OU=Clientcomputers,OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:21] [INFO] Top-Level OU determined: OU=An,DC=de,DC=bosch,DC=com
+[2026-01-12 08:45:21] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:45:21] [INFO] Hostname and IP known. No name resolution needed for host pg-ut3095c (10.182.135.101).
+[2026-01-12 08:45:21] [INFO] Processing ID: pg-ut3095c (Skip)  - PK: pg-ut3095c
+[2026-01-12 08:45:21] [WARN] No AD object for pg-ut3095c found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:21] [INFO] Found OU object is OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:21] [INFO] Top-Level OU determined: OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:22] [INFO] ISO Code 'MY' corresponds to: Malaysia
+[2026-01-12 08:45:22] [INFO] Hostname and IP known. No name resolution needed for host pg-ut2791c (10.182.135.130).
+[2026-01-12 08:45:22] [INFO] Processing ID: pg-ut2791c (Skip)  - PK: pg-ut2791c
+[2026-01-12 08:45:22] [WARN] No AD object for pg-ut2791c found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:22] [INFO] Found OU object is OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:22] [INFO] Top-Level OU determined: OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:22] [INFO] ISO Code 'MY' corresponds to: Malaysia
+[2026-01-12 08:45:22] [INFO] Hostname and IP known. No name resolution needed for host pg-ut3512c (10.182.135.148).
+[2026-01-12 08:45:22] [INFO] Processing ID: pg-ut3512c (Skip)  - PK: pg-ut3512c
+[2026-01-12 08:45:22] [WARN] No AD object for pg-ut3512c found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:22] [INFO] Found OU object is OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:22] [INFO] Top-Level OU determined: OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:22] [INFO] ISO Code 'MY' corresponds to: Malaysia
+[2026-01-12 08:45:22] [INFO] Hostname and IP known. No name resolution needed for host pg-ut2804c (10.182.135.161).
+[2026-01-12 08:45:22] [INFO] Processing ID: pg-ut2804c (Skip)  - PK: pg-ut2804c
+[2026-01-12 08:45:22] [INFO] AD Object found: CN=PG-UT2804C,OU=Clientcomputers,OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:22] [INFO] Top-Level OU determined: OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:23] [INFO] ISO Code 'MY' corresponds to: Malaysia
+[2026-01-12 08:45:23] [INFO] Hostname and IP known. No name resolution needed for host pg-ut2991c (10.182.135.165).
+[2026-01-12 08:45:23] [INFO] Processing ID: pg-ut2991c (Skip)  - PK: pg-ut2991c
+[2026-01-12 08:45:23] [WARN] No AD object for pg-ut2991c found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:23] [INFO] Found OU object is OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:23] [INFO] Top-Level OU determined: OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:23] [INFO] ISO Code 'MY' corresponds to: Malaysia
+[2026-01-12 08:45:23] [INFO] Hostname and IP known. No name resolution needed for host pg-ut4220c (10.182.135.225).
+[2026-01-12 08:45:23] [INFO] Processing ID: pg-ut4220c (Skip)  - PK: pg-ut4220c
+[2026-01-12 08:45:23] [WARN] No AD object for pg-ut4220c found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:23] [INFO] Found OU object is OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:23] [INFO] Top-Level OU determined: OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:23] [INFO] ISO Code 'MY' corresponds to: Malaysia
+[2026-01-12 08:45:23] [INFO] Processing ID: na (IP)  - PK: 10.182.135.237
+[2026-01-12 08:45:28] [WARN] DNS resolution error for  10.182.135.237 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:45:28] [INFO] Hostname and IP known. No name resolution needed for host moe3-7002 (10.182.136.133).
+[2026-01-12 08:45:28] [INFO] Processing ID: moe3-7002 (Skip)  - PK: moe3-7002
+[2026-01-12 08:45:28] [INFO] AD Object found: CN=MOE3-7002,CN=Computers,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:28] [WARN] Non location OU determined
+[2026-01-12 08:45:28] [INFO] Top-Level OU determined: OU=Pg,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:45:28] [INFO] ISO Code 'MY' corresponds to: Malaysia
+[2026-01-12 08:45:28] [INFO] Processing ID: na (IP)  - PK: 10.182.136.135
+[2026-01-12 08:45:33] [WARN] DNS resolution error for  10.182.136.135 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:45:33] [INFO] Processing ID: na (IP)  - PK: 10.182.136.136
+[2026-01-12 08:45:37] [WARN] DNS resolution error for  10.182.136.136 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:45:37] [INFO] Processing ID: na (IP)  - PK: 10.182.136.225
+[2026-01-12 08:45:42] [WARN] DNS resolution error for  10.182.136.225 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:45:42] [INFO] Hostname and IP known. No name resolution needed for host promikst2 (10.225.103.60).
+[2026-01-12 08:45:42] [INFO] Processing ID: promikst2 (Skip)  - PK: promikst2
+[2026-01-12 08:45:42] [INFO] AD Object found: CN=PROMIKST2,OU=NonPeacy,OU=Clientcomputers,OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:45:42] [INFO] Top-Level OU determined: OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:45:44] [INFO] ISO Code 'MX' corresponds to: Mexico
+[2026-01-12 08:45:44] [INFO] Processing ID: na (IP)  - PK: 10.225.49.77
+[2026-01-12 08:45:49] [WARN] No AD object for AD1A9DF3D found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:49] [INFO] Found OU object is OU=Ad,DC=us,DC=bosch,DC=com
+[2026-01-12 08:45:49] [INFO] Top-Level OU determined: OU=Ad,DC=us,DC=bosch,DC=com
+[2026-01-12 08:45:49] [INFO] ISO Code 'US' corresponds to: United States
+[2026-01-12 08:45:49] [INFO] Processing ID: na (IP)  - PK: 10.225.49.78
+[2026-01-12 08:45:54] [WARN] No AD object for AD1CDACF0 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:54] [INFO] Found OU object is OU=Ad,DC=us,DC=bosch,DC=com
+[2026-01-12 08:45:54] [INFO] Top-Level OU determined: OU=Ad,DC=us,DC=bosch,DC=com
+[2026-01-12 08:45:54] [INFO] ISO Code 'US' corresponds to: United States
+[2026-01-12 08:45:54] [INFO] Hostname and IP known. No name resolution needed for host ju-3c7c6a (10.225.98.22).
+[2026-01-12 08:45:54] [INFO] Processing ID: ju-3c7c6a (Skip)  - PK: ju-3c7c6a
+[2026-01-12 08:45:54] [WARN] No AD object for ju-3c7c6a found in the forest. Searching Location from IP zone...
+[2026-01-12 08:45:55] [INFO] Found OU object is OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:45:55] [INFO] Top-Level OU determined: OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:45:55] [INFO] ISO Code 'MX' corresponds to: Mexico
+[2026-01-12 08:45:55] [INFO] Processing ID: na (IP)  - PK: 10.225.99.86
+[2026-01-12 08:45:59] [WARN] DNS resolution error for  10.225.99.86 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:45:59] [INFO] Processing ID: na (IP)  - PK: 10.226.214.175
+[2026-01-12 08:46:04] [WARN] DNS resolution error for  10.226.214.175 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:46:04] [INFO] Hostname and IP known. No name resolution needed for host ju1promik301 (10.226.48.117).
+[2026-01-12 08:46:04] [INFO] Processing ID: ju1promik301 (Skip)  - PK: ju1promik301
+[2026-01-12 08:46:04] [INFO] AD Object found: CN=JU1PROMIK301,OU=NonPeacy,OU=Clientcomputers,OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:46:04] [INFO] Top-Level OU determined: OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:46:04] [INFO] ISO Code 'MX' corresponds to: Mexico
+[2026-01-12 08:46:04] [INFO] Hostname and IP known. No name resolution needed for host ju1promik301 (10.226.48.37).
+[2026-01-12 08:46:04] [INFO] Processing ID: ju1promik301 (Skip)  - PK: ju1promik301
+[2026-01-12 08:46:04] [INFO] AD Object found: CN=JU1PROMIK301,OU=NonPeacy,OU=Clientcomputers,OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:46:04] [INFO] Top-Level OU determined: OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:46:04] [INFO] ISO Code 'MX' corresponds to: Mexico
+[2026-01-12 08:46:04] [INFO] Hostname and IP known. No name resolution needed for host ju-3b6d0c (10.226.48.60).
+[2026-01-12 08:46:04] [INFO] Processing ID: ju-3b6d0c (Skip)  - PK: ju-3b6d0c
+[2026-01-12 08:46:05] [INFO] AD Object found: CN=JU-3B6D0C,OU=Clientcomputers,OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:46:05] [INFO] Top-Level OU determined: OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:46:05] [INFO] ISO Code 'MX' corresponds to: Mexico
+[2026-01-12 08:46:05] [INFO] Processing ID: na (IP)  - PK: 10.228.86.38
+[2026-01-12 08:46:09] [WARN] DNS resolution error for  10.228.86.38 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:46:09] [INFO] Processing ID: na (IP)  - PK: 10.228.86.39
+[2026-01-12 08:46:14] [WARN] DNS resolution error for  10.228.86.39 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:46:14] [INFO] Processing ID: na (IP)  - PK: 10.228.86.40
+[2026-01-12 08:46:18] [WARN] DNS resolution error for  10.228.86.40 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:46:18] [INFO] Processing ID: na (IP)  - PK: 10.228.86.41
+[2026-01-12 08:46:23] [WARN] DNS resolution error for  10.228.86.41 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:46:23] [INFO] Processing ID: na (IP)  - PK: 10.228.86.42
+[2026-01-12 08:46:28] [WARN] DNS resolution error for  10.228.86.42 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:46:28] [INFO] Processing ID: na (IP)  - PK: 10.228.86.43
+[2026-01-12 08:46:32] [WARN] DNS resolution error for  10.228.86.43 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:46:32] [INFO] Processing ID: na (IP)  - PK: 10.228.86.46
+[2026-01-12 08:46:37] [WARN] DNS resolution error for  10.228.86.46 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:46:37] [INFO] Processing ID: na (IP)  - PK: 10.228.86.47
+[2026-01-12 08:46:41] [WARN] DNS resolution error for  10.228.86.47 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:46:41] [INFO] Hostname and IP known. No name resolution needed for host paprog (10.24.120.173).
+[2026-01-12 08:46:41] [INFO] Processing ID: paprog (Skip)  - PK: paprog
+[2026-01-12 08:46:41] [WARN] No AD object for paprog found in the forest. Searching Location from IP zone...
+[2026-01-12 08:46:41] [WARN] No location OU found for the object.
+[2026-01-12 08:46:42] [INFO] Top-Level OU determined: OU=Ju2,DC=us,DC=bosch,DC=com
+[2026-01-12 08:46:42] [INFO] ISO Code 'MX' corresponds to: Mexico
+[2026-01-12 08:46:42] [INFO] Hostname and IP known. No name resolution needed for host kw102672 (10.24.177.207).
+[2026-01-12 08:46:42] [INFO] Processing ID: kw102672 (Skip)  - PK: kw102672
+[2026-01-12 08:46:42] [INFO] AD Object found: CN=KW102672,OU=NonPeacy,OU=Clientcomputers,OU=Kw,DC=us,DC=bosch,DC=com
+[2026-01-12 08:46:42] [INFO] Top-Level OU determined: OU=Kw,DC=us,DC=bosch,DC=com
+[2026-01-12 08:46:42] [INFO] ISO Code 'US' corresponds to: United States
+[2026-01-12 08:46:42] [INFO] Hostname and IP known. No name resolution needed for host hl-z1268 (10.28.19.214).
+[2026-01-12 08:46:42] [INFO] Processing ID: hl-z1268 (Skip)  - PK: hl-z1268
+[2026-01-12 08:46:42] [INFO] AD Object found: CN=HL-Z1268,OU=Clientcomputers,OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:42] [INFO] Top-Level OU determined: OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:42] [INFO] ISO Code 'AT' corresponds to: Austria
+[2026-01-12 08:46:42] [INFO] Hostname and IP known. No name resolution needed for host hl-z2667 (10.28.19.232).
+[2026-01-12 08:46:42] [INFO] Processing ID: hl-z2667 (Skip)  - PK: hl-z2667
+[2026-01-12 08:46:42] [INFO] AD Object found: CN=HL-Z2667,OU=Clientcomputers,OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:42] [INFO] Top-Level OU determined: OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:42] [INFO] ISO Code 'AT' corresponds to: Austria
+[2026-01-12 08:46:42] [INFO] Hostname and IP known. No name resolution needed for host hl-z2552 (10.28.19.233).
+[2026-01-12 08:46:43] [INFO] Processing ID: hl-z2552 (Skip)  - PK: hl-z2552
+[2026-01-12 08:46:43] [INFO] AD Object found: CN=HL-Z2552,OU=Clientcomputers,OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:43] [INFO] Top-Level OU determined: OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:43] [INFO] ISO Code 'AT' corresponds to: Austria
+[2026-01-12 08:46:43] [INFO] Hostname and IP known. No name resolution needed for host hl-z1926 (10.28.19.246).
+[2026-01-12 08:46:43] [INFO] Processing ID: hl-z1926 (Skip)  - PK: hl-z1926
+[2026-01-12 08:46:43] [INFO] AD Object found: CN=HL-Z1926,OU=Clientcomputers,OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:43] [INFO] Top-Level OU determined: OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:43] [INFO] ISO Code 'AT' corresponds to: Austria
+[2026-01-12 08:46:43] [INFO] Hostname and IP known. No name resolution needed for host hl22032 (10.28.45.136).
+[2026-01-12 08:46:43] [INFO] Processing ID: hl22032 (Skip)  - PK: hl22032
+[2026-01-12 08:46:43] [INFO] AD Object found: CN=HL22032,OU=Clientcomputers,OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:43] [INFO] Top-Level OU determined: OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:43] [INFO] ISO Code 'AT' corresponds to: Austria
+[2026-01-12 08:46:43] [INFO] Hostname and IP known. No name resolution needed for host hl-z1984 (10.28.46.192).
+[2026-01-12 08:46:43] [INFO] Processing ID: hl-z1984 (Skip)  - PK: hl-z1984
+[2026-01-12 08:46:43] [INFO] AD Object found: CN=HL-Z1984,OU=Clientcomputers,OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:43] [INFO] Top-Level OU determined: OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:44] [INFO] ISO Code 'AT' corresponds to: Austria
+[2026-01-12 08:46:44] [INFO] Hostname and IP known. No name resolution needed for host hl22822 (10.28.47.160).
+[2026-01-12 08:46:44] [INFO] Processing ID: hl22822 (Skip)  - PK: hl22822
+[2026-01-12 08:46:44] [INFO] AD Object found: CN=HL22822,OU=Clientcomputers,OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:44] [INFO] Top-Level OU determined: OU=Hl,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:44] [INFO] ISO Code 'AT' corresponds to: Austria
+[2026-01-12 08:46:44] [INFO] Hostname and IP known. No name resolution needed for host rt025800 (10.38.120.178).
+[2026-01-12 08:46:44] [INFO] Processing ID: rt025800 (Skip)  - PK: rt025800
+[2026-01-12 08:46:44] [INFO] AD Object found: CN=RT025800,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:44] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:44] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:44] [INFO] Processing ID: na (IP)  - PK: 10.38.120.246
+[2026-01-12 08:46:44] [WARN] No AD object for rt-dfe-trex-analyser found in the forest. Searching Location from IP zone...
+[2026-01-12 08:46:44] [INFO] Found OU object is OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:44] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:45] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:45] [INFO] Hostname and IP known. No name resolution needed for host rt-x5904 (10.38.120.26).
+[2026-01-12 08:46:45] [INFO] Processing ID: rt-x5904 (Skip)  - PK: rt-x5904
+[2026-01-12 08:46:45] [INFO] AD Object found: CN=RT-X5904,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:45] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:45] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:45] [INFO] Hostname and IP known. No name resolution needed for host rt-z6598 (10.38.120.9).
+[2026-01-12 08:46:45] [INFO] Processing ID: rt-z6598 (Skip)  - PK: rt-z6598
+[2026-01-12 08:46:45] [INFO] AD Object found: CN=RT-Z6598,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:45] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:45] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:45] [INFO] Hostname and IP known. No name resolution needed for host rt-z9770 (10.38.121.28).
+[2026-01-12 08:46:45] [INFO] Processing ID: rt-z9770 (Skip)  - PK: rt-z9770
+[2026-01-12 08:46:45] [INFO] AD Object found: CN=RT-Z9770,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:45] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:45] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:45] [INFO] Hostname and IP known. No name resolution needed for host rt025173 (10.38.121.78).
+[2026-01-12 08:46:45] [INFO] Processing ID: rt025173 (Skip)  - PK: rt025173
+[2026-01-12 08:46:45] [INFO] AD Object found: CN=RT025173,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:45] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:46] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:46] [INFO] Hostname and IP known. No name resolution needed for host rt-z3342 (10.38.121.83).
+[2026-01-12 08:46:46] [INFO] Processing ID: rt-z3342 (Skip)  - PK: rt-z3342
+[2026-01-12 08:46:46] [INFO] AD Object found: CN=RT-Z3342,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:46] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:46] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:46] [INFO] Hostname and IP known. No name resolution needed for host rt-z03zn (10.38.139.109).
+[2026-01-12 08:46:46] [INFO] Processing ID: rt-z03zn (Skip)  - PK: rt-z03zn
+[2026-01-12 08:46:46] [INFO] AD Object found: CN=rt-z03zn,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:46] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:46] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:46] [INFO] Hostname and IP known. No name resolution needed for host rt-x5910 (10.38.14.109).
+[2026-01-12 08:46:46] [INFO] Processing ID: rt-x5910 (Skip)  - PK: rt-x5910
+[2026-01-12 08:46:46] [INFO] AD Object found: CN=rt-x5910,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:46] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:46] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:46] [INFO] Hostname and IP known. No name resolution needed for host rt-z07cb (10.38.14.112).
+[2026-01-12 08:46:46] [INFO] Processing ID: rt-z07cb (Skip)  - PK: rt-z07cb
+[2026-01-12 08:46:46] [INFO] AD Object found: CN=RT-Z07CB,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:46] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:46] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:46] [INFO] Hostname and IP known. No name resolution needed for host rt-z07db (10.38.14.113).
+[2026-01-12 08:46:46] [INFO] Processing ID: rt-z07db (Skip)  - PK: rt-z07db
+[2026-01-12 08:46:47] [INFO] AD Object found: CN=RT-Z07DB,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:47] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:47] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:47] [INFO] Hostname and IP known. No name resolution needed for host rt-z0nik (10.38.14.132).
+[2026-01-12 08:46:47] [INFO] Processing ID: rt-z0nik (Skip)  - PK: rt-z0nik
+[2026-01-12 08:46:47] [INFO] AD Object found: CN=RT-Z0NIK,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:47] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:47] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:47] [INFO] Hostname and IP known. No name resolution needed for host rt-z01si (10.38.14.133).
+[2026-01-12 08:46:47] [INFO] Processing ID: rt-z01si (Skip)  - PK: rt-z01si
+[2026-01-12 08:46:47] [INFO] AD Object found: CN=RT-Z01SI,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:47] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:47] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:47] [INFO] Hostname and IP known. No name resolution needed for host rt-z01sh (10.38.14.134).
+[2026-01-12 08:46:47] [INFO] Processing ID: rt-z01sh (Skip)  - PK: rt-z01sh
+[2026-01-12 08:46:47] [INFO] AD Object found: CN=RT-Z01SH,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:47] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:47] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:47] [INFO] Hostname and IP known. No name resolution needed for host rt-z4246 (10.38.14.136).
+[2026-01-12 08:46:47] [INFO] Processing ID: rt-z4246 (Skip)  - PK: rt-z4246
+[2026-01-12 08:46:48] [INFO] AD Object found: CN=RT-Z4246,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:48] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:48] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:48] [INFO] Hostname and IP known. No name resolution needed for host rt-z036l (10.38.14.150).
+[2026-01-12 08:46:48] [INFO] Processing ID: rt-z036l (Skip)  - PK: rt-z036l
+[2026-01-12 08:46:48] [INFO] AD Object found: CN=RT-Z036L,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:48] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:48] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:48] [INFO] Hostname and IP known. No name resolution needed for host rt-x7031 (10.38.14.162).
+[2026-01-12 08:46:48] [INFO] Processing ID: rt-x7031 (Skip)  - PK: rt-x7031
+[2026-01-12 08:46:48] [INFO] AD Object found: CN=RT-X7031,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:48] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:48] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:48] [INFO] Hostname and IP known. No name resolution needed for host rt-x7050 (10.38.14.163).
+[2026-01-12 08:46:48] [INFO] Processing ID: rt-x7050 (Skip)  - PK: rt-x7050
+[2026-01-12 08:46:48] [INFO] AD Object found: CN=RT-X7050,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:48] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:48] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:48] [INFO] Hostname and IP known. No name resolution needed for host rt-x7137 (10.38.14.164).
+[2026-01-12 08:46:48] [INFO] Processing ID: rt-x7137 (Skip)  - PK: rt-x7137
+[2026-01-12 08:46:49] [INFO] AD Object found: CN=rt-x7137,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:49] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:49] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:49] [INFO] Hostname and IP known. No name resolution needed for host rt-x9354 (10.38.14.175).
+[2026-01-12 08:46:49] [INFO] Processing ID: rt-x9354 (Skip)  - PK: rt-x9354
+[2026-01-12 08:46:49] [INFO] AD Object found: CN=RT-X9354,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:49] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:49] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:49] [INFO] Hostname and IP known. No name resolution needed for host rt-x00wf (10.38.14.46).
+[2026-01-12 08:46:49] [INFO] Processing ID: rt-x00wf (Skip)  - PK: rt-x00wf
+[2026-01-12 08:46:49] [INFO] AD Object found: CN=RT-X00WF,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:49] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:50] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:50] [INFO] Hostname and IP known. No name resolution needed for host rt-x00wh (10.38.14.50).
+[2026-01-12 08:46:50] [INFO] Processing ID: rt-x00wh (Skip)  - PK: rt-x00wh
+[2026-01-12 08:46:50] [INFO] AD Object found: CN=RT-X00WH,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:50] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:50] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:50] [INFO] Hostname and IP known. No name resolution needed for host rt-x4258 (10.38.14.68).
+[2026-01-12 08:46:50] [INFO] Processing ID: rt-x4258 (Skip)  - PK: rt-x4258
+[2026-01-12 08:46:50] [INFO] AD Object found: CN=RT-x4258,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:50] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:50] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:51] [INFO] Hostname and IP known. No name resolution needed for host rt-x4260 (10.38.14.69).
+[2026-01-12 08:46:51] [INFO] Processing ID: rt-x4260 (Skip)  - PK: rt-x4260
+[2026-01-12 08:46:51] [INFO] AD Object found: CN=rt-x4260,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:51] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:51] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:51] [INFO] Hostname and IP known. No name resolution needed for host rt0vm00384 (10.38.219.19).
+[2026-01-12 08:46:51] [INFO] Processing ID: rt0vm00384 (Skip)  - PK: rt0vm00384
+[2026-01-12 08:46:51] [INFO] AD Object found: CN=RT0VM00384,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:51] [WARN] Non location OU determined
+[2026-01-12 08:46:51] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:46:51] [INFO] Hostname and IP known. No name resolution needed for host rt-gurter10 (10.38.222.140).
+[2026-01-12 08:46:51] [INFO] Processing ID: rt-gurter10 (Skip)  - PK: rt-gurter10
+[2026-01-12 08:46:51] [INFO] AD Object found: CN=rt-gurter10,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:51] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:51] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:51] [INFO] Hostname and IP known. No name resolution needed for host RT-GURTER17 (10.38.222.153).
+[2026-01-12 08:46:51] [INFO] Processing ID: RT-GURTER17 (Skip)  - PK: RT-GURTER17
+[2026-01-12 08:46:52] [INFO] AD Object found: CN=rt-gurter17,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:52] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:52] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:52] [INFO] Hostname and IP known. No name resolution needed for host rt-gurter22 (10.38.222.163).
+[2026-01-12 08:46:52] [INFO] Processing ID: rt-gurter22 (Skip)  - PK: rt-gurter22
+[2026-01-12 08:46:52] [INFO] AD Object found: CN=rt-gurter22,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:52] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:52] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:52] [INFO] Hostname and IP known. No name resolution needed for host rt-gurter34 (10.38.222.187).
+[2026-01-12 08:46:52] [INFO] Processing ID: rt-gurter34 (Skip)  - PK: rt-gurter34
+[2026-01-12 08:46:52] [INFO] AD Object found: CN=Rt-gurter34,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:52] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:52] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:52] [INFO] Hostname and IP known. No name resolution needed for host RT-OFENAEHR24 (10.38.50.69).
+[2026-01-12 08:46:52] [INFO] Processing ID: RT-OFENAEHR24 (Skip)  - PK: RT-OFENAEHR24
+[2026-01-12 08:46:52] [INFO] AD Object found: CN=rt-ofenaehr24,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:52] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:53] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:53] [INFO] Processing ID: na (IP)  - PK: 10.38.50.75
+[2026-01-12 08:46:53] [INFO] AD Object found: CN=RT-OFENAEHR30,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:53] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:53] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:53] [INFO] Processing ID: na (IP)  - PK: 10.38.50.76
+[2026-01-12 08:46:53] [INFO] AD Object found: CN=RT-OFENAEHR31,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:53] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:53] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:53] [INFO] Processing ID: na (IP)  - PK: 10.38.50.78
+[2026-01-12 08:46:54] [INFO] AD Object found: CN=rt-ofenaehr34,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:54] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:54] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:54] [INFO] Hostname and IP known. No name resolution needed for host rt090627 (10.38.84.165).
+[2026-01-12 08:46:54] [INFO] Processing ID: rt090627 (Skip)  - PK: rt090627
+[2026-01-12 08:46:54] [INFO] AD Object found: CN=rt090627,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:54] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:54] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:54] [INFO] Hostname and IP known. No name resolution needed for host rt091831 (10.38.84.166).
+[2026-01-12 08:46:54] [INFO] Processing ID: rt091831 (Skip)  - PK: rt091831
+[2026-01-12 08:46:54] [INFO] AD Object found: CN=rt091831,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:54] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:54] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:54] [INFO] Hostname and IP known. No name resolution needed for host rt091446 (10.38.87.206).
+[2026-01-12 08:46:54] [INFO] Processing ID: rt091446 (Skip)  - PK: rt091446
+[2026-01-12 08:46:54] [INFO] AD Object found: CN=RT091446,OU=Clientcomputers,OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:54] [INFO] Top-Level OU determined: OU=Rt,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:55] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:55] [INFO] Hostname and IP known. No name resolution needed for host ba0x1212 (10.43.164.43).
+[2026-01-12 08:46:55] [INFO] Processing ID: ba0x1212 (Skip)  - PK: ba0x1212
+[2026-01-12 08:46:55] [INFO] AD Object found: CN=BA0X1212,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:55] [WARN] Non location OU determined
+[2026-01-12 08:46:55] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:55] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:55] [INFO] Hostname and IP known. No name resolution needed for host ji3032 (10.43.8.32).
+[2026-01-12 08:46:55] [INFO] Processing ID: ji3032 (Skip)  - PK: ji3032
+[2026-01-12 08:46:55] [WARN] No AD object for ji3032 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:46:55] [WARN] No location OU found for the object.
+[2026-01-12 08:46:55] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:55] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:55] [INFO] Hostname and IP known. No name resolution needed for host ji3033 (10.43.8.33).
+[2026-01-12 08:46:55] [INFO] Processing ID: ji3033 (Skip)  - PK: ji3033
+[2026-01-12 08:46:55] [WARN] No AD object for ji3033 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:46:55] [WARN] No location OU found for the object.
+[2026-01-12 08:46:55] [INFO] Top-Level OU determined: OU=Ba,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:55] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:55] [INFO] Hostname and IP known. No name resolution needed for host ji3037 (10.43.8.37).
+[2026-01-12 08:46:55] [INFO] Processing ID: ji3037 (Skip)  - PK: ji3037
+[2026-01-12 08:46:55] [INFO] AD Object found: CN=JI3037,OU=Servercomputers,OU=Jh,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:55] [INFO] Top-Level OU determined: OU=Jh,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:56] [INFO] Hostname and IP known. No name resolution needed for host ji3041 (10.43.8.41).
+[2026-01-12 08:46:56] [INFO] Processing ID: ji3041 (Skip)  - PK: ji3041
+[2026-01-12 08:46:56] [INFO] AD Object found: CN=JI3041,OU=Servercomputers,OU=Jh,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:56] [INFO] Top-Level OU determined: OU=Jh,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:56] [INFO] Hostname and IP known. No name resolution needed for host ji3042 (10.43.8.42).
+[2026-01-12 08:46:56] [INFO] Processing ID: ji3042 (Skip)  - PK: ji3042
+[2026-01-12 08:46:56] [WARN] No AD object for ji3042 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:46:56] [WARN] No location OU found for the object.
+[2026-01-12 08:46:56] [INFO] Top-Level OU determined: OU=Jh,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:56] [INFO] Hostname and IP known. No name resolution needed for host htvz8389 (10.44.69.17).
+[2026-01-12 08:46:56] [INFO] Processing ID: htvz8389 (Skip)  - PK: htvz8389
+[2026-01-12 08:46:56] [WARN] No AD object for htvz8389 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:46:56] [WARN] No location OU found for the object.
+[2026-01-12 08:46:56] [INFO] Top-Level OU determined: OU=Jh,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:56] [INFO] Hostname and IP known. No name resolution needed for host lo-x6119 (10.52.114.46).
+[2026-01-12 08:46:56] [INFO] Processing ID: lo-x6119 (Skip)  - PK: lo-x6119
+[2026-01-12 08:46:56] [INFO] AD Object found: CN=LO-X6119,OU=LoP1_Local_OT,OU=Clientcomputers,OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:56] [INFO] Top-Level OU determined: OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:56] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:56] [INFO] Hostname and IP known. No name resolution needed for host lo-x11622 (10.52.124.190).
+[2026-01-12 08:46:56] [INFO] Processing ID: lo-x11622 (Skip)  - PK: lo-x11622
+[2026-01-12 08:46:56] [INFO] AD Object found: CN=LO-X11622,OU=Non-PeacyE,OU=Clientcomputers,OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:56] [INFO] Top-Level OU determined: OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:56] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:56] [INFO] Hostname and IP known. No name resolution needed for host lo-x11622_xp01 (10.52.124.44).
+[2026-01-12 08:46:56] [INFO] Processing ID: lo-x11622_xp01 (Skip)  - PK: lo-x11622_xp01
+[2026-01-12 08:46:57] [INFO] AD Object found: CN=Lo-X11622_XP01,OU=Non-PeacyE,OU=Clientcomputers,OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:57] [INFO] Top-Level OU determined: OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:57] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:57] [INFO] Hostname and IP known. No name resolution needed for host er-1120 (10.52.132.6).
+[2026-01-12 08:46:57] [INFO] Processing ID: er-1120 (Skip)  - PK: er-1120
+[2026-01-12 08:46:57] [INFO] AD Object found: CN=ER-1120,OU=Peacy,OU=Clientcomputers,OU=Er,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:57] [INFO] Top-Level OU determined: OU=Er,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:57] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:57] [INFO] Hostname and IP known. No name resolution needed for host lo-esv13 (10.52.28.150).
+[2026-01-12 08:46:57] [INFO] Processing ID: lo-esv13 (Skip)  - PK: lo-esv13
+[2026-01-12 08:46:57] [INFO] AD Object found: CN=lo-esv13,OU=Lo2E,OU=Servercomputers,OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:57] [INFO] Top-Level OU determined: OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:57] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:57] [INFO] Hostname and IP known. No name resolution needed for host er-1464 (10.52.50.40).
+[2026-01-12 08:46:57] [INFO] Processing ID: er-1464 (Skip)  - PK: er-1464
+[2026-01-12 08:46:57] [INFO] AD Object found: CN=ER-1464,CN=Computers,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:57] [WARN] Non location OU determined
+[2026-01-12 08:46:57] [INFO] Top-Level OU determined: OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:58] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:58] [INFO] Hostname and IP known. No name resolution needed for host er-z1080 (10.52.50.53).
+[2026-01-12 08:46:58] [INFO] Processing ID: er-z1080 (Skip)  - PK: er-z1080
+[2026-01-12 08:46:58] [INFO] AD Object found: CN=ER-Z1080,OU=Peacy,OU=Clientcomputers,OU=Er,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:58] [INFO] Top-Level OU determined: OU=Er,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:58] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:58] [INFO] Hostname and IP known. No name resolution needed for host lo-y1039 (10.52.53.32).
+[2026-01-12 08:46:58] [INFO] Processing ID: lo-y1039 (Skip)  - PK: lo-y1039
+[2026-01-12 08:46:58] [INFO] AD Object found: CN=LO-Y1039,OU=Non-Peacy,OU=Clientcomputers,OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:58] [INFO] Top-Level OU determined: OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:58] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:58] [INFO] Hostname and IP known. No name resolution needed for host lo-y1242 (10.52.97.49).
+[2026-01-12 08:46:58] [INFO] Processing ID: lo-y1242 (Skip)  - PK: lo-y1242
+[2026-01-12 08:46:58] [INFO] AD Object found: CN=Lo-y1242,OU=Non-Peacy,OU=Clientcomputers,OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:58] [INFO] Top-Level OU determined: OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:58] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:58] [INFO] Hostname and IP known. No name resolution needed for host lo-x3146 (10.52.98.44).
+[2026-01-12 08:46:58] [INFO] Processing ID: lo-x3146 (Skip)  - PK: lo-x3146
+[2026-01-12 08:46:58] [INFO] AD Object found: CN=LO-X3146,OU=Peacy,OU=Clientcomputers,OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:58] [INFO] Top-Level OU determined: OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:59] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:59] [INFO] Hostname and IP known. No name resolution needed for host lo-y1041 (10.52.98.53).
+[2026-01-12 08:46:59] [INFO] Processing ID: lo-y1041 (Skip)  - PK: lo-y1041
+[2026-01-12 08:46:59] [INFO] AD Object found: CN=LO-Y1041,OU=Peacy,OU=Clientcomputers,OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:59] [INFO] Top-Level OU determined: OU=Lo,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:59] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:46:59] [INFO] Hostname and IP known. No name resolution needed for host bj-c-003tv (10.53.227.86).
+[2026-01-12 08:46:59] [INFO] Processing ID: bj-c-003tv (Skip)  - PK: bj-c-003tv
+[2026-01-12 08:46:59] [INFO] AD Object found: CN=BJ-C-003TV,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:46:59] [WARN] Non location OU determined
+[2026-01-12 08:46:59] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:46:59] [INFO] Hostname and IP known. No name resolution needed for host st24-c-0001j (10.61.162.138).
+[2026-01-12 08:46:59] [INFO] Processing ID: st24-c-0001j (Skip)  - PK: st24-c-0001j
+[2026-01-12 08:46:59] [INFO] AD Object found: CN=ST24-C-0001J,OU=Win10,OU=CLIENTCOMPUTERS,OU=Ci-winclient,OU=Applications,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:59] [WARN] Non location OU determined
+[2026-01-12 08:46:59] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:46:59] [INFO] Hostname and IP known. No name resolution needed for host homa1015 (10.7.149.90).
+[2026-01-12 08:46:59] [INFO] Processing ID: homa1015 (Skip)  - PK: homa1015
+[2026-01-12 08:46:59] [WARN] No AD object for homa1015 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:46:59] [INFO] Found OU object is OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:46:59] [INFO] Top-Level OU determined: OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:00] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:47:00] [INFO] Hostname and IP known. No name resolution needed for host ps-hop1-d05623 (10.7.152.227).
+[2026-01-12 08:47:00] [INFO] Processing ID: ps-hop1-d05623 (Skip)  - PK: ps-hop1-d05623
+[2026-01-12 08:47:00] [INFO] AD Object found: CN=PS-HOP1-D05623,OU=NON-SCCM,OU=Clientcomputers,OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:00] [INFO] Top-Level OU determined: OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:00] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:47:00] [INFO] Hostname and IP known. No name resolution needed for host ps-hop1-d04608 (10.7.157.8).
+[2026-01-12 08:47:00] [INFO] Processing ID: ps-hop1-d04608 (Skip)  - PK: ps-hop1-d04608
+[2026-01-12 08:47:00] [WARN] No AD object for ps-hop1-d04608 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:47:00] [INFO] Found OU object is OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:00] [INFO] Top-Level OU determined: OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:00] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:47:00] [INFO] Hostname and IP known. No name resolution needed for host ho0nt208 (10.7.170.200).
+[2026-01-12 08:47:00] [INFO] Processing ID: ho0nt208 (Skip)  - PK: ho0nt208
+[2026-01-12 08:47:00] [INFO] AD Object found: CN=HO0NT208,OU=Servercomputers,OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:00] [INFO] Top-Level OU determined: OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:00] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:47:00] [INFO] Hostname and IP known. No name resolution needed for host ho0cri3cl01-old (10.7.170.220).
+[2026-01-12 08:47:00] [INFO] Processing ID: ho0cri3cl01-old (Skip)  - PK: ho0cri3cl01-old
+[2026-01-12 08:47:00] [INFO] AD Object found: CN=HO0CRI3CL01-OLD,OU=Servercomputers,OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:00] [INFO] Top-Level OU determined: OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:01] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:47:01] [INFO] Hostname and IP known. No name resolution needed for host ho0cri3cl02-old (10.7.170.221).
+[2026-01-12 08:47:01] [INFO] Processing ID: ho0cri3cl02-old (Skip)  - PK: ho0cri3cl02-old
+[2026-01-12 08:47:01] [INFO] AD Object found: CN=HO0CRI3CL02-OLD,OU=Servercomputers,OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:01] [INFO] Top-Level OU determined: OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:01] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:47:01] [INFO] Hostname and IP known. No name resolution needed for host homa1173 (10.7.229.193).
+[2026-01-12 08:47:01] [INFO] Processing ID: homa1173 (Skip)  - PK: homa1173
+[2026-01-12 08:47:01] [WARN] No AD object for homa1173 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:47:01] [WARN] No location OU found for the object.
+[2026-01-12 08:47:01] [INFO] Top-Level OU determined: OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:01] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:47:01] [INFO] Hostname and IP known. No name resolution needed for host ho0crin4pcd (10.7.249.154).
+[2026-01-12 08:47:01] [INFO] Processing ID: ho0crin4pcd (Skip)  - PK: ho0crin4pcd
+[2026-01-12 08:47:01] [INFO] AD Object found: CN=HO0CRIN4PCD,OU=Servercomputers,OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:01] [INFO] Top-Level OU determined: OU=Ho,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:01] [INFO] ISO Code 'DE' corresponds to: Germany
+[2026-01-12 08:47:01] [INFO] Hostname and IP known. No name resolution needed for host si0vm10438 (10.73.238.51).
+[2026-01-12 08:47:01] [INFO] Processing ID: si0vm10438 (Skip)  - PK: si0vm10438
+[2026-01-12 08:47:01] [INFO] AD Object found: CN=SI0VM10438,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=de,DC=bosch,DC=com
+[2026-01-12 08:47:01] [WARN] Non location OU determined
+[2026-01-12 08:47:02] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:47:02] [INFO] Hostname and IP known. No name resolution needed for host htvmfspmwtrep2 (10.76.12.136).
+[2026-01-12 08:47:02] [INFO] Processing ID: htvmfspmwtrep2 (Skip)  - PK: htvmfspmwtrep2
+[2026-01-12 08:47:02] [INFO] AD Object found: CN=HTVMFSPMWTREP2,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:02] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:02] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:47:02] [INFO] Hostname and IP known. No name resolution needed for host htvnp015 (10.76.2.172).
+[2026-01-12 08:47:02] [INFO] Processing ID: htvnp015 (Skip)  - PK: htvnp015
+[2026-01-12 08:47:02] [INFO] AD Object found: CN=HTVNP015,OU=Non-CI-Managed,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:02] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:02] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:47:02] [INFO] Processing ID: na (IP)  - PK: 10.76.2.38
+[2026-01-12 08:47:07] [WARN] DNS resolution error for  10.76.2.38 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:47:07] [INFO] Processing ID: na (IP)  - PK: 10.76.2.39
+[2026-01-12 08:47:11] [WARN] DNS resolution error for  10.76.2.39 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:47:11] [INFO] Processing ID: na (IP)  - PK: 10.76.2.40
+[2026-01-12 08:47:16] [WARN] DNS resolution error for  10.76.2.40 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:47:16] [INFO] Hostname and IP known. No name resolution needed for host htvnp082 (10.76.2.58).
+[2026-01-12 08:47:16] [INFO] Processing ID: htvnp082 (Skip)  - PK: htvnp082
+[2026-01-12 08:47:16] [WARN] No AD object for htvnp082 found in the forest. Searching Location from IP zone...
+[2026-01-12 08:47:16] [INFO] Found OU object is OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:16] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:16] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:47:16] [INFO] Hostname and IP known. No name resolution needed for host htvnp056 (10.76.2.61).
+[2026-01-12 08:47:16] [INFO] Processing ID: htvnp056 (Skip)  - PK: htvnp056
+[2026-01-12 08:47:16] [INFO] AD Object found: CN=HTVNP056,OU=Non-CI-Managed,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:16] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:17] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:47:17] [INFO] Hostname and IP known. No name resolution needed for host htvnp057 (10.76.2.62).
+[2026-01-12 08:47:17] [INFO] Processing ID: htvnp057 (Skip)  - PK: htvnp057
+[2026-01-12 08:47:17] [INFO] AD Object found: CN=HTVNP057,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:17] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:17] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:47:17] [INFO] Hostname and IP known. No name resolution needed for host htvnp034 (10.76.2.79).
+[2026-01-12 08:47:17] [INFO] Processing ID: htvnp034 (Skip)  - PK: htvnp034
+[2026-01-12 08:47:17] [INFO] AD Object found: CN=HTVNP034,OU=Non-CI-Managed,OU=Clientcomputers,OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:17] [INFO] Top-Level OU determined: OU=Htv,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:17] [INFO] ISO Code 'HU' corresponds to: Hungary
+[2026-01-12 08:47:17] [INFO] Processing ID: na (IP)  - PK: 10.76.2.8
+[2026-01-12 08:47:22] [WARN] DNS resolution error for  10.76.2.8 : Exception calling "GetHostEntry" with "1" argument(s): "No such host is known"
+[2026-01-12 08:47:22] [INFO] Hostname and IP known. No name resolution needed for host cngvm00042 (10.8.144.145).
+[2026-01-12 08:47:22] [INFO] Processing ID: cngvm00042 (Skip)  - PK: cngvm00042
+[2026-01-12 08:47:22] [INFO] AD Object found: CN=CNGVM00042,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:47:22] [WARN] Non location OU determined
+[2026-01-12 08:47:22] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:47:22] [INFO] Hostname and IP known. No name resolution needed for host cngvm00049 (10.8.144.154).
+[2026-01-12 08:47:22] [INFO] Processing ID: cngvm00049 (Skip)  - PK: cngvm00049
+[2026-01-12 08:47:22] [INFO] AD Object found: CN=CNGVM00049,OU=NewDeployed,OU=ITSEC,OU=SERVERCOMPUTERS,OU=Ci-winserver,OU=Applications,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:47:22] [WARN] Non location OU determined
+[2026-01-12 08:47:22] [INFO] Top-Level container is not a Location OU or could not be determined. Setting values to null.
+[2026-01-12 08:47:22] [INFO] Hostname and IP known. No name resolution needed for host liz84153 (10.89.149.249).
+[2026-01-12 08:47:22] [INFO] Processing ID: liz84153 (Skip)  - PK: liz84153
+[2026-01-12 08:47:22] [INFO] AD Object found: CN=LIZ84153,OU=Clientcomputers,OU=Liz,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:22] [INFO] Top-Level OU determined: OU=Liz,DC=emea,DC=bosch,DC=com
+[2026-01-12 08:47:22] [INFO] ISO Code 'AT' corresponds to: Austria
+[2026-01-12 08:47:22] [INFO] Processing ID: na (IP)  - PK: 173.157.9.30
+[2026-01-12 08:47:23] [INFO] AD Object found: CN=NAASL3_DC,OU=Clientcomputers,OU=Na,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:47:23] [INFO] Top-Level OU determined: OU=Na,DC=APAC,DC=bosch,DC=com
+[2026-01-12 08:47:23] [INFO] ISO Code 'IN' corresponds to: India
+[2026-01-12 08:47:23] [INFO] Exporting results to ./outputs/20260112_0844_output.csv
+[2026-01-12 08:47:23] [INFO] Script finished successfully.

@@ -1,0 +1,6 @@
+[2026-01-12 08:40:16] [INFO] Start processing file: .\inputFiles\2026.01.09_legacy.SMB.Splunk.export.csv
+[2026-01-12 08:40:16] [INFO] Connecting to Global Catalog: 
+[2026-01-12 08:40:16] [INFO] Processing 267 of 383 entries.
+[2026-01-12 08:40:16] [INFO] Hostname and IP known. No name resolution needed for host ti1fe145132 (10.10.145.132).
+[2026-01-12 08:40:16] [INFO] Processing ID: ti1fe145132 (Skip)  - PK: ti1fe145132
+[2026-01-12 08:40:17] [INFO] AD Object found: CN=TI1FE145132,OU=NonPeacy,OU=Clientcomputers,OU=Ti,DC=emea,DC=bosch,DC=com

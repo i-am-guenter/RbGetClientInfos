@@ -3,19 +3,9 @@
 
     
 .NOTES
-
-    Path to the file, exported from Splunk query. The file includes basic information and following headers/columns:
-        final_hostname, 
-        final_ip, 
-        _time, 
-        final_ip_type, 
-        final_ip_subnet_network_type, 
-        final_ip_zone,
-        final_ip_zone_location,
-        metisCreatedDate,
-        shortDescription,
-        primarySupportGroup,
-        primaryUsedBy
+    AUTHOR:     Günter Bayerl (BD/WPA-WCS1)
+    Date:       12.01.2026
+    
 
 .DESCRIPTION
     The script is needed to prepare the Splunk query output to be used for communication with customers.

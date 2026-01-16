@@ -17,20 +17,23 @@
     ### Change log:
     16.01.2026 - Bayerl Guenter (BSH-WP-WCS1)
         - Added filter for office networks to skip entries with an office subnet (WLAN, OFFICE, RASVPN.... )
-        - Added support for other forests. Currently integrated are BCD and BSH
+        - Added support for other forests. Currently integrated are BCD, BSH and RB-Admin
 
-.PARAMETER InputFile
+.PARAMETER $InputFile
 
+.PARAMETER $OutputFile
 
-.PARAMETER OutputFile
+.PARAMETER $LogFile
 
+.PARAMETER $OnlyNaHosts
 
-.PARAMETER LogFile
+.PARAMETER $ActiveDirectoryForest
+    Value must be the DNS name of the root forest, like e.g. corp.bshg.com or bosch.com
 
 
 .EXAMPLE
 
-    Get-ClientInfo.ps1 -Inputfile filename.csv -Outputfile yyyy-mm-dd_hh-mm_export.csv -Logfile yyy-mm-dd_hh-mm_exportlog.log
+    Get-ClientInfo.ps1 -Inputfile filename.csv -Outputfile yyyy-mm-dd_hh-mm_export.csv -Logfile yyy-mm-dd_hh-mm_exportlog.log -OnlyNaHosts $false -$ActiveDirectoryForest corp.bshg.com
 
 #>
 
@@ -49,7 +52,7 @@ param(
     [Parameter(Mandatory=$false)][bool]$OnlyNaHosts = $false,
 
     # Switch to define a different forest than the one, the client is member of
-    [Parameter(Mandatory=$false)][ValidateSet("BCD","BSH")][string]$ActiveDirectoryForest
+    [Parameter(Mandatory=$false)][ValidateSet("bosch.com","corp.bshg.com", "rb-admin.bosch-org.com")][string]$ActiveDirectoryForest = "bosch.com"
 )
 
 
@@ -260,7 +263,8 @@ try {
     }
 
     Write-Log "Start processing file: $Inputfile" "INFO"
-  
+    $gcPath = "GC://$((Get-AdDomain -server $ActiveDirectoryForest).DistinguishedName)"
+  <#
     switch ($ActiveDirectoryForest) {
         {$_ -eq "BCD"} {$gcPath = "GC://DC=bosch,DC=com"}
         {$_ -eq "BSH"} {$gcPath = "GC://DC=corp,DC=bshg,DC=com"}
@@ -275,7 +279,7 @@ try {
             $gcPath = "GC://$forestName"
         }
     }
-
+#>
     Write-Log "Connected to Global Catalog: $gcPath" "INFO"
 
     # Initializing Subnet filter strings

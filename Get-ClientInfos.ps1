@@ -14,6 +14,11 @@
     the entries by querying Active Directory
     The output will be written into an csv file. All steps are logged to an logfile.
 
+    ### Change log:
+    16.01.2026 - Bayerl Guenter (BSH-WP-WCS1)
+        - Added filter for office networks to skip entries with an office subnet (WLAN, OFFICE, RASVPN.... )
+        - Added support for other forests. Currently integrated are BCD and BSH
+
 .PARAMETER InputFile
 
 
@@ -41,7 +46,10 @@ param(
     [Parameter(Mandatory=$false)][string]$Logfile = ("./logs/{0:yyyyMMdd_HHmm}_exportlogfile.log" -f (Get-Date)),
 
     # Switch to perform enrichment only on lines, with 'na' value in ip or hostname column 
-    [Parameter(Mandatory=$false)][bool]$OnlyNaHosts = $false
+    [Parameter(Mandatory=$false)][bool]$OnlyNaHosts = $false,
+
+    # Switch to define a different forest than the one, the client is member of
+    [Parameter(Mandatory=$false)][ValidateSet("BCD","BSH")][string]$ActiveDirectoryForest
 )
 
 
@@ -238,6 +246,8 @@ function GetCountryNameByIsoCode {
 $ErrorActionPreference = "Stop"
 
 
+
+
 try {
     # Validation of input csv file
     if ([string]::IsNullOrWhiteSpace($Inputfile)) {
@@ -250,16 +260,26 @@ try {
     }
 
     Write-Log "Start processing file: $Inputfile" "INFO"
-    Write-Log "Connecting to Global Catalog: $gcPath" "INFO"
+  
+    switch ($ActiveDirectoryForest) {
+        {$_ -eq "BCD"} {$gcPath = "GC://DC=bosch,DC=com"}
+        {$_ -eq "BSH"} {$gcPath = "GC://DC=corp,DC=bshg,DC=com"}
+        Default {
+            # Directory Searcher search root 
+            $rootDSE = [adsi]"LDAP://RootDSE"
 
-    # Directory Searcher search root 
-    $rootDSE = [adsi]"LDAP://RootDSE"
+            # Name of current forest
+            $forestName = $rootDSE.rootDomainNamingContext
 
-    # Name of current forest
-    $forestName = $rootDSE.rootDomainNamingContext
+            # Global catalog path from current environment/forest
+            $gcPath = "GC://$forestName"
+        }
+    }
 
-    # Global catalog path from current environment/forest
-    $gcPath = "GC://$forestName"
+    Write-Log "Connected to Global Catalog: $gcPath" "INFO"
+
+    # Initializing Subnet filter strings
+    $subnetNetworkTypeFilter = @("WLAN", "Office", "Office_WLAN", "RASVPN")
 
     # Initializing Directory Searcher object
     $searcher = New-Object System.DirectoryServices.DirectorySearcher([adsi]$gcPath)
@@ -276,36 +296,55 @@ try {
 
     # Start processing data (csv lines) from input csv file.
     foreach ($row in $rawData) {
+
         # Skip header if present
-        if ($row.final_hostname -eq "final_hostname" -and $row.final_ip -eq "final_ip") { continue }
+        if ($row.final_hostname -eq "final_hostname" -and $row.final_ip -eq "final_ip") {
+            Write-Log "Skip the header of the input csv file." "INFO"
+            continue 
+        }
         
         # Optional: Skip rows with hostname other than "na" process entries with hostname 'na'
-        if ($OnlyNaHosts -and $row.final_hostname -ne "na") {continue} 
+        if ($OnlyNaHosts -and $row.final_hostname -ne "na") {
+            Write-Log "Line has no 'na' value and will be skipped." "INFO"
+            continue
+        } 
 
+    <#
+        # Skip if subnet network type is for office devices.
+        if ($subnetNetworkTypeFilter -contains $row.final_ip_subnet_network_type) {
+            Write-Log "The subnet type $($row.final_ip_subnet_network_type) is on office zone and will be skipped." "INFO"
+            continue
+        }
+    #>
         $inputHost = $row.final_hostname
         $inputIP = $row.final_ip
-        
+        $subnetType = $row.final_ip_subnet_network_type
+   
         # Logic to define kind of dns resolution direction (forward or reverse lookup) or if to skip
         $searchId = $null
         $searchType = "Unknown"
 
-        if ($inputIP -ne 'na' -and $inputHost -eq 'na') {
+        if ($inputIP -ne 'na' -and $inputHost -eq 'na' -and ($subnetNetworkTypeFilter -notcontains $subnetType)) {
             # Prepare for reverse dns lookup if only ip is available
             $searchId = $inputIP
             $searchType = "IP"
-        } elseif ($inputHost -ne 'na' -and $inuptIP -eq 'na') {
+        } elseif ($inputHost -ne 'na' -and $inuptIP -eq 'na' -and ($subnetNetworkTypeFilter -notcontains $subnetType)) {
             # Prepare for forward dns lookup if only hostname is available
             $searchId = $inputHost
-            $searchType = "Hostname"
-        } elseif ($inputHost -ne 'na' -and  $inputIP -ne 'na') {
+            $searchType = "HOST"
+        } elseif ($inputHost -ne 'na' -and  $inputIP -ne 'na' -and ($subnetNetworkTypeFilter -notcontains $subnetType)) {
             # Prepare skipping lookup if both (ip and hostname) are present in input file
             $searchId = $finalHost
-            $searchType = "Skip"
+            $searchType = "SKIP"
             Write-Log "Hostname and IP known. No name resolution needed for host $inputHost ($inputIP)." "INFO"
+        } elseif ($subnetNetworkTypeFilter -contains $row.final_ip_subnet_network_type){
+            $searchType = "OFFICE"
+            $searchId = $null
+            Write-Log "The subnet type $($row.final_ip_subnet_network_type) is on office zone and will be skipped." "INFO"
         } else {
             # End script if neither ip nor hostname are present.
-            $searchType = "None"
-            $searchId = "na"
+            $searchType = "NONE"
+            $searchId = $null
             continue
         }
 
@@ -338,19 +377,24 @@ try {
                 $finalIP = $searchId
                 $dnsResolved = $true
                 $nameResolutionResult = "Success_IP"
-            } elseif ($searchType -eq "Hostname") {
+            } elseif ($searchType -eq "HOST") {
                 # Perform forward dns lookup
                 $dnsEntry = [System.Net.Dns]::GetHostEntry($SearchId)
                 $finalHostname = ($dnsEntry.HostName).Split(".")[0]
                 $finalIP = ($dnsEntry.AddressList | Where-Object { $_.AddressFamily -eq 'InterNetwork' } | Select-Object -First 1).IPAddressToString
                 $dnsResolved = $true
                 $nameResolutionResult  = "Success_Host"
-            } elseif ($searchType -eq "Skip") {
+            } elseif ($searchType -eq "SKIP") {
                 # Skip dns lookup as both (ip and hostname) are present in input file.
                 $finalHostname = $row.final_hostname
                 $finalIP = $row.final_ip
                 $dnsResolved = $true
                 $nameResolutionResult  = "Skip"
+            } elseif ($searchType -eq 'OFFICE' -or $searchType -eq 'NONE') {
+                $finalHostname = $row.final_hostname
+                $finalIP = $row.final_ip
+                $dnsResolved = $false
+                $nameResolutionResult = "Skip_Office"
             }
         } catch {
             # Write error to logfile and terminal in case name resolution raises an error and fails and 
@@ -411,7 +455,7 @@ try {
                         }
                     }
                 } else {
-                    Write-Log "No AD object for $finalHostname found in the forest. Searching Location from IP zone..." "WARN"
+                    Write-Log "No AD object for $finalHostname found in the forest $forestName. Searching Location from IP zone..." "WARN"
                     $location = GetOuNameByIpZoneLocation -inputString $row.final_ip_zone_location
                     if ($location)
                     {
